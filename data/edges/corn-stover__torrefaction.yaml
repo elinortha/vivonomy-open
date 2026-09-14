@@ -1,0 +1,7 @@
+id: corn-stover__torrefaction
+source_node: corn-stover
+target_node: torrefaction
+co_products: []
+references: []
+external_links: []
+notes: null

@@ -1,0 +1,18 @@
+id: carbon-fiber
+name: Carbon fiber
+type: product
+category: cat-material-p
+product_function: material
+carbon_fate: durable
+description: Bio-based carbon fiber can be produced by thermally processing lignin or cellulose-based precursors into high-strength graphitic filaments. Lignin — available as a low-cost biorefinery co-product — is being explored as a precursor for lower-cost carbon fiber, which currently commands high prices ($20–100/kg) due to energy-intensive production from petroleum-derived acrylonitrile. Bio-based carbon fiber remains at pilot scale, with mechanical performance not yet fully equivalent to PAN-derived fiber.
+aliases:
+  - bio-based carbon fiber
+  - lignin carbon fiber
+fossil_analog: PAN-based carbon fiber (from petroleum-derived acrylonitrile)
+end_use_sector:
+  - aerospace structures
+  - automotive lightweighting
+  - wind turbine blades
+  - sporting goods
+external_refs:
+  - https://en.wikipedia.org/wiki/Carbon-fiber-reinforced_polymers

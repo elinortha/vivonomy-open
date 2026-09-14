@@ -1,0 +1,47 @@
+id: gasification
+name: Gasification
+type: primary_conversion
+category: cat-thermo
+process_family: thermochemical
+description: Gasification converts biomass into syngas (a mixture of CO, H₂, CO₂, and CH₄) by partially oxidizing it at high temperatures (700–1200°C). The syngas can be combusted for power, converted to liquid fuels via Fischer-Tropsch synthesis, or reformed to pure hydrogen. Gasification handles a wide range of dry biomass feedstocks and is one of the few routes that can access the full energy content of lignin. Tar formation and gas cleanup remain key technical challenges.
+aliases:
+  - biomass gasification
+  - entrained-flow gasification
+  - downdraft gasification
+mechanism_brief: Partial oxidation of biomass at 700–1200°C with limited oxygen or steam produces a combustible syngas mixture (CO + H₂ + CO₂ + CH₄); the H₂:CO ratio is tunable via the steam-to-oxygen ratio and downstream water-gas shift.
+typical_outputs:
+  - syngas
+  - heat-power
+  - hydrogen
+TRL:
+  - value: 8
+    unit: trl
+    value_original: "8"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_b2bcac83
+expertise_required:
+  - value: specialist
+    unit: null
+    value_original: specialist
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_bc307c83
+external_refs:
+  - https://en.wikipedia.org/wiki/Gasification

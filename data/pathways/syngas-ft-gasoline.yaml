@@ -1,0 +1,28 @@
+# syngas-ft-gasoline.yaml — a real pathway walked from the seed graph.
+# CO/syngas → catalytic synthesis (cat-upg) → Fischer–Tropsch (ft) → gasoline.
+# Flagship demo: two resolvable chemical_efficiency steps compound multiplicatively
+# into a real composed yield with an envelope + width attribution.
+#   cat-upg: SINGLE_SOURCE 90%  → 0.90 (degenerate)
+#   ft:      OK [80, 90]%       → [0.80, 0.90], h 0.80
+#   composed yield: central 0.72, envelope [0.72, 0.81]; all width on ft.
+# Maturity is ABSENT (no TRL evidence for these steps) → the pathway shows a numeric
+# yield beside a structurally-absent maturity (status split), landing in the blocked
+# stratum on the maturity gate — never punished as if it had bad numbers.
+id: syngas_ft_gasoline
+title: "Syngas → catalytic synthesis → Fischer–Tropsch gasoline"
+basis: { functional_unit: "1 kg gasoline (illustrative)" }
+default_frame: {}
+viability_thresholds: { yield: 0.5, maturity: 6 }
+steps:
+  - id: s1_catalytic_synthesis
+    entity_id: cat-upg
+    note: "CO → catalytic synthesis (Knifton-type carbonylation)"
+    objectives:
+      yield: { entity_id: cat-upg, parameter: chemical_efficiency }
+      maturity: { entity_id: cat-upg, parameter: TRL }
+  - id: s2_fischer_tropsch
+    entity_id: ft
+    note: "CO → Fischer–Tropsch → gasoline"
+    objectives:
+      yield: { entity_id: ft, parameter: chemical_efficiency }
+      maturity: { entity_id: ft, parameter: TRL }

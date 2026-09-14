@@ -1,0 +1,20 @@
+id: ethanol
+name: Ethanol
+type: product
+category: cat-energy-p
+product_function: liquid-fuel
+carbon_fate: short-cycle
+description: Bioethanol is produced by fermentation of sugars or starch and is the most widely produced biofuel globally — primarily from corn (US), sugarcane (Brazil), and increasingly from lignocellulosic biomass. It can be blended with gasoline (E10, E85) or used in flex-fuel vehicles at any concentration. Beyond fuel, ethanol is a platform chemical for producing ethylene (for plastics) and other derivatives, giving it dual energy-chemical value.
+aliases:
+  - bioethanol
+  - fuel ethanol
+  - cellulosic ethanol
+  - E10
+  - E85
+fossil_analog: Gasoline (petrol)
+end_use_sector:
+  - road transport
+  - chemical feedstock
+  - aviation (via ETJ pathway)
+external_refs:
+  - https://en.wikipedia.org/wiki/Ethanol_fuel

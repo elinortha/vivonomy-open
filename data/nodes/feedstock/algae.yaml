@@ -1,0 +1,25 @@
+id: algae
+name: Algal biomass
+type: feedstock
+category: cat-lipid
+origin_class: aquatic
+composition_class: lipid
+moisture_class: wet
+description: Algal biomass — from freshwater microalgae (Chlorella, Spirulina), marine macroalgae (seaweeds), or photobioreactor cultivation — is among the highest-productivity biomass sources per unit area. Microalgae can accumulate 20–50% lipid content under nutrient stress, making them attractive for oil extraction and hydrothermal liquefaction. The energy cost of cultivation, harvesting, and dewatering remains the primary barrier to commercial-scale production.
+aliases:
+  - microalgae
+  - macroalgae
+  - seaweed
+  - algal feedstock
+typical_sources:
+  - open raceway ponds
+  - closed photobioreactors
+  - marine cultivation systems
+current_disposal:
+  - food supplements
+  - animal feed
+  - wastewater treatment biomass
+sustainability_considerations: High potential productivity; can use brackish water and non-arable land; water and energy requirements for dewatering are significant.
+external_refs:
+  - https://en.wikipedia.org/wiki/Algae_fuel
+  - https://www.ieabioenergy.com/

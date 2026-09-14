@@ -1,0 +1,25 @@
+id: starch-waste
+name: Starchy food waste
+type: feedstock
+category: cat-starch
+origin_class: food-processing
+composition_class: starch-sugar
+moisture_class: intermediate
+description: Starchy food waste encompasses starch-rich organic residues from food processing and consumption — including expired baked goods, potato processing waste, and cafeteria carbohydrate waste. Unlike lignocellulosic feedstocks, starch is readily hydrolyzed to glucose without extensive pretreatment, making these materials particularly accessible to fermentation pathways. Sugar-rich fractions such as fruit processing waste and molasses fall in the same conversion category.
+aliases:
+  - starchy waste
+  - carbohydrate-rich food waste
+  - expired baked goods
+typical_sources:
+  - bakeries
+  - food manufacturing
+  - potato processors
+  - supermarket waste
+current_disposal:
+  - landfill
+  - anaerobic digestion
+  - animal feed
+sustainability_considerations: Using food waste avoids landfill methane emissions; does not compete with food production.
+external_refs:
+  - https://en.wikipedia.org/wiki/Food_waste
+  - https://www.tech4biowaste.eu/

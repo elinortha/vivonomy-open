@@ -1,0 +1,22 @@
+id: bio-oil
+name: Bio-oil
+type: platform
+category: cat-liquid
+description: Bio-oil (pyrolysis liquid) is a complex, dark brown liquid produced by condensing the vapors from fast or slow pyrolysis of lignocellulosic biomass. It contains hundreds of oxygenated organic compounds — organic acids, phenolics, ketones, aldehydes, and sugars — with a water content of 20–30%. Raw bio-oil has lower energy density and higher oxygen content than petroleum, and its acidity and instability limit direct use as a drop-in fuel. Upgrading via hydrotreating reduces oxygen content and improves fuel properties.
+aliases:
+  - pyrolysis oil
+  - pyrolysis liquid
+  - biocrude
+  - fast pyrolysis oil
+phase: liquid
+chemical_class: oxygenated_hydrocarbon_mixture
+key_components:
+  - water (20–30%)
+  - organic acids
+  - phenolics
+  - ketones
+  - aldehydes
+  - sugar derivatives
+  - lignin-derived oligomers
+external_refs:
+  - https://en.wikipedia.org/wiki/Biochar#Bio-oil

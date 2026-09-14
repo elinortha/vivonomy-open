@@ -1,0 +1,23 @@
+id: oilseed-crop
+name: Oilseed crop waste
+type: feedstock
+category: cat-lipid
+origin_class: dedicated-crop
+composition_class: lipid
+moisture_class: dry
+description: Oilseed crops — rapeseed, soybean, sunflower, and palm — yield a triglyceride-rich oil fraction when cold-pressed or solvent-extracted, with the residual protein-rich press cake (30–50% protein) primarily used as animal feed. The lipid fraction routes directly to biodiesel via transesterification or to renewable diesel and SAF via hydrotreating. Dedicated oilseed crops compete with food production for productive agricultural land, raising sustainability questions that waste-stream lipid feedstocks avoid.
+aliases:
+  - rapeseed
+  - canola
+  - oilseed residue
+  - press cake
+typical_sources:
+  - oilseed processing mills
+  - dedicated energy crop farms
+current_disposal:
+  - biodiesel production
+  - animal feed (press cake)
+  - food use
+sustainability_considerations: Land-use competition with food and feed; lifecycle emissions depend heavily on whether indirect land-use change is included.
+external_refs:
+  - https://en.wikipedia.org/wiki/Oilseed

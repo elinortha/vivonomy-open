@@ -1,0 +1,19 @@
+id: biochar
+name: Biochar
+type: platform
+category: cat-solid
+description: Biochar is a carbon-rich solid produced by pyrolysis or hydrothermal carbonization of biomass in the absence or limited presence of oxygen. Its highly porous structure and stable aromatic carbon matrix give it distinctive soil amendment properties — improving water retention, cation exchange capacity, and microbial habitat. When incorporated into soil, biochar sequesters carbon on timescales of centuries, making it one of the few bioenergy products with a negative carbon footprint.
+aliases:
+  - pyrochar
+  - hydrochar
+  - torrefied biomass
+  - biocarbon
+phase: solid
+chemical_class: carbon_rich_aromatic_solid
+key_components:
+  - fixed carbon (>70%)
+  - ash (variable, 2–50%)
+  - stable aromatic rings
+  - porous microstructure
+external_refs:
+  - https://en.wikipedia.org/wiki/Biochar

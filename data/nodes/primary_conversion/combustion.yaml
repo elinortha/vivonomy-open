@@ -1,0 +1,45 @@
+id: combustion
+name: Combustion
+type: primary_conversion
+category: cat-thermo
+process_family: thermochemical
+description: Combustion is the controlled burning of biomass in air to produce heat. In industrial settings, this heat generates steam that drives a turbine for electricity generation (combined heat and power). It is the most commercially deployed bioenergy conversion route worldwide and the most straightforward to implement. All chemical complexity in the biomass is destroyed — recovering higher-value products alongside electricity is not possible in a purely combustion-based system.
+aliases:
+  - direct combustion
+  - biomass burning
+  - biomass boiler
+mechanism_brief: Complete oxidation of biomass carbon and hydrogen in excess air at 800–1200°C releases heat, which raises steam to drive a turbine or is delivered directly as process heat.
+typical_outputs:
+  - heat-power
+TRL:
+  - value: 9
+    unit: trl
+    value_original: "9"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_be0cb7b5
+expertise_required:
+  - value: basic
+    unit: null
+    value_original: basic
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_ad32f8db
+external_refs:
+  - https://en.wikipedia.org/wiki/Biomass_heating_system

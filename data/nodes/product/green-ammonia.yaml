@@ -1,0 +1,19 @@
+id: green-ammonia
+name: Green ammonia
+type: product
+category: cat-material-p
+product_function: chemical
+carbon_fate: short-cycle
+description: Green ammonia is produced by reacting hydrogen (from renewable sources including biomass gasification) with atmospheric nitrogen via the Haber-Bosch process, powered by renewable electricity. Ammonia is a critical nitrogen fertilizer feedstock and is increasingly explored as a carbon-free energy carrier for maritime shipping and long-duration energy storage. Biomass-derived hydrogen can serve as the feedstock, connecting the bioenergy and chemical sectors.
+aliases:
+  - renewable ammonia
+  - bio-ammonia
+  - NH₃
+fossil_analog: Fossil-derived ammonia (Haber-Bosch process with natural gas steam reforming)
+end_use_sector:
+  - agricultural nitrogen fertilizer
+  - maritime shipping fuel
+  - energy storage
+  - chemical feedstock
+external_refs:
+  - https://en.wikipedia.org/wiki/Green_ammonia

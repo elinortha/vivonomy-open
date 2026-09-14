@@ -1,0 +1,7 @@
+id: pt-drying__gasification
+source_node: pt-drying
+target_node: gasification
+co_products: []
+references: []
+external_links: []
+notes: null

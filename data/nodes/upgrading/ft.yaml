@@ -1,0 +1,46 @@
+id: ft
+name: Fischer-Tropsch
+type: upgrading
+category: cat-synfuel
+process_family: chemical
+description: Fischer-Tropsch (FT) synthesis converts syngas (CO + H₂) into liquid hydrocarbons by polymerizing CO with hydrogen over an iron or cobalt catalyst. The product is a distribution of paraffinic hydrocarbons from methane to heavy waxes; the diesel and jet fuel fractions are of high quality — ultra-low sulfur, high cetane. FT fuels from biomass-derived syngas (Biomass-to-Liquid, BtL) qualify as advanced biofuels but require large minimum scales for economic viability.
+aliases:
+  - FT synthesis
+  - Fischer-Tropsch synthesis
+  - BtL synthesis
+mechanism_brief: CO and H₂ are polymerized over an iron or cobalt catalyst at 150–350°C and 10–40 bar to produce a distribution of long-chain paraffinic hydrocarbons via the Anderson-Schulz-Flory product distribution; waxes are hydrocracked to fuel-range fractions.
+typical_outputs:
+  - saf
+  - renewable-diesel
+TRL:
+  - value: 7
+    unit: trl
+    value_original: "7"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_81bc814b
+expertise_required:
+  - value: specialist
+    unit: null
+    value_original: specialist
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_3fff9561
+external_refs:
+  - https://en.wikipedia.org/wiki/Fischer%E2%80%93Tropsch_process

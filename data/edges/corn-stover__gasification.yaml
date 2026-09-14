@@ -1,0 +1,7 @@
+id: corn-stover__gasification
+source_node: corn-stover
+target_node: gasification
+co_products: []
+references: []
+external_links: []
+notes: null

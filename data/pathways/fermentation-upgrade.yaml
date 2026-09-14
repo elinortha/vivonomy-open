@@ -1,0 +1,20 @@
+# fermentation-upgrade.yaml — sugars → fermentation (ferm-upg) → ethanol.
+# Demonstrates the CONTESTED → ENVELOPE_ONLY path on live data: the fermentation
+# efficiency claims disagree beyond the gap threshold, so the aggregation layer
+# publishes ferm-upg chemical_efficiency as CONTESTED (no unified headline). Composition
+# takes the CLUSTER HULL as the composable interval → the composed yield is
+# ENVELOPE_ONLY: an envelope with the central structurally absent ("wherever the contest
+# resolves, the pathway lies in […]"), still rankable for robust dominance in Phase 2.
+# Maturity: ferm-upg TRL is ABSENT → blocked with an unblock report.
+id: fermentation_upgrade
+title: "Sugars → fermentation → ethanol"
+basis: { functional_unit: "1 kg ethanol" }
+default_frame: {}
+viability_thresholds: { yield: 0.5, maturity: 6 }
+steps:
+  - id: s1_fermentation
+    entity_id: ferm-upg
+    note: "glucose/xylose → fermentation → ethanol"
+    objectives:
+      yield: { entity_id: ferm-upg, parameter: chemical_efficiency }
+      maturity: { entity_id: ferm-upg, parameter: TRL }

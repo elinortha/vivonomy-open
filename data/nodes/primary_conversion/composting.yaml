@@ -1,0 +1,45 @@
+id: composting
+name: Composting
+type: primary_conversion
+category: cat-biochem
+process_family: biochemical
+description: Composting is the controlled aerobic decomposition of organic matter by microorganisms, producing a stable soil amendment rich in humus. The thermophilic phase (55–65°C) achieved during active decomposition sanitizes pathogens and weed seeds. It is the simplest and most widely deployed biological conversion pathway for mixed organic waste, requiring minimal capital investment. Composting returns carbon to the soil rather than capturing it as energy.
+aliases:
+  - aerobic composting
+  - windrow composting
+  - in-vessel composting
+mechanism_brief: A succession of aerobic microbial communities (mesophilic → thermophilic → maturation) decompose labile organics to CO₂ and water while stable humic substances accumulate; controlled aeration and moisture management maintain thermophilic conditions for pathogen kill.
+typical_outputs:
+  - stabilized-om
+TRL:
+  - value: 9
+    unit: trl
+    value_original: "9"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_6681a421
+expertise_required:
+  - value: basic
+    unit: null
+    value_original: basic
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_ac5fb538
+external_refs:
+  - https://en.wikipedia.org/wiki/Compost

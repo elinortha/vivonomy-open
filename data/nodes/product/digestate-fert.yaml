@@ -1,0 +1,19 @@
+id: digestate-fert
+name: Digestate fertilizer
+type: product
+category: cat-soil-p
+product_function: soil
+carbon_fate: short-cycle
+description: Digestate fertilizer is processed digestate from anaerobic digestion applied to agricultural land as a nutrient-rich biofertilizer. It contains most of the feedstock's nitrogen, phosphorus, and potassium in plant-available forms — particularly ammonium nitrogen immediately accessible to crops. Unlike composting, anaerobic digestion preserves nitrogen rather than mineralizing it, giving digestate higher immediate fertilizer value. Solid-liquid separation adapts the product for different application methods.
+aliases:
+  - biofertilizer
+  - liquid digestate
+  - solid digestate
+  - bio-based fertilizer
+fossil_analog: Mineral nitrogen fertilizers (urea, ammonium nitrate, triple superphosphate)
+end_use_sector:
+  - arable farming
+  - horticulture
+  - grassland management
+external_refs:
+  - https://en.wikipedia.org/wiki/Digestate

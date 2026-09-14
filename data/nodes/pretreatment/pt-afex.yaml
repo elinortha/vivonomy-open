@@ -1,0 +1,49 @@
+id: pt-afex
+name: AFEX
+type: pretreatment
+category: cat-pt-physico
+process_family: chemical
+description: Ammonia fiber expansion (AFEX) exposes moist biomass to anhydrous ammonia under pressure at moderate temperature (70–120°C), then rapidly releases pressure to cause explosive decompression. Unlike acid and steam explosion, AFEX produces very few inhibitory compounds and requires no washing step, making the treated solid directly accessible to enzymes and fermentation organisms. Ammonia recovery and recycling is essential for both process economics and environmental safety.
+aliases:
+  - ammonia fiber expansion
+  - ammonia fiber explosion
+  - AFEX pretreatment
+mechanism_brief: Anhydrous liquid ammonia applied to moist biomass (70–120°C) swells and disrupts the lignocellulosic structure through combined chemical and physical action; rapid pressure release then explosively defibrillates cell walls.
+chemical_inputs:
+  - anhydrous ammonia
+  - recycled in closed loop
+environmental_impacts:
+  - ammonia toxicity requires closed-loop handling
+  - high capital cost for pressure vessels
+TRL:
+  - value: 5
+    unit: trl
+    value_original: "5"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_785ff969
+expertise_required:
+  - value: specialist
+    unit: null
+    value_original: specialist
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_82e35f9e
+external_refs:
+  - https://en.wikipedia.org/wiki/Ammonia_fiber_expansion

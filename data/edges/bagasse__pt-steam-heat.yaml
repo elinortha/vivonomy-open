@@ -1,0 +1,7 @@
+id: bagasse__pt-steam-heat
+source_node: bagasse
+target_node: pt-steam-heat
+co_products: []
+references: []
+external_links: []
+notes: null

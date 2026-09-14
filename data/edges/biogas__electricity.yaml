@@ -1,0 +1,7 @@
+id: biogas__electricity
+source_node: biogas
+target_node: electricity
+co_products: []
+references: []
+external_links: []
+notes: null

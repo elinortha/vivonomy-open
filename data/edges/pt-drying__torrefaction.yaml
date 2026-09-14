@@ -1,0 +1,7 @@
+id: pt-drying__torrefaction
+source_node: pt-drying
+target_node: torrefaction
+co_products: []
+references: []
+external_links: []
+notes: null

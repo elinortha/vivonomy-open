@@ -1,0 +1,7 @@
+id: pt-drying__combustion
+source_node: pt-drying
+target_node: combustion
+co_products: []
+references: []
+external_links: []
+notes: null

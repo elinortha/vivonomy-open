@@ -1,0 +1,182 @@
+<!--
+  Source: https://www.tib-op.org/ojs/index.php/solarpaces/article/view/2438/3028
+  DOI: 10.52825/solarpaces.v3i.2438
+  License: CC-BY 4.0
+  Extracted via rendered-page text (site is a JS SPA; raw HTML has no body content).
+  This file holds plain extracted article text, not markup, for ingestion-agent reading.
+-->
+Solar-Driven Biomass Pyrolysis Plant for Negative-Emission Biofuels Production
+
+Authors
+Muhammad Ahsan Amjed — Politecnico di Milano — https://orcid.org/0009-0002-1561-8439
+Marco Colombi — Politecnico di Milano
+Juan Rincon Duarte — Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR) — https://orcid.org/0000-0002-7782-0037
+Clarisse Lorreyte — Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR) — https://orcid.org/0000-0002-8231-7700
+Gkiokchan Moumin — Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)
+Matteo Carmelo Romano — Politecnico di Milano — https://orcid.org/0000-0003-0213-2245
+Marco Binotti — Politecnico di Milano — https://orcid.org/0000-0002-2535-7589
+
+DOI: https://doi.org/10.52825/solarpaces.v3i.2438
+Keywords: Biomass, Solar Pyrolysis, Concentrated Solar Power (CSP), Bio-Oil, Biochar
+Published: 2025-11-18
+License: CC-BY 4.0 — Copyright (c) 2025 the authors
+How to cite: Amjed, M. A., Colombi, M., Rincon Duarte, J., Lorreyte, C., Moumin, G., Romano, M. C., & Binotti, M. (2025). Solar-Driven Biomass Pyrolysis Plant for Negative-Emission Biofuels Production. SolarPACES Conference Proceedings, 3. https://doi.org/10.52825/solarpaces.v3i.2438
+
+Abstract
+As part of the Horizon Europe Project PYSOLO, this study focuses on the integration of a 10 MWTH fast pyrolysis plant with a solar tower system equipped with a rotary kiln particle receiver. Heated particles act as a particle heat carrier (PHC) for the endothermic pyrolysis process, enhancing flexibility and allowing continuous operation compared to directly heated solar reactors. The system's design, techno-economic analysis and storage capacity optimization are performed considering two operation modes, solar-only and hybrid, in which biochar is combusted in absence of solar energy. Results indicate that, due to the rotary kiln flow regime constraints, its tilt angle has to be limited in a range between 0.5-2° to guarantee particles being in rolling mode, thus penalizing the achievable solar field optical efficiency. On the other hand solar-based pyrolysis can achieve carbon efficiencies close to 0.9 and, thanks to the carbon stored in biochar, net negative emissions equal to -27.05 and -19.45 kgCO2/GJOIL respectively in solar-only and hybrid mode. Moreover, as the pyrolysis section has the most relevant cost share, the system optimization pushes to maximise the pyrolysis plant operating hours (and thus the bio-oil production) to reduce the CAPEX impact on the Minimum Fuel Selling Price (MFSP). For this reason hybrid mode results in being the most convenient (i.e: MFSP of 25.71 vs 21.36 €/GJOIL).
+
+1. Introduction
+According to the European Union (EU) the fraction of renewables in the EU energy mix is expected to grow up to at least 42.5% by 2030 [1], an ambitious threshold that has driven research and industry efforts in developing new ways of exploiting renewable energy sources. Nowadays bioenergy provides 12.6% of the overall energy consumption [2] and can be converted into higher density energy vectors either by a thermochemical or biochemical process. Thermochemical conversion benefits from faster chemical reactions, suitability for a wider variety of biomass feedstock, higher energy efficiency and advantages of scalability compared to biochemical processes. Moreover, thermochemical conversion is not subject to seasonal and environmental limitations as biochemical and allows year-long operation with better control of operating conditions [3]. Based on the amount of supplied oxygen, a thermochemical process can be classified as pyrolysis, combustion or gasification. Pyrolysis in particular has gathered great interest due to its potential of converting any type of solid biomass into bio-oil, whose most promising application is co-processing in Fluid Catalytic Crackers (FCC) in existing fossil refineries [4], and/or biochar, a way to concentrate stable carbon in large amounts and use it in agriculture as soil amendment, as heat, as material in a variety of applications or as a carbon sequestration medium [5]. The pyrolysis process is endothermic and requires an external energy source, such as direct combustion of part of the feedstock/products or electric heating, to heat up the feedstock and break down the molecular structure of the carbonaceous material [6], [7], [8], [9]. The limit of conventional pyrolysis processes sustained by combustion is the loss of part of the biogenic carbon as CO2, increasing the environmental impact and losing a valuable asset, thus making the process more energy intensive and costly. In the literature, the adoption of Concentrated Solar Power (CSP) as energy source to overcome those limits has been gaining attention, considering different feedstocks, types of concentrators, reactors and process configurations [6], [7], [8], [9].
+
+As part of the Horizon Europe Project PYSOLO [10], this analysis focuses on the integration of the pyrolysis unit with a solar tower system equipped with a rotary kiln particle receiver: the particles heated in the tower are directly used as heat carrier (particle heat carrier, PHC) in the pyrolyzer to provide the required thermal power for the endothermic pyrolysis process. Compared to directly irradiated biomass reactors, the decoupling between solar receiver and pyrolizer enhances flexibility and allows continuous operation with possible thermal energy storage integration. On the other hand, the adoption of a particle receiver in place of a commercial molten salts solar tower is meant to avoid the molten salts high corrosiveness, the high solidification temperature that makes start-up and shut-down problematic causing high parasitic losses, and the need of a high temperature heat transfer surface thanks to the direct contact between PHC and biomass.
+
+In the following study, the preliminary design and the techno-economic analysis of a 10 MWTH fast pyrolysis plant for bio-oil and biochar production integrated with a rotary kiln particle solar tower system are performed comparing different plant configurations (solar-only and hybrid). For each plant configuration, the storage capacity and the solar multiple (SM) are optimized in order to minimize the minimum fuel selling price (MFSP), which is obtained following a net present value (NPV) analysis. Being biomass made of biogenic carbon and thus being carbon neutral, focus is given to the potential negative CO2 emissions of both plant configurations, which, by storing or using as soil amendment the biochar produced, can act as a carbon sequestrator plant.
+
+2. System Modelling
+This section introduces the main modelling assumptions of the pyrolysis plant, of the rotary kiln solar receiver and of the economic and profitability analysis.
+
+2.1 Pyrolysis Plant
+The configuration of the fast pyrolysis section is taken from Jones et al. [7], where a biorefinery converting woody biomass into high-value liquid fuel was modelled. In a previous study [11], the model has been replicated and slightly modified to account for the solar integration adopting Aspen Plus V14 [12] to compute mass and energy balances. The plant is sized to convert a biomass input of 50 dry t/d (10 MWTH on a lower heating value basis) and is divided into 5 main sections:
+
+Biomass Pretreatment: for an efficient conversion, biomass is dried till reaching a moisture content of 10% by a stream of hot flue gases and is then grinded to 2 mm particles to ease the pyrolysis reaction.
+
+Table 1 — Properties of the adopted biomass (Poplar), % wt on dry basis unless noted:
+Elemental Analysis: C 50.94, H 6.04, O 41.90, N 0.17, S 0.03
+Proximate Analysis: Volatile Matters 84.88, Fixed Carbon 14.2, Ashes 0.92
+Calorific Values: HHV 14 MJ/kg, LHV 12.3 MJ/kg
+Humidity (dry basis / as-fed moisture): 30%
+
+Pyrolysis: dried biomass enters the pyrolyzer and is converted by contact with hot PHC and fluidizing gases. The temperature of the hot PHC is 609°C and the flowrate is controlled to maintain the reactor outlet temperature equal to 434°C. The fluidized bed pyrolyzer is modeled as a black box with fixed biomass input, replicating the yield and product composition reported by Jones et al. [7] and considering the PHC as chemically inert.
+
+Solid Removal: the products enter the cyclone filter, which separates volatile products from solids entrained from the reactor at high temperatures.
+
+Bio-Oil Recovery: quenching columns condense pyrolysis vapours and collect bio-oil. Non-condensable gases generate pyrogas (mainly CO, CO2, CH4), mostly used as a fluidizing medium with the remainder combusted to generate heat for the drying process. Bio-oil is filtered to remove solid particles along with a small portion of oil, generating "sludge."
+
+Solid Separator: the PHC is separated from the biochar and sent to the cold solid Thermal Energy Storage (TES) after a make-up to compensate for PHC losses.
+
+Two plant configurations are analysed: solar-only (plant works only when solar energy is available) and hybrid (plant always works, compensating absence of solar energy by burning sludge and a fraction of the produced biochar in a combustor to heat the PHC).
+
+KPIs: pyrolysis plant energy conversion efficiency η(pyro-plant) = ratio of products' chemical energy (bio-oil, biochar, sludge) to primary energy input (biomass + auxiliary electricity converted at ηel,ref = 50% + PHC thermal power). Solar optical-to-thermal efficiency η(sol-th) covers solar field + receiver efficiency. Carbon efficiency εc = ratio of carbon mass fractions of products to biomass carbon. Emission-to-oil ratio (ETO) = yearly CO2 emissions / bio-oil production; net negative emission-to-oil ratio (ETOnet) treats biogenic CO2 as climate-neutral and credits carbon stored in biochar.
+
+Table 2 — Bio-oil, biochar, sludge, flue-gas flowrate/temperature/composition/carbon balance:
+Bio-Oil: 1732 kg/h, 54.4°C, composition C 41.6% H 7.8% O 50.6% N 0.0%, % C Yield 69.0%
+Biochar: 246 kg/h, 25°C, composition C 83.1% H 1.7% O 6.6% N 1.4% Ashes 7.1%, % C Yield 19.6%
+Sludge: 59 kg/h, 54.4°C, composition C 38.3% H 7.2% O 46.6% Ashes 2.4% PHC 5.4%, % C Yield 2.2%
+Flue gases: 4555 kg/h, 71.7°C, composition C 2.1% H 1.7% O 34.7% N 61.5%, % C Yield 9.2%
+
+Table 3 — Main technical assumptions/preliminary design results:
+Biomass Flowrate (30% HR): 2930 kg/h
+Pyrolyzer Outlet T: 434°C
+PHC T Hot: 609°C
+Pyrolyzer Net Thermal Request: 1.66 MW
+Pyrolyzer Heat Loss: 0.1 MW
+Overall Electricity Consumption: 353.2 kW
+
+2.2 Solar Field and Receiver
+Rotary kilns are widely employed for industrial processes due to uniform particle mixing giving homogeneous outlet temperatures. Solarizing rotary kilns presents challenges: effective solar radiation penetration for homogeneous temperature distribution (especially at significant length); limiting re-irradiation losses from the kiln aperture; cooling/cleaning of the kiln window aperture and secondary mirror; and selecting an optimal tilt angle trading off solar field efficiency against process parameters (bed motion, particle mixing, residence time, etc.) [13], [14].
+
+Particle flow regime depends on the Froude number (ratio of centripetal to gravitational acceleration, function of kiln rotational speed and diameter). To operate in rolling mode (maximizing particle mixing) the Froude number must range between 10⁻⁴ and 10⁻². Two flow regions: the shearing "active layer" near the free surface, and the passive/plug-flow region at the bottom (zero shear rate) [16], [17].
+
+Other design parameters: Fill Ratio (FR) — fraction of rotary kiln cross-section occupied by particles, typically 0.1–0.25 [13]; kiln residence time τres — depends on kiln tilt angle, angular speed, and aspect ratio (L/D), computed here via the Lee and Lin [18] correlation; dam height — maintains particle bed height along the kiln axis, set equal to bed height in this study [13].
+
+Design procedure: combining the Froude number, fill ratio, tilt angle, PHC bulk density and PHC flowrate constraints yields the kiln diameter. A fill ratio of 0.1 was chosen to maximize kiln diameter (helping solar field optical efficiency). The design Froude number is set so its minimum boundary is reached at 20% partial load, giving a minimum Froude boundary of 2.5×10⁻³.
+
+Results show that increasing tilt angle (beneficial for solar field design) reduces the allowed aperture size and increases the required heat flux to potentially unfeasible values; for the studied case, tilt angles need to stay below 4–5° (fluxes below 2–3 MW/m²), with rotational speed increased to compensate and maintain constant Froude number.
+
+Solar field design: Seville (37.39°N, 5.99°W) selected as plant site; design DNI of 900 W/m² assumed at solar noon on June 21. Designed with SolarPILOT [19] using a flat-plate receiver, square aperture equal to kiln aperture diameter; a correction coefficient of 0.94 applied to optical efficiency (derived by comparing SolarPILOT square-aperture export to SolTrace [20] circular-aperture results, since SolarPILOT cannot simulate circular apertures directly).
+
+Tower height varied 60–120 m to maximize power absorbed by the PHC at design conditions; particle-lift consumption included in auxiliaries.
+
+Table 4 — Design assumptions for receiver and solar field:
+Design DNI: 900 W/m²; Design Point: 21 June, Solar Noon; Heliostat size: 16 m²; Heliostat focusing type: at slant; Heliostat error: 3.07 mrad; Heliostat reflectivity: 0.95; Receiver acceptance angle: 75°; Effective cavity emissivity: 0.9; Effective cavity absorptivity: 0.95; Design power to PHC (SM=1): 1.76 MW
+PHC inlet/outlet temperature: 434/609°C; PHC Bulk Density: 2000 kg/m³; PHC Mean Heat Capacity: 1124 J/kg·K; PHC Mass flowrate (SM=1): 8.79 kg/s; Design kiln Fr number: 2.5×10⁻³; Design filling ratio: 0.1; Lift efficiency: 0.80; Wind speed at receiver height: 10 m/s
+
+For every SM, the best-performing plant (by solar-to-thermal efficiency) is selected and the optical efficiency across Azimuth/Zenith combinations computed with SolarPILOT; yearly analysis performed hourly using SolarPILOT DNI database data. Off-design thermal performance of the rotary kiln assumes constant temperatures and (as a first approximation) constant radiative/convective losses, with reflective losses proportional to incoming solar radiation.
+
+2.3 Economic and Profitability Analysis
+Economic/profitability analysis performed for an Nth-of-a-kind plant, methodology consistent with NREL [7] and a previous study [11]. Method accounts for fixed and operational costs via yearly discounted cash flows to identify the Minimum Fuel (bio-oil) Selling Price (MFSP) giving NPV = 0 at end of plant lifetime. Relative to the previous study [11], pyrolysis plant CAPEX was adjusted by adding bio-oil filter cost (~0.3 M€2019 [7]), previously bundled into plant utilities CAPEX. Biomass cost was updated; rotary kiln receiver cost taken from the Buck et al. correlation [21], [22], [23].
+
+Table 5 — Main economic assumptions:
+Computed CAPEX Pyrolysis Plant (Solar-only Mode): 20.07 M€
+Computed CAPEX Pyrolysis Plant (Hybrid Mode): 21.44 M€
+Biomass Cost (10% RH): 23.85 €/ton [25]
+Electricity Cost: 100 €/MWh_EL
+Heliostat Field Cost: 133 €/m² [19]
+Receiver Specific Cost: 76300 €/m² [24]
+Tower Specific Cost: 148.4 €/m^1.9274 [21]
+Thermal Energy Storage Specific Cost: 1000 €/m² [22]
+Bauxite Particles Cost: 400 €/kg [26]
+Particle Elevator Cost: 53.55 € s/m·kg [27]
+
+3. Results
+For every solar multiple, the rotary kiln receiver tilt angle and tower height were optimized, with kiln aperture diameter determined by flow-regime constraints. Best-performing tilt angles found: 0.5° and 0.9°.
+
+Table 6 — Main design results for optimized solar cases, by Solar Multiple (SM) 1–6:
+SM=1: Q_PHC 1760 kW, PHC Mass Flowrate 8.94 kg/s, Rotary Kiln Tilt 0.7°, Tower Height 60 m, Kiln Diameter 3.63 m, Aperture Diameter 2.50 m, Kiln Rotational Speed 1.11 RPM, Heliostat Area 3073 m², Optical Efficiency 0.724, Thermal losses 254 kW, Thermal efficiency 0.873, Solar-to-thermal efficiency 0.631
+SM=2: Q_PHC 3520 kW, PHC 17.88 kg/s, Tilt 0.5°, Tower 80 m, Kiln Dia 5.48 m, Aperture 3.76 m, Rot. Speed 0.90 RPM, Heliostat Area 6083 m², Optical Eff. 0.735, Thermal losses 554 kW, Thermal eff. 0.862, Solar-to-thermal eff. 0.633
+SM=3: Q_PHC 5280 kW, PHC 26.82 kg/s, Tilt 0.5°, Tower 100 m, Kiln Dia 6.44 m, Aperture 4.43 m, Rot. Speed 0.83 RPM, Heliostat Area 9141 m², Optical Eff. 0.728, Thermal losses 788 kW, Thermal eff. 0.868, Solar-to-thermal eff. 0.632
+SM=4: Q_PHC 7040 kW, PHC 35.76 kg/s, Tilt 0.5°, Tower 110 m, Kiln Dia 7.23 m, Aperture 4.96 m, Rot. Speed 0.79 RPM, Heliostat Area 12199 m², Optical Eff. 0.724, Thermal losses 1012 kW, Thermal eff. 0.872, Solar-to-thermal eff. 0.632
+SM=5: Q_PHC 8800 kW, PHC 44.70 kg/s, Tilt 0.5°, Tower 110 m, Kiln Dia 7.90 m, Aperture 5.43 m, Rot. Speed 0.75 RPM, Heliostat Area 15287 m², Optical Eff. 0.719, Thermal losses 1230 kW, Thermal eff. 0.876, Solar-to-thermal eff. 0.630
+SM=6: Q_PHC 10560 kW, PHC 53.64 kg/s, Tilt 0.5°, Tower 110 m, Kiln Dia 8.50 m, Aperture 5.84 m, Rot. Speed 0.72 RPM, Heliostat Area 18391 m², Optical Eff. 0.715, Thermal losses 1444 kW, Thermal eff. 0.878, Solar-to-thermal eff. 0.628
+
+Table 7 — Main results, optimized Solar-Only vs Hybrid cases:
+Optimal SM: Solar-Only 6, Hybrid 3
+Optimal Equivalent Storage Hours: Solar-Only 24 h, Hybrid 13 h
+CAPEX Breakdown — Pyrolysis Plant CAPEX: 20.07 M€ (Solar-Only) / 21.44 M€ (Hybrid)
+Heliostat Field + Land Cost: 3.42 M€ / 1.70 M€
+Receiver Cost: 2.58 M€ / 1.48 M€
+Tower Cost: 1.62 M€ / 0.87 M€
+Thermal Energy Storage: 1.03 M€ / 0.72 M€
+Bauxite Particles Cost: 0.49 M€ / 0.28 M€
+Particle Elevator Cost: 0.43 M€ / 0.16 M€
+Solar Plant CAPEX: 9.60 M€ / 5.23 M€
+Total CAPEX: 29.67 M€ / 26.67 M€
+Yearly Optical-Thermal Efficiency: 0.551 / 0.549
+Fraction of Defocused Energy: 0.295 / 0.071
+Pyrolysis Plant Equivalent Hours: 7053 h / 8760 h
+Pyrolysis Plant Efficiency: 0.786 / 0.786
+Carbon Efficiency: 0.908 / 0.844
+ETO: 13.09 / 21.92 kgCO2/GJ_OIL
+ETOnet: -27.05 / -19.45 kgCO2/GJ_OIL
+MFSP: 25.71 / 21.36 €/GJ_OIL
+
+Since the pyrolysis section has the highest cost share (~78% of total CAPEX in hybrid mode, receiver ~17% of solar plant CAPEX), system optimization pushes to maximize pyrolysis plant operating hours (and bio-oil production) to reduce CAPEX impact on MFSP. Solar-only mode is capped at 24h storage and cannot reach full equivalent operating hours across the year, raising its MFSP above the hybrid case (21.36 €/GJ_OIL). Solar-only mode has better carbon efficiency, ETO, and ETOnet since no combustion occurs. Both configurations achieve net negative emissions, making both suitable as carbon sequestrators.
+
+4. Conclusion
+- Solar-based pyrolysis can achieve over 90% carbon efficiency: about 70% of inlet biogenic carbon retained in bio-oil, about 20% in biochar. Net negative emissions of -27.05 (solar-only) and -19.45 (hybrid) kgCO2/GJ_OIL.
+- The kiln "rolling mode" flow-regime constraint (Froude number range) limits feasible tilt angles to 0.5–2°, generating challenging solar fluxes on the kiln aperture. Possible mitigations: spiral lifters to increase PHC residence time [28]; increasing PHC mass flowrate at constant thermal power (reducing ΔT); PHCs with lower bulk density/heat capacity; or two kilns in parallel to halve mass flowrate.
+- Solar-only mode has better environmental indices (ETO 13.09 vs 21.92 kgCO2/GJ_OIL) by avoiding biochar combustion, but lower pyrolysis plant equivalent hours (7053 vs 8760 h) increase payback time and reduce NPV, favoring the economics of hybrid mode (lowest MFSP: 25.71 vs 21.36 €/GJ_OIL).
+
+Data availability statement: Data will be made available on request.
+Competing interests: The authors declare that they have no competing interests.
+Acknowledgement: Funded by the European Union under the PYSOLO project (Grant Agreement n. 101118270), granting authority: European Climate, Infrastructure and Environment Executive Agency.
+
+References
+[1] Renewable Energy Directive (EU) 2023/2413 of the European Parliament and of the Council of 20 November 2023 on the promotion of the use of energy from renewable sources. ELI: https://eur-lex.europa.eu/eli/dir/2023/2413/oj.
+[2] R. Adib, "Renewables 2023 global status report collection, Renewables in Energy Supply," 2023.
+[3] A. M. Elgarahy, A. Hammad, D. M. El-Sherif, M. Abouzid, M. S. Gaballah, and K. Z. Elwakeel, "Thermochemical conversion strategies of biomass to biofuels, techno-economic and bibliometric analysis: A conceptual review," J. Environ. Chem. Eng., vol. 9, pp. 2213–3437, 2021, doi: 10.1016/j.jece.2021.106503.
+[4] Venderbosch, R. and Prins, W. (2010), Fast pyrolysis technology development. Biofuels, Bioprod. Bioref., 4: 178-208. https://doi.org/10.1002/bbb.205
+[5] CiP Foundation, "How to establish a market for CCS with biochar in Denmark", 2024.
+[6] V. Chintala, Production, upgradation and utilization of solar assisted pyrolysis fuels from biomass – A technical review, Renewable Sustainable Energy Rev., 2018, 90, 120–130, DOI: 10.1016/j.rser.2018.03.066.
+[7] S. Jones, et al., Process Design and Economics for the Conversion of Lignocellulosic Biomass to Hydrocarbon Fuels: Fast Pyrolysis and Hydrotreating Bio-Oil Pathway, 2013.
+[8] M. Rahman, A. Parvej, M. Aziz, "Concentrating technologies with reactor integration and effect of process variables on solar assisted pyrolysis: A critical review", Thermal Science and Engineering Progress, Volume 25, 2021, https://doi.org/10.1016/j.tsep.2021.100957.
+[9] H. Weldekidan, V. Strezov, G. Town, "Review of solar energy for biofuel extraction", Renewable and Sustainable Energy Reviews, Volume 88, 2018, Pages 184-192, https://doi.org/10.1016/j.rser.2018.02.027.
+[10] PYSOLO – Concentrated solar power for biomass pyrolysis. https://pysolo.eu/ (29/8/24).
+[11] M.A. Amjed, F. Sobic, M.C. Romano, T. Faravelli, M. Binotti, "Techno-economic analysis of a solar-driven biomass pyrolysis plant for bio-oil and biochar production", 2024, Sustainable Energy & Fuels, The Royal Society of Chemistry, http://dx.doi.org/10.1039/D4SE00450G.
+[12] Aspentech, https://www.aspentech.com/en/products/engineering/aspen-plus, accessed 29/08/24.
+[13] A. Gallo et al., "Considerations for using a rotary kiln for high temperature industrial processes with and without thermal storage", International Solar Energy Society conference proceedings, 2016.
+[14] E. Alonso, A. Gallo, M.I. Roldán, C.A. Pérez-Rábago, E. Fuentealba, "Use of rotary kilns for solar thermal applications: Review of developed studies and analysis of their potential", Solar Energy, Volume 144, 2017, Pages 90-104, https://doi.org/10.1016/j.solener.2017.01.004.
+[15] B. Bisulandu, F. Huchet, "Rotary kiln process: An overview of physical mechanisms, models and applications", Applied Thermal Engineering, Volume 221, 2023, https://doi.org/10.1016/j.applthermaleng.2022.119637.
+[16] C. R. Jones, A. Corona, C. Amador & P. J. Fryer (2021): Dynamics of fabric and dryer sheet motion in domestic clothes dryers, Drying Technology, DOI: 10.1080/07373937.2021.1918706.
+[17] A. Boateng, "Rotary Kilns – Transport Phenomena and Transport Process", 2008, ISBN: 978-0-7506-7877-3.
+[18] C.C. Lee, S. Lin (Eds.), Handbook of Environmental Engineering Calculations, McGraw-Hill, New York, 2000.
+[19] M. J. Wagner and T. Wendelin, "SolarPILOT: A power tower solar field layout and characterization tool," Sol. Energy, vol. 171, 2018, doi: 10.1016/j.solener.2018.06.063.
+[20] T. Wendelin, A. Dobos, A. Lewandowski, "SolTrace: A Ray-Tracing Code for Complex Solar Optical Systems", 2013, NREL Technical Report.
+[21] C. Frantz, R. Buck, and L. Amsbeck, "Design and Cost Study of Improved Scaled-Up Centrifugal Particle Receiver Based on Simulation," J. Energy Resour. Technol. Trans. ASME, vol. 144, no. 9, 2022, doi: 10.1115/1.4053784.
+[22] R. Buck and S. Giuliano, "Impact of CSP design parameters on sCO2-based solar tower plants," 2nd Eur. Supercrit. CO2 Conf., 2018.
+[23] R. Buck, S. Giuliano, "Solar tower system temperature range optimization for reduced LCOE", AIP Conf. Proc. 2126, 030010 (2019), https://doi.org/10.1063/1.5117522.
+[24] Reiner Buck, Jeremy Sment, "Techno-economic analysis of multi-tower solar particle power plants", Solar Energy, Volume 254, 2023, Pages 112-122, https://doi.org/10.1016/j.solener.2023.02.045.
+[25] EIA, Monthly Densified Biomass Fuel Report, accessed: 8/9/24, https://www.eia.gov/biofuels/biomass/#table_data.
+[26] Q. Kang et al., Particles in a circulation loop for solar energy capture and storage, 2019 Particuology, https://doi.org/10.1016/j.partic.2018.01.009.
+[27] L. F. González-Portillo, K. Albrecht, and C. K. Ho, "Techno-economic optimization of CSP plants with free-falling particle receivers," Entropy, vol. 23, no. 1, 2021, doi: 10.3390/e23010076.
+[28] G. Moumin, S. Tescari, C. Sattler, "Impact of bed motion on the wall-to-bed heat transfer for powders in a rotary kiln and effect of built-ins", International Journal of Heat and Mass Transfer, Volume 177, 2021, https://doi.org/10.1016/j.ijheatmasstransfer.2021.121473.

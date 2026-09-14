@@ -1,0 +1,21 @@
+id: specialty-chem
+name: Specialty chemicals
+type: product
+category: cat-material-p
+product_function: chemical
+carbon_fate: durable
+description: Specialty chemicals from biomass encompass a range of high-value compounds — including itaconic acid, succinic acid, lactic acid derivatives, aromatic chemicals from lignin, and biochemicals from amino acid fermentation. These products command significantly higher prices per tonne than biofuels, making them economically attractive at smaller scales. The term covers bio-based chemicals that are not commodity chemicals or fuels — the 'high value' in the biorefinery value pyramid.
+aliases:
+  - biochemicals
+  - bio-based chemicals
+  - platform chemicals
+  - fine chemicals
+fossil_analog: Petrochemical feedstocks and chemical derivatives
+end_use_sector:
+  - pharmaceuticals
+  - cosmetics
+  - food additives
+  - industrial chemicals
+  - polymer precursors
+external_refs:
+  - https://en.wikipedia.org/wiki/Fine_chemicals

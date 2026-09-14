@@ -1,0 +1,27 @@
+id: wood-chips
+name: Forestry residue
+type: feedstock
+category: cat-ligno
+origin_class: forestry-residue
+composition_class: lignocellulosic
+moisture_class: intermediate
+description: Forestry residues are the woody biomass left after logging operations and at sawmills — branches, treetops, bark, and offcuts. With cellulose 40–50%, hemicellulose 20–30%, and lignin 20–30%, they are a high-quality lignocellulosic feedstock. Relatively high lignin content and varied species composition require robust pretreatment for biochemical routes. Harvesting must be balanced against maintaining forest soil organic matter and deadwood habitat for biodiversity.
+aliases:
+  - logging residue
+  - forest residue
+  - wood residue
+  - slash
+  - wood chips
+typical_sources:
+  - logging operations
+  - sawmills
+  - urban tree maintenance
+  - forest thinning
+current_disposal:
+  - left on forest floor
+  - burned in-field
+  - chipped for biomass energy
+sustainability_considerations: Removing residues reduces habitat for saproxylic species and can deplete soil nutrients; sustainable extraction limits apply.
+external_refs:
+  - https://en.wikipedia.org/wiki/Logging_residue
+  - https://www.ieabioenergy.com/

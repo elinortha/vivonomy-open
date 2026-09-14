@@ -1,0 +1,45 @@
+id: transester
+name: Transesterification
+type: upgrading
+category: cat-ester
+process_family: chemical
+description: Transesterification reacts triglycerides (vegetable or algal oil) with methanol in the presence of a base catalyst (NaOH or KOH) at 55–65°C to produce fatty acid methyl esters (FAME) — biodiesel — and glycerol as a co-product. It is the most commercially mature biodiesel production process, with thousands of plants worldwide. FAME biodiesel can be blended with petroleum diesel up to B20 without engine modifications, or used at higher concentrations in adapted vehicles.
+aliases:
+  - biodiesel production
+  - FAME production
+  - base-catalyzed transesterification
+mechanism_brief: Triglycerides react with methanol at a ~6:1 molar ratio in the presence of NaOH or KOH catalyst at 55–65°C; each ester bond in the triglyceride is transesterified with a methanol molecule, releasing glycerol and producing three fatty acid methyl ester (FAME) molecules.
+typical_outputs:
+  - biodiesel
+TRL:
+  - value: 9
+    unit: trl
+    value_original: "9"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_39a4058c
+expertise_required:
+  - value: moderate
+    unit: null
+    value_original: moderate
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_83863e11
+external_refs:
+  - https://en.wikipedia.org/wiki/Transesterification

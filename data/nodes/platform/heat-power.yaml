@@ -1,0 +1,17 @@
+id: heat-power
+name: Process heat & power
+type: platform
+category: cat-gas
+description: "Process heat and power is the thermal energy platform generated within a biorefinery — the steam, hot gases, and electricity used to drive other unit operations. In a combustion- or gasification-based biorefinery, excess heat beyond internal demand can be exported to adjacent facilities or used to generate electricity via a steam turbine. This platform is distinct from the exported energy products: here, the energy is being used inside the conversion process."
+aliases:
+  - CHP output
+  - process steam
+  - internal energy
+phase: gas
+chemical_class: thermal_energy_carrier
+key_components:
+  - steam
+  - hot flue gas
+  - direct heat
+external_refs:
+  - https://en.wikipedia.org/wiki/Cogeneration

@@ -1,0 +1,18 @@
+id: biodiesel
+name: Biodiesel (FAME)
+type: product
+category: cat-energy-p
+product_function: liquid-fuel
+carbon_fate: short-cycle
+description: Biodiesel (fatty acid methyl ester, FAME) is produced by transesterification of vegetable oils or animal fats with methanol. It is the most commercially mature biofuel globally, with established standards (EN 14214 in Europe, ASTM D6751 in the US) and widespread blending infrastructure. FAME biodiesel has slightly lower energy density than petroleum diesel and can cause issues at high blend ratios in cold climates, but blends up to B20 are supported by most engine manufacturers.
+aliases:
+  - FAME biodiesel
+  - fatty acid methyl ester
+  - B100
+fossil_analog: Petroleum diesel
+end_use_sector:
+  - road transport
+  - marine
+  - heating oil
+external_refs:
+  - https://en.wikipedia.org/wiki/Biodiesel

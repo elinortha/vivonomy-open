@@ -1,0 +1,7 @@
+id: transester__biodiesel
+source_node: transester
+target_node: biodiesel
+co_products: []
+references: []
+external_links: []
+notes: null

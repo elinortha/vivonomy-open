@@ -1,0 +1,7 @@
+id: gasification__syngas
+source_node: gasification
+target_node: syngas
+co_products: []
+references: []
+external_links: []
+notes: null

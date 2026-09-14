@@ -1,0 +1,46 @@
+id: pt-chipping
+name: Chipping & screening
+type: pretreatment
+category: cat-pt-mech
+process_family: physical
+description: Chipping converts coarse woody biomass — logs, branches, and forest residues — into uniform chip sizes (typically 25–50 mm) required by gasifiers, combustors, and some chemical pretreatment reactors. Screening removes fines and oversized material to ensure consistent geometry. This is routine forestry and wood-processing infrastructure with a very high technology readiness level.
+aliases:
+  - wood chipping
+  - disc chipping
+  - drum chipping
+mechanism_brief: Rotating disc or drum chippers reduce woody biomass to standardized chip sizes; vibrating screens separate fines and oversized pieces to ensure uniform feedstock quality.
+environmental_impacts:
+  - noise
+  - wood dust
+TRL:
+  - value: 9
+    unit: trl
+    value_original: "9"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_1069c654
+expertise_required:
+  - value: basic
+    unit: null
+    value_original: basic
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_eec560ff
+external_refs:
+  - https://en.wikipedia.org/wiki/Wood_chipper

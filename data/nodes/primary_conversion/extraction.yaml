@@ -1,0 +1,46 @@
+id: extraction
+name: Mechanical separation & extraction
+type: primary_conversion
+category: cat-physical
+process_family: physical
+description: Mechanical separation and extraction physically isolates oil and lipid fractions from biomass using pressing, centrifugation, or solvent extraction. For oilseed crops and used cooking oil, this is a mature, widely deployed industrial process. For algae and wet food waste, the process is more energy-intensive due to dewatering and cell disruption requirements. The resulting vegetable or algal oil platform routes to biodiesel or renewable diesel production.
+aliases:
+  - oil extraction
+  - cold pressing
+  - solvent extraction
+  - lipid extraction
+mechanism_brief: Mechanical presses (cold press or expeller) apply pressure to oilseed or lipid-rich biomass to squeeze out oil; solvent extraction (hexane) achieves higher yields from press cake and algae; centrifugation separates liquid oil from water emulsions.
+typical_outputs:
+  - veg-oil
+TRL:
+  - value: 9
+    unit: trl
+    value_original: "9"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_8078683c
+expertise_required:
+  - value: basic
+    unit: null
+    value_original: basic
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_994cd857
+external_refs:
+  - https://en.wikipedia.org/wiki/Oil_extraction

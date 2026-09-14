@@ -1,0 +1,7 @@
+id: heat-power__heat
+source_node: heat-power
+target_node: heat
+co_products: []
+references: []
+external_links: []
+notes: null

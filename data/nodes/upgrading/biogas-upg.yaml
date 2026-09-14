@@ -1,0 +1,46 @@
+id: biogas-upg
+name: Biogas upgrading
+type: upgrading
+category: cat-gasupg
+process_family: physical
+description: "Biogas upgrading removes CO₂ and trace contaminants from raw biogas to produce biomethane — a gas compositionally equivalent to natural gas (>96% CH₄). Multiple proven technologies are available: pressure swing adsorption (PSA), water scrubbing, membrane separation, and chemical absorption with amines. Biomethane can be injected directly into existing natural gas grid infrastructure, enabling large-scale renewable gas distribution without requiring new end-use infrastructure."
+aliases:
+  - biomethane production
+  - biogas purification
+  - PSA upgrading
+  - membrane upgrading
+mechanism_brief: CO₂ is selectively removed from raw biogas (55–70% CH₄) using pressure swing adsorption (PSA), water scrubbing, membrane separation, or amine absorption, yielding >96% CH₄ biomethane meeting grid injection standards.
+typical_outputs:
+  - biomethane
+TRL:
+  - value: 9
+    unit: trl
+    value_original: "9"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_82934f28
+expertise_required:
+  - value: moderate
+    unit: null
+    value_original: moderate
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_2c070deb
+external_refs:
+  - https://en.wikipedia.org/wiki/Biogas#Upgrading

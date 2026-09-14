@@ -1,0 +1,1025 @@
+{
+  "compose_spec_version": "cmp_760a009c10eea0b8",
+  "conversion_registry_version": "conv_013664756403fb7f",
+  "config_version": "cfg_fd9ae647bef08851",
+  "registry_version": "reg_4b8413f4a6e63d2f",
+  "profile": "default",
+  "tally": {
+    "curated": {
+      "ABSENT": 2,
+      "OK": 1
+    },
+    "provisional": {
+      "ABSENT": 2,
+      "OK": 1
+    }
+  },
+  "objective_tally": {
+    "curated": {
+      "yield": {
+        "ABSENT": 1,
+        "OK": 2
+      },
+      "maturity": {
+        "OK": 2,
+        "ABSENT": 1
+      }
+    },
+    "provisional": {
+      "yield": {
+        "ABSENT": 2,
+        "OK": 1
+      },
+      "maturity": {
+        "OK": 2,
+        "ABSENT": 1
+      }
+    }
+  },
+  "results": [
+    {
+      "pathway_id": "fermentation_upgrade",
+      "title": "Sugars → fermentation → ethanol",
+      "curated": {
+        "pathway_id": "fermentation_upgrade",
+        "title": "Sugars → fermentation → ethanol",
+        "frame": {},
+        "basis": {
+          "functional_unit": "1 kg ethanol"
+        },
+        "trust_profile": "curated",
+        "status": "ABSENT",
+        "chain_ok": true,
+        "objectives": {
+          "yield": {
+            "objective": "yield",
+            "status": "ABSENT",
+            "central": {
+              "__missing": true,
+              "reason": "composed_central_absent",
+              "detail": {
+                "logged": true,
+                "blocking": [
+                  {
+                    "step": "ferm-upg",
+                    "parameter": "chemical_efficiency",
+                    "needed": "a verified value for the evaluation frame"
+                  }
+                ]
+              }
+            },
+            "envelope": null,
+            "width_attribution": [],
+            "grade": null,
+            "step_status_profile": {
+              "ABSENT": 1
+            },
+            "basis": {
+              "functional_unit": "1 kg ethanol"
+            },
+            "frame": {},
+            "blocking": [
+              {
+                "step": "ferm-upg",
+                "parameter": "chemical_efficiency",
+                "needed": "a verified value for the evaluation frame"
+              }
+            ],
+            "derivation": {
+              "op": "multiplicative_product",
+              "corner_map": {
+                "lo": "all_lo",
+                "hi": "all_hi",
+                "monotone": "increasing_in_each_y"
+              },
+              "n_steps": 1,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "narrative": "yield: ABSENT — blocked on chemical_efficiency @ ferm-upg"
+          },
+          "maturity": {
+            "objective": "maturity",
+            "status": "OK",
+            "basis": {
+              "functional_unit": "1 kg ethanol"
+            },
+            "frame": {},
+            "step_status_profile": {
+              "SINGLE_SOURCE": 1
+            },
+            "derivation": {
+              "op": "ordinal_weakest_link_min",
+              "corner_map": {
+                "lo": "min_lo",
+                "hi": "min_hi",
+                "monotone": "lattice_min"
+              },
+              "n_steps": 1,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "central": 9,
+            "envelope": {
+              "low": 9,
+              "high": 9
+            },
+            "binding": {
+              "set": [
+                "ferm-upg"
+              ],
+              "latent_binders": []
+            },
+            "width_attribution": [
+              {
+                "step": "ferm-upg",
+                "share": null,
+                "binding": true
+              }
+            ],
+            "grade": {
+              "letter": "D",
+              "profile": {
+                "binding": [
+                  {
+                    "step": "ferm-upg",
+                    "grade": "D"
+                  }
+                ]
+              }
+            },
+            "narrative": "maturity: 9 in [9, 9] (grade D)"
+          }
+        },
+        "viability": {
+          "yield": {
+            "verdict": "UNEVALUABLE",
+            "blocking": [
+              {
+                "step": "ferm-upg",
+                "parameter": "chemical_efficiency",
+                "needed": "a verified value for the evaluation frame"
+              }
+            ]
+          },
+          "maturity": {
+            "verdict": "VIABLE",
+            "threshold": 6,
+            "margins": {
+              "lo_minus_t": 3,
+              "hi_minus_t": 3
+            },
+            "central_side": "at_or_above"
+          }
+        },
+        "stratum": "blocked"
+      },
+      "provisional": {
+        "pathway_id": "fermentation_upgrade",
+        "title": "Sugars → fermentation → ethanol",
+        "frame": {},
+        "basis": {
+          "functional_unit": "1 kg ethanol"
+        },
+        "trust_profile": "provisional",
+        "status": "ABSENT",
+        "chain_ok": true,
+        "objectives": {
+          "yield": {
+            "objective": "yield",
+            "status": "ABSENT",
+            "central": {
+              "__missing": true,
+              "reason": "composed_central_absent",
+              "detail": {
+                "logged": true,
+                "blocking": [
+                  {
+                    "step": "ferm-upg",
+                    "parameter": "chemical_efficiency",
+                    "needed": "a verified value for the evaluation frame"
+                  }
+                ]
+              }
+            },
+            "envelope": null,
+            "width_attribution": [],
+            "grade": null,
+            "step_status_profile": {
+              "ABSENT": 1
+            },
+            "basis": {
+              "functional_unit": "1 kg ethanol"
+            },
+            "frame": {},
+            "blocking": [
+              {
+                "step": "ferm-upg",
+                "parameter": "chemical_efficiency",
+                "needed": "a verified value for the evaluation frame"
+              }
+            ],
+            "derivation": {
+              "op": "multiplicative_product",
+              "corner_map": {
+                "lo": "all_lo",
+                "hi": "all_hi",
+                "monotone": "increasing_in_each_y"
+              },
+              "n_steps": 1,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "narrative": "yield: ABSENT — blocked on chemical_efficiency @ ferm-upg"
+          },
+          "maturity": {
+            "objective": "maturity",
+            "status": "OK",
+            "basis": {
+              "functional_unit": "1 kg ethanol"
+            },
+            "frame": {},
+            "step_status_profile": {
+              "SINGLE_SOURCE": 1
+            },
+            "derivation": {
+              "op": "ordinal_weakest_link_min",
+              "corner_map": {
+                "lo": "min_lo",
+                "hi": "min_hi",
+                "monotone": "lattice_min"
+              },
+              "n_steps": 1,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "central": 9,
+            "envelope": {
+              "low": 9,
+              "high": 9
+            },
+            "binding": {
+              "set": [
+                "ferm-upg"
+              ],
+              "latent_binders": []
+            },
+            "width_attribution": [
+              {
+                "step": "ferm-upg",
+                "share": null,
+                "binding": true
+              }
+            ],
+            "grade": {
+              "letter": "D",
+              "profile": {
+                "binding": [
+                  {
+                    "step": "ferm-upg",
+                    "grade": "D"
+                  }
+                ]
+              }
+            },
+            "narrative": "maturity: 9 in [9, 9] (grade D)"
+          }
+        },
+        "viability": {
+          "yield": {
+            "verdict": "UNEVALUABLE",
+            "blocking": [
+              {
+                "step": "ferm-upg",
+                "parameter": "chemical_efficiency",
+                "needed": "a verified value for the evaluation frame"
+              }
+            ]
+          },
+          "maturity": {
+            "verdict": "VIABLE",
+            "threshold": 6,
+            "margins": {
+              "lo_minus_t": 3,
+              "hi_minus_t": 3
+            },
+            "central_side": "at_or_above"
+          }
+        },
+        "stratum": "blocked"
+      }
+    },
+    {
+      "pathway_id": "manure_ad_biogas",
+      "title": "Manure → anaerobic digestion → biogas",
+      "curated": {
+        "pathway_id": "manure_ad_biogas",
+        "title": "Manure → anaerobic digestion → biogas",
+        "frame": {},
+        "basis": {
+          "functional_unit": "1 kg biogas"
+        },
+        "trust_profile": "curated",
+        "status": "OK",
+        "chain_ok": true,
+        "objectives": {
+          "yield": {
+            "objective": "yield",
+            "status": "OK",
+            "central": 0.462,
+            "envelope": {
+              "low": 0.462,
+              "high": 0.462
+            },
+            "scenarios": {
+              "pessimistic": {
+                "value": 0.462,
+                "assignments": [
+                  {
+                    "step": "ad",
+                    "pick": "lo",
+                    "value": 0.462
+                  }
+                ]
+              },
+              "central": {
+                "value": 0.462,
+                "assignments": [
+                  {
+                    "step": "ad",
+                    "pick": "headline",
+                    "value": 0.462
+                  }
+                ]
+              },
+              "optimistic": {
+                "value": 0.462,
+                "assignments": [
+                  {
+                    "step": "ad",
+                    "pick": "hi",
+                    "value": 0.462
+                  }
+                ]
+              }
+            },
+            "corner_cost": {
+              "low": 0,
+              "high": 0
+            },
+            "width_attribution": [
+              {
+                "step": "ad",
+                "share": 0
+              }
+            ],
+            "grade": {
+              "letter": "C",
+              "profile": {
+                "counts": {
+                  "A": 0,
+                  "B": 0,
+                  "C": 1,
+                  "D": 0
+                },
+                "worst": [
+                  {
+                    "step": "ad",
+                    "grade": "C",
+                    "width_share": 0
+                  }
+                ]
+              }
+            },
+            "step_status_profile": {
+              "OK": 1
+            },
+            "basis": {
+              "functional_unit": "1 kg biogas"
+            },
+            "frame": {},
+            "derivation": {
+              "op": "multiplicative_product",
+              "corner_map": {
+                "lo": "all_lo",
+                "hi": "all_hi",
+                "monotone": "increasing_in_each_y"
+              },
+              "n_steps": 1,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "narrative": "yield: 0.462 in [0.462, 0.462] (grade C)"
+          },
+          "maturity": {
+            "objective": "maturity",
+            "status": "OK",
+            "basis": {
+              "functional_unit": "1 kg biogas"
+            },
+            "frame": {},
+            "step_status_profile": {
+              "SINGLE_SOURCE": 1
+            },
+            "derivation": {
+              "op": "ordinal_weakest_link_min",
+              "corner_map": {
+                "lo": "min_lo",
+                "hi": "min_hi",
+                "monotone": "lattice_min"
+              },
+              "n_steps": 1,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "central": 9,
+            "envelope": {
+              "low": 9,
+              "high": 9
+            },
+            "binding": {
+              "set": [
+                "ad"
+              ],
+              "latent_binders": []
+            },
+            "width_attribution": [
+              {
+                "step": "ad",
+                "share": null,
+                "binding": true
+              }
+            ],
+            "grade": {
+              "letter": "D",
+              "profile": {
+                "binding": [
+                  {
+                    "step": "ad",
+                    "grade": "D"
+                  }
+                ]
+              }
+            },
+            "narrative": "maturity: 9 in [9, 9] (grade D)"
+          }
+        },
+        "viability": {
+          "yield": {
+            "verdict": "NOT_VIABLE",
+            "threshold": 0.5,
+            "margins": {
+              "lo_minus_t": -0.03799999999999998,
+              "hi_minus_t": -0.03799999999999998
+            },
+            "central_side": "below"
+          },
+          "maturity": {
+            "verdict": "VIABLE",
+            "threshold": 6,
+            "margins": {
+              "lo_minus_t": 3,
+              "hi_minus_t": 3
+            },
+            "central_side": "at_or_above"
+          }
+        },
+        "stratum": "rankable"
+      },
+      "provisional": {
+        "pathway_id": "manure_ad_biogas",
+        "title": "Manure → anaerobic digestion → biogas",
+        "frame": {},
+        "basis": {
+          "functional_unit": "1 kg biogas"
+        },
+        "trust_profile": "provisional",
+        "status": "OK",
+        "chain_ok": true,
+        "objectives": {
+          "yield": {
+            "objective": "yield",
+            "status": "OK",
+            "central": 0.625,
+            "envelope": {
+              "low": 0.462,
+              "high": 0.85
+            },
+            "scenarios": {
+              "pessimistic": {
+                "value": 0.462,
+                "assignments": [
+                  {
+                    "step": "ad",
+                    "pick": "lo",
+                    "value": 0.462
+                  }
+                ]
+              },
+              "central": {
+                "value": 0.625,
+                "assignments": [
+                  {
+                    "step": "ad",
+                    "pick": "headline",
+                    "value": 0.625
+                  }
+                ]
+              },
+              "optimistic": {
+                "value": 0.85,
+                "assignments": [
+                  {
+                    "step": "ad",
+                    "pick": "hi",
+                    "value": 0.85
+                  }
+                ]
+              }
+            },
+            "corner_cost": {
+              "low": 1,
+              "high": 1
+            },
+            "width_attribution": [
+              {
+                "step": "ad",
+                "share": 1
+              }
+            ],
+            "grade": {
+              "letter": "B",
+              "profile": {
+                "counts": {
+                  "A": 0,
+                  "B": 1,
+                  "C": 0,
+                  "D": 0
+                },
+                "worst": [
+                  {
+                    "step": "ad",
+                    "grade": "B",
+                    "width_share": 1
+                  }
+                ]
+              }
+            },
+            "step_status_profile": {
+              "OK": 1
+            },
+            "basis": {
+              "functional_unit": "1 kg biogas"
+            },
+            "frame": {},
+            "derivation": {
+              "op": "multiplicative_product",
+              "corner_map": {
+                "lo": "all_lo",
+                "hi": "all_hi",
+                "monotone": "increasing_in_each_y"
+              },
+              "n_steps": 1,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "narrative": "yield: 0.625 in [0.462, 0.85] (grade B; widest step: ad (100%))"
+          },
+          "maturity": {
+            "objective": "maturity",
+            "status": "OK",
+            "basis": {
+              "functional_unit": "1 kg biogas"
+            },
+            "frame": {},
+            "step_status_profile": {
+              "SINGLE_SOURCE": 1
+            },
+            "derivation": {
+              "op": "ordinal_weakest_link_min",
+              "corner_map": {
+                "lo": "min_lo",
+                "hi": "min_hi",
+                "monotone": "lattice_min"
+              },
+              "n_steps": 1,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "central": 9,
+            "envelope": {
+              "low": 9,
+              "high": 9
+            },
+            "binding": {
+              "set": [
+                "ad"
+              ],
+              "latent_binders": []
+            },
+            "width_attribution": [
+              {
+                "step": "ad",
+                "share": null,
+                "binding": true
+              }
+            ],
+            "grade": {
+              "letter": "D",
+              "profile": {
+                "binding": [
+                  {
+                    "step": "ad",
+                    "grade": "D"
+                  }
+                ]
+              }
+            },
+            "narrative": "maturity: 9 in [9, 9] (grade D)"
+          }
+        },
+        "viability": {
+          "yield": {
+            "verdict": "UNDETERMINED",
+            "threshold": 0.5,
+            "margins": {
+              "lo_minus_t": -0.03799999999999998,
+              "hi_minus_t": 0.35
+            },
+            "central_side": "at_or_above",
+            "decisiveness": [
+              {
+                "step": "ad",
+                "settles": "VIABLE",
+                "new_envelope": {
+                  "low": 0.625,
+                  "high": 0.625
+                }
+              }
+            ]
+          },
+          "maturity": {
+            "verdict": "VIABLE",
+            "threshold": 6,
+            "margins": {
+              "lo_minus_t": 3,
+              "hi_minus_t": 3
+            },
+            "central_side": "at_or_above"
+          }
+        },
+        "stratum": "rankable"
+      }
+    },
+    {
+      "pathway_id": "syngas_ft_gasoline",
+      "title": "Syngas → catalytic synthesis → Fischer–Tropsch gasoline",
+      "curated": {
+        "pathway_id": "syngas_ft_gasoline",
+        "title": "Syngas → catalytic synthesis → Fischer–Tropsch gasoline",
+        "frame": {},
+        "basis": {
+          "functional_unit": "1 kg gasoline (illustrative)"
+        },
+        "trust_profile": "curated",
+        "status": "ABSENT",
+        "chain_ok": true,
+        "objectives": {
+          "yield": {
+            "objective": "yield",
+            "status": "OK",
+            "central": 0.72,
+            "envelope": {
+              "low": 0.72,
+              "high": 0.81
+            },
+            "scenarios": {
+              "pessimistic": {
+                "value": 0.72,
+                "assignments": [
+                  {
+                    "step": "cat-upg",
+                    "pick": "lo",
+                    "value": 0.9
+                  },
+                  {
+                    "step": "ft",
+                    "pick": "lo",
+                    "value": 0.8
+                  }
+                ]
+              },
+              "central": {
+                "value": 0.72,
+                "assignments": [
+                  {
+                    "step": "cat-upg",
+                    "pick": "headline",
+                    "value": 0.9
+                  },
+                  {
+                    "step": "ft",
+                    "pick": "headline",
+                    "value": 0.8
+                  }
+                ]
+              },
+              "optimistic": {
+                "value": 0.81,
+                "assignments": [
+                  {
+                    "step": "cat-upg",
+                    "pick": "hi",
+                    "value": 0.9
+                  },
+                  {
+                    "step": "ft",
+                    "pick": "hi",
+                    "value": 0.9
+                  }
+                ]
+              }
+            },
+            "corner_cost": {
+              "low": 1,
+              "high": 1
+            },
+            "width_attribution": [
+              {
+                "step": "ft",
+                "share": 1
+              },
+              {
+                "step": "cat-upg",
+                "share": 0
+              }
+            ],
+            "grade": {
+              "letter": "C",
+              "profile": {
+                "counts": {
+                  "A": 0,
+                  "B": 1,
+                  "C": 1,
+                  "D": 0
+                },
+                "worst": [
+                  {
+                    "step": "cat-upg",
+                    "grade": "C",
+                    "width_share": 0
+                  }
+                ]
+              }
+            },
+            "step_status_profile": {
+              "OK": 2
+            },
+            "basis": {
+              "functional_unit": "1 kg gasoline (illustrative)"
+            },
+            "frame": {},
+            "derivation": {
+              "op": "multiplicative_product",
+              "corner_map": {
+                "lo": "all_lo",
+                "hi": "all_hi",
+                "monotone": "increasing_in_each_y"
+              },
+              "n_steps": 2,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "narrative": "yield: 0.72 in [0.72, 0.81] (grade C; widest step: ft (100%))"
+          },
+          "maturity": {
+            "objective": "maturity",
+            "status": "ABSENT",
+            "basis": {
+              "functional_unit": "1 kg gasoline (illustrative)"
+            },
+            "frame": {},
+            "step_status_profile": {
+              "ABSENT": 1,
+              "SINGLE_SOURCE": 1
+            },
+            "blocking": [
+              {
+                "step": "cat-upg",
+                "parameter": "TRL",
+                "needed": "a verified value for the evaluation frame"
+              }
+            ],
+            "derivation": {
+              "op": "ordinal_weakest_link_min",
+              "corner_map": {
+                "lo": "min_lo",
+                "hi": "min_hi",
+                "monotone": "lattice_min"
+              },
+              "n_steps": 2,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "central": {
+              "__missing": true,
+              "reason": "composed_central_absent",
+              "detail": {
+                "logged": true,
+                "blocking": [
+                  {
+                    "step": "cat-upg",
+                    "parameter": "TRL",
+                    "needed": "a verified value for the evaluation frame"
+                  }
+                ]
+              }
+            },
+            "envelope": null,
+            "width_attribution": [],
+            "grade": null,
+            "narrative": "maturity: ABSENT — blocked on TRL @ cat-upg"
+          }
+        },
+        "viability": {
+          "yield": {
+            "verdict": "VIABLE",
+            "threshold": 0.5,
+            "margins": {
+              "lo_minus_t": 0.21999999999999997,
+              "hi_minus_t": 0.31000000000000005
+            },
+            "central_side": "at_or_above"
+          },
+          "maturity": {
+            "verdict": "UNEVALUABLE",
+            "blocking": [
+              {
+                "step": "cat-upg",
+                "parameter": "TRL",
+                "needed": "a verified value for the evaluation frame"
+              }
+            ]
+          }
+        },
+        "stratum": "blocked"
+      },
+      "provisional": {
+        "pathway_id": "syngas_ft_gasoline",
+        "title": "Syngas → catalytic synthesis → Fischer–Tropsch gasoline",
+        "frame": {},
+        "basis": {
+          "functional_unit": "1 kg gasoline (illustrative)"
+        },
+        "trust_profile": "provisional",
+        "status": "ABSENT",
+        "chain_ok": true,
+        "objectives": {
+          "yield": {
+            "objective": "yield",
+            "status": "ABSENT",
+            "central": {
+              "__missing": true,
+              "reason": "composed_central_absent",
+              "detail": {
+                "logged": true,
+                "blocking": [
+                  {
+                    "step": "cat-upg",
+                    "parameter": "chemical_efficiency",
+                    "needed": "a verified value for the evaluation frame"
+                  }
+                ]
+              }
+            },
+            "envelope": null,
+            "width_attribution": [],
+            "grade": null,
+            "step_status_profile": {
+              "ABSENT": 1,
+              "OK": 1
+            },
+            "basis": {
+              "functional_unit": "1 kg gasoline (illustrative)"
+            },
+            "frame": {},
+            "blocking": [
+              {
+                "step": "cat-upg",
+                "parameter": "chemical_efficiency",
+                "needed": "a verified value for the evaluation frame"
+              }
+            ],
+            "derivation": {
+              "op": "multiplicative_product",
+              "corner_map": {
+                "lo": "all_lo",
+                "hi": "all_hi",
+                "monotone": "increasing_in_each_y"
+              },
+              "n_steps": 2,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "narrative": "yield: ABSENT — blocked on chemical_efficiency @ cat-upg"
+          },
+          "maturity": {
+            "objective": "maturity",
+            "status": "ABSENT",
+            "basis": {
+              "functional_unit": "1 kg gasoline (illustrative)"
+            },
+            "frame": {},
+            "step_status_profile": {
+              "ABSENT": 1,
+              "SINGLE_SOURCE": 1
+            },
+            "blocking": [
+              {
+                "step": "cat-upg",
+                "parameter": "TRL",
+                "needed": "a verified value for the evaluation frame"
+              }
+            ],
+            "derivation": {
+              "op": "ordinal_weakest_link_min",
+              "corner_map": {
+                "lo": "min_lo",
+                "hi": "min_hi",
+                "monotone": "lattice_min"
+              },
+              "n_steps": 2,
+              "compose_spec_version": "cmp_760a009c10eea0b8",
+              "conversion_registry_version": "conv_013664756403fb7f",
+              "aggregation_config_version": "cfg_fd9ae647bef08851",
+              "parameter_registry_version": "reg_4b8413f4a6e63d2f"
+            },
+            "central": {
+              "__missing": true,
+              "reason": "composed_central_absent",
+              "detail": {
+                "logged": true,
+                "blocking": [
+                  {
+                    "step": "cat-upg",
+                    "parameter": "TRL",
+                    "needed": "a verified value for the evaluation frame"
+                  }
+                ]
+              }
+            },
+            "envelope": null,
+            "width_attribution": [],
+            "grade": null,
+            "narrative": "maturity: ABSENT — blocked on TRL @ cat-upg"
+          }
+        },
+        "viability": {
+          "yield": {
+            "verdict": "UNEVALUABLE",
+            "blocking": [
+              {
+                "step": "cat-upg",
+                "parameter": "chemical_efficiency",
+                "needed": "a verified value for the evaluation frame"
+              }
+            ]
+          },
+          "maturity": {
+            "verdict": "UNEVALUABLE",
+            "blocking": [
+              {
+                "step": "cat-upg",
+                "parameter": "TRL",
+                "needed": "a verified value for the evaluation frame"
+              }
+            ]
+          }
+        },
+        "stratum": "blocked"
+      }
+    }
+  ]
+}

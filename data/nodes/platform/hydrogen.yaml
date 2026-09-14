@@ -1,0 +1,15 @@
+id: hydrogen
+name: Hydrogen
+type: platform
+category: cat-gas
+description: Hydrogen is a pure gas intermediate produced from biomass via gasification followed by water-gas shift, or from biogas via steam methane reforming, or directly from anaerobic fermentation under modified conditions. As a platform, it routes to fuel cells for electricity generation or to chemical synthesis — notably ammonia. Biomass-derived hydrogen from waste or residual feedstocks qualifies as renewable, though production costs remain higher than fossil-derived hydrogen.
+aliases:
+  - H₂
+  - green hydrogen
+  - biomass-derived hydrogen
+phase: gas
+chemical_class: pure_gas
+key_components:
+  - H₂ (>99% after purification)
+external_refs:
+  - https://en.wikipedia.org/wiki/Hydrogen_production

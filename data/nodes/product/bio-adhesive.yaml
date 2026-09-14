@@ -1,0 +1,20 @@
+id: bio-adhesive
+name: Bio-adhesives
+type: product
+category: cat-material-p
+product_function: material
+carbon_fate: durable
+description: Bio-adhesives are adhesive products derived from lignin, tannins, proteins, or bio-based resins that substitute for formaldehyde-based and petrochemical adhesives. Lignin-based adhesives for wood composites are the most commercially advanced, driven by formaldehyde's indoor air quality concerns and the availability of lignin as a biorefinery residue. Protein-based adhesives from soy meal are well-established for specific wood-product applications.
+aliases:
+  - lignin adhesives
+  - bio-based resins
+  - tannin adhesives
+  - soy adhesives
+fossil_analog: Urea-formaldehyde, phenol-formaldehyde, and polyurethane adhesives
+end_use_sector:
+  - plywood and MDF production
+  - construction timber products
+  - packaging
+  - footwear
+external_refs:
+  - https://en.wikipedia.org/wiki/Adhesive#Bio-based_adhesives

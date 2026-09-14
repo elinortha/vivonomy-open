@@ -1,0 +1,48 @@
+id: cat-upg
+name: Catalytic upgrading
+type: upgrading
+category: cat-catalytic
+process_family: chemical
+description: Catalytic upgrading encompasses a range of heterogeneous catalytic processes — including zeolite cracking, catalytic depolymerization, and catalytic hydrodeoxygenation — that convert platform intermediates such as bio-oil, syngas, and lignin into higher-value chemicals and materials. These routes are at earlier stages of commercial development than fuel-focused upgrading but offer substantially higher product values when targeting aromatic chemicals, bioplastic monomers, or specialty compounds.
+aliases:
+  - catalytic cracking
+  - zeolite upgrading
+  - catalytic depolymerization
+mechanism_brief: Heterogeneous catalysts (zeolites, metal oxides, noble metal catalysts) crack, depolymerize, or selectively functionalize bio-oil oligomers or lignin fragments at 300–600°C to produce aromatic chemicals, monomers, or lighter functional compounds.
+typical_outputs:
+  - specialty-chem
+  - bioplastic
+  - carbon-fiber
+  - bio-adhesive
+TRL:
+  - value: 5
+    unit: trl
+    value_original: "5"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_0f184824
+expertise_required:
+  - value: specialist
+    unit: null
+    value_original: specialist
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_84b9ee16
+external_refs:
+  - https://en.wikipedia.org/wiki/Catalytic_cracking

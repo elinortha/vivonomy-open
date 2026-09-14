@@ -1,0 +1,22 @@
+id: wheat-straw
+name: Wheat straw
+type: feedstock
+category: cat-ligno
+origin_class: ag-residue
+composition_class: lignocellulosic
+moisture_class: dry
+description: Wheat straw is the dry stem and leaf residue from wheat harvesting, generated at roughly 1:1 mass ratio with grain yield. It is among the most abundant crop residues in Europe, Asia, and North America. Like other lignocellulosic feedstocks, it requires pretreatment before enzymatic hydrolysis because the lignin and hemicellulose matrix restricts enzyme access. Some straw is left on fields for soil conditioning, limiting collection rates to roughly 40–60%.
+aliases:
+  - cereal straw
+  - grain straw
+typical_sources:
+  - wheat farms
+  - grain elevators
+current_disposal:
+  - left on field
+  - incorporated into soil
+  - used as animal bedding
+sustainability_considerations: Straw removal affects soil carbon balance and erosion; competes with bedding and animal-feed uses.
+external_refs:
+  - https://en.wikipedia.org/wiki/Straw
+  - https://phyllis.nl/

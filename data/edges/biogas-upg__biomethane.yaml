@@ -1,0 +1,7 @@
+id: biogas-upg__biomethane
+source_node: biogas-upg
+target_node: biomethane
+co_products: []
+references: []
+external_links: []
+notes: null

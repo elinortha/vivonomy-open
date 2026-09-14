@@ -1,0 +1,7 @@
+id: stabilized-om__compost-prod
+source_node: stabilized-om
+target_node: compost-prod
+co_products: []
+references: []
+external_links: []
+notes: null

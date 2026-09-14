@@ -1,0 +1,47 @@
+id: pt-drying
+name: Drying & densification
+type: pretreatment
+category: cat-pt-thermal
+process_family: thermochemical
+description: Drying reduces biomass moisture content to below 15%, which is required for efficient combustion, pyrolysis, torrefaction, and gasification — all thermochemical routes where water reduces energy yield. Densification (pelletizing or briquetting) is often combined with drying to produce a standardized, high-energy-density feedstock suitable for long-distance transport and automated fuel handling.
+aliases:
+  - biomass drying
+  - pelletizing
+  - torrefied pellets
+  - densification
+mechanism_brief: Rotary drum dryers, belt dryers, or waste-heat dryers evaporate moisture; pellet presses then compact the dry material to 600–700 kg/m³ bulk density using heat and pressure without binders.
+environmental_impacts:
+  - VOC and particulate emissions from dryer exhaust
+  - energy consumption
+TRL:
+  - value: 9
+    unit: trl
+    value_original: "9"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_2acee830
+expertise_required:
+  - value: basic
+    unit: null
+    value_original: basic
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_e3cdb701
+external_refs:
+  - https://en.wikipedia.org/wiki/Wood_pellet

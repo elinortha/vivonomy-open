@@ -1,0 +1,23 @@
+id: sludge
+name: WWTP sludge
+type: feedstock
+category: cat-mixed
+origin_class: wastewater
+composition_class: mixed-wet
+moisture_class: wet
+description: Wastewater treatment plant (WWTP) sludge is the solid residue from municipal sewage treatment, rich in microbial biomass, undigested organic matter, and nutrients (especially nitrogen and phosphorus). Primary sludge is the settleable solids removed early in treatment; secondary (activated) sludge is the biological mass cultivated to break down dissolved organics. Anaerobic digestion of sludge is the most established bioconversion pathway, recovering biogas while producing stabilized digestate.
+aliases:
+  - sewage sludge
+  - biosolids
+  - municipal sludge
+typical_sources:
+  - municipal wastewater treatment plants
+  - industrial effluent treatment
+current_disposal:
+  - landfill
+  - land application as biosolids
+  - incineration
+  - anaerobic digestion
+sustainability_considerations: Sludge may contain micropollutants, heavy metals, and pathogens requiring treatment; regulatory limits on land application vary by country.
+external_refs:
+  - https://en.wikipedia.org/wiki/Sewage_sludge

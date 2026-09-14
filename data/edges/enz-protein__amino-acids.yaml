@@ -1,0 +1,7 @@
+id: enz-protein__amino-acids
+source_node: enz-protein
+target_node: amino-acids
+co_products: []
+references: []
+external_links: []
+notes: null

@@ -1,0 +1,18 @@
+id: stabilized-om
+name: Stabilized organic matter
+type: platform
+category: cat-solid
+description: Stabilized organic matter is the mature, biologically stable product of aerobic composting — a dark, earthy material rich in humic substances that forms the basis of compost. Unlike fresh organic waste, it resists further microbial decomposition, making it safe and beneficial to apply to soils. It improves soil structure, water retention, and biological activity while serving as a slow-release nutrient source.
+aliases:
+  - compost intermediate
+  - mature compost
+  - humified organic matter
+phase: solid
+chemical_class: humus_like_organic_matter
+key_components:
+  - humic acids
+  - fulvic acids
+  - microbial biomass carbon
+  - mineral-bound organics
+external_refs:
+  - https://en.wikipedia.org/wiki/Compost

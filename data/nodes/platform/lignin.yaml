@@ -1,0 +1,18 @@
+id: lignin
+name: Lignin
+type: platform
+category: cat-solid
+description: Lignin is the complex aromatic polymer that binds cellulose and hemicellulose in the plant cell wall, comprising 15–35% of lignocellulosic biomass. In enzymatic hydrolysis processes, it remains as a solid residue after sugars are extracted. While most current commercial processes burn lignin for internal heat and power, it is an underexplored platform for aromatic chemicals, carbon fiber precursors, and bio-adhesives — applications that could dramatically improve biorefinery economics as valorization pathways mature.
+aliases:
+  - technical lignin
+  - Kraft lignin
+  - lignocellulosic lignin
+phase: solid
+chemical_class: aromatic_polymer
+key_components:
+  - p-hydroxyphenyl (H) units
+  - guaiacyl (G) units
+  - syringyl (S) units
+  - ether and C–C linkages
+external_refs:
+  - https://en.wikipedia.org/wiki/Lignin

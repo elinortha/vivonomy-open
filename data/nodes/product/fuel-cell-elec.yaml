@@ -1,0 +1,19 @@
+id: fuel-cell-elec
+name: Fuel cell electricity
+type: product
+category: cat-energy-p
+product_function: energy
+carbon_fate: short-cycle
+description: Fuel cell electricity is produced by electrochemically oxidizing hydrogen in a fuel cell, converting chemical energy directly to electricity without combustion, at efficiencies of 45–60%. Polymer electrolyte membrane (PEM) fuel cells are most common for hydrogen; molten carbonate and solid oxide fuel cells can use biogas directly. Fuel cells are attractive for distributed power and transport applications where high efficiency and zero local emissions are valued.
+aliases:
+  - hydrogen power
+  - fuel cell power
+  - PEM fuel cell output
+fossil_analog: Natural gas power plants
+end_use_sector:
+  - distributed power generation
+  - transport (fuel cell vehicles)
+  - grid balancing
+  - backup power
+external_refs:
+  - https://en.wikipedia.org/wiki/Fuel_cell

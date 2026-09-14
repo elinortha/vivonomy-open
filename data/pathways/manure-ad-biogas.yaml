@@ -1,0 +1,20 @@
+# manure-ad-biogas.yaml — a real graph walk: manure → anaerobic digestion → biogas.
+# Demonstrates the §10.3 DISPLAY HAZARD live: the single anaerobic-digestion efficiency
+# claim is a single source with no interval, so it composes to a DEGENERATE, zero-width
+# envelope that LOOKS maximally precise while being maximally thin — grade D, all
+# SINGLE_SOURCE. The envelope is emitted only alongside the grade + step-status profile,
+# which is the whole consumer-safety guarantee.
+#   ad: SINGLE_SOURCE 46.2%  → 0.462 (degenerate [0.462, 0.462]); grade D
+# Maturity: ad TRL is ABSENT → the maturity objective is blocked with an unblock report.
+id: manure_ad_biogas
+title: "Manure → anaerobic digestion → biogas"
+basis: { functional_unit: "1 kg biogas" }
+default_frame: {}
+viability_thresholds: { yield: 0.5, maturity: 6 }
+steps:
+  - id: s1_anaerobic_digestion
+    entity_id: ad
+    note: "manure → anaerobic digestion"
+    objectives:
+      yield: { entity_id: ad, parameter: chemical_efficiency }
+      maturity: { entity_id: ad, parameter: TRL }

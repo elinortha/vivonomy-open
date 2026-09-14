@@ -1,0 +1,18 @@
+id: electricity
+name: Electricity
+type: product
+category: cat-energy-p
+product_function: energy
+carbon_fate: short-cycle
+description: Electricity generated from bioenergy conversion — via steam turbine (combustion or gasification), gas engine (biogas), or fuel cell (hydrogen) — can be fed to the electricity grid or used on-site. Bioenergy power is dispatchable unlike solar and wind, making it a valuable grid asset for balancing variable renewable generation. Efficiency ranges from 20–25% (small plants) to 40–45% for large combined-cycle configurations.
+aliases:
+  - bioelectricity
+  - bioenergy electricity
+  - renewable electricity
+fossil_analog: Coal and natural gas power plants
+end_use_sector:
+  - electricity grid
+  - industrial on-site power
+  - residential and commercial
+external_refs:
+  - https://en.wikipedia.org/wiki/Biomass_power_station

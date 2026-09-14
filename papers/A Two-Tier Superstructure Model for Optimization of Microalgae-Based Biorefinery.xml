@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "JATS-journalpublishing1-3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="1.3" xml:lang="en">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">energies</journal-id>
+      <journal-title-group>
+        <journal-title>Energies</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Energies</abbrev-journal-title>
+        <abbrev-journal-title abbrev-type="pubmed">Energies</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1996-1073</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/en15239166</article-id>
+      <article-id pub-id-type="publisher-id">energies-15-09166</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A Two-Tier Superstructure Model for Optimization of Microalgae-Based Biorefinery</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gu</surname>
+            <given-names>Siwen</given-names>
+          </name>
+          <xref rid="af1-energies-15-09166" ref-type="aff">1</xref>
+          <xref rid="af2-energies-15-09166" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Jiaan</given-names>
+          </name>
+          <xref rid="af1-energies-15-09166" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhuang</surname>
+            <given-names>Yu</given-names>
+          </name>
+          <xref rid="af2-energies-15-09166" ref-type="aff">2</xref>
+          <xref rid="c1-energies-15-09166" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Converti</surname>
+            <given-names>Attilio</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-energies-15-09166"><label>1</label>School of Photoelectric Engineering, Changzhou Institute of Technology, Changzhou 213032, China</aff>
+      <aff id="af2-energies-15-09166"><label>2</label>Frontiers Science Center for Smart Materials Oriented Chemical Engineering, Institute of Chemical Process Systems Engineering, School of Chemical Engineering, Dalian University of Technology, Dalian 116024, China</aff>
+      <author-notes>
+        <corresp id="c1-energies-15-09166"><label>*</label>Correspondence: <email>zhuangyu@dlut.edu.cn</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>02</day>
+        <month>12</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>12</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>15</volume>
+      <issue>23</issue>
+      <elocation-id>9166</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>11</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>01</day>
+          <month>12</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2022 by the authors.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <license license-type="open-access">
+          <license-p>Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Microalgae have attracted great research interest as a feedstock for producing a wide range of end-products. However, recent studies show that the tight processing integration technology for microalgae-based biorefinery makes production less economical and even has a negative impact on sustainability. In this study, a new two-tier superstructure optimization design methodology is proposed to locate the optimal processing pathway. This model is developed based on the decomposition strategy and the relationship-based investigation, coupling an outer-tier structure with an inner-tier structure, wherein the outlet flows of the middle stages is relaxed and then an appropriate level of redundancy for designing the processing is provided. Two scenarios are developed to compare the most promising biorefinery configurations under two different design option favors. By solving the mixed integer nonlinear programming model with the objective functions of maximizing the yield of the desired products and maximizing the gross operating margin, the optimization results obtained show the ability of this framework to provide the promising configurations and cost-effectiveness of microalgae-based biorefinery. Compared with Scenario 1, the optimized solutions in Scenario 2 feature a gross operating margin increase up to 27.09% and an increase in product yield up to 25.00%. The proposed method improves the original huge computing scale and ensures economics without simplifying the processing pathways.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>microalgae-based biorefinery</kwd>
+        <kwd>superstructure optimization</kwd>
+        <kwd>mixed integer nonlinear programming</kwd>
+        <kwd>circular economy</kwd>
+        <kwd>sustainability development</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>National Natural Science Foundational of China</funding-source>
+          <award-id>22178045</award-id>
+          <award-id>22008023</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Natural Science Research of Jiangsu Higher Education Institutions of China</funding-source>
+          <award-id>21KJD530002</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Changzhou Sci &amp;Tech Program of China</funding-source>
+          <award-id>CZ20220026</award-id>
+        </award-group>
+        <funding-statement>This research was funded by National Natural Science Foundational of China, grant number 22178045, 22008023, and the Natural Science Research of Jiangsu Higher Education Institutions of China 21KJD530002, and Changzhou Sci &amp;Tech Program of China CZ20220026.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-energies-15-09166" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>As a feedstock, microalgae have great potential to produce a wide range of products under the broad market penetration of biorefinery, including biofuels and a set of value-added chemicals. Such products contribute to environmental sustainability by producing less amounts of CO<sub>2</sub> than traditional fossil fuels [<xref ref-type="bibr" rid="B1-energies-15-09166">1</xref>]. However, microalgae-based biorefinery requires complex processing pathway compared with earlier generations of biorefinery [<xref ref-type="bibr" rid="B2-energies-15-09166">2</xref>], and its economic feasibility has not yet been evaluated fully [<xref ref-type="bibr" rid="B3-energies-15-09166">3</xref>]; therefore, it is crucial to develop a systematic methodological framework to determine the optimal biorefinery processing pathway.</p>
+      <p>In the recent literature, a number of methodologies have been proposed for the generation of promising biorefinery configurations. These methodologies range pure mathematical programming-based methods [<xref ref-type="bibr" rid="B4-energies-15-09166">4</xref>,<xref ref-type="bibr" rid="B5-energies-15-09166">5</xref>,<xref ref-type="bibr" rid="B6-energies-15-09166">6</xref>,<xref ref-type="bibr" rid="B7-energies-15-09166">7</xref>] to heuristic-based methods [<xref ref-type="bibr" rid="B8-energies-15-09166">8</xref>,<xref ref-type="bibr" rid="B9-energies-15-09166">9</xref>], where the superstructure-based mathematical programming model has been recognized as a useful tool to generate an optimal technology pathway for the production of bio-based products from biomass derived feedstock [<xref ref-type="bibr" rid="B10-energies-15-09166">10</xref>]. This optimization provides a detailed consideration of the equipment and each potential interconnection, such as various processing steps, feedstocks, and products [<xref ref-type="bibr" rid="B11-energies-15-09166">11</xref>]. Several studies have developed the superstructure-based mixed-integer nonlinear programming (MINLP) models to generate the optimal biorefinery configuration [<xref ref-type="bibr" rid="B12-energies-15-09166">12</xref>]. Martin and Grossman [<xref ref-type="bibr" rid="B13-energies-15-09166">13</xref>] proposed a conceptual design method for the production of biodiesel from cooking oil and algae oil by proposing a superstructure of alternative technologies for the transesterification of the oil. The production cost and energy consumption of algae oil was found to be 0.42 USD/gal and 1.94 MJ/gal, respectively. From the economic and environmental point of view, Gebreslassie et al. [<xref ref-type="bibr" rid="B14-energies-15-09166">14</xref>] proposed a multiobjective MINLP model for determining the optimal algae-based hydrocarbon biorefinery configuration. The proposed potential processing pathway included carbon capture, algae growth, harvesting, lipid extraction, anaerobic digestion, power generation, and algal oil biorefinery. In the following study, Gong and You [<xref ref-type="bibr" rid="B15-energies-15-09166">15</xref>] proposed a new superstructure model to design the optimal algal biorefinery configuration. The proposed potential processing pathway included biological carbon sequestration and utilization, encompassing off-gas purification, algae cultivation, harvesting and dewatering, lipid extraction, remnant treatment, biogas utilization, and algal oil upgrading stages. Galanopoulos et al. [<xref ref-type="bibr" rid="B16-energies-15-09166">16</xref>] proposed a superstructure-based MINLP model with the objective of minimizing the total biodiesel production costs for the techno-economic optimization of an integrated algae biorefinery. Their work was developed and implemented in the advanced interactive multidimensional modeling (AIMMS) software. Taking the preliminary and uncertain nature of technologies into consideration, Rizwan et al. [<xref ref-type="bibr" rid="B17-energies-15-09166">17</xref>] proposed an optimal design method for determining the most promising biorefinery configuration. They represented that such an issue was one of the major biorefinery challenges, and it should be addressed systematically. Haghpanah et al. [<xref ref-type="bibr" rid="B18-energies-15-09166">18</xref>] proposed a superstructure to develop the MINLP model to minimize the total annualized cost (TAC) and environmental impacts simultaneously. The multiobjective optimization model was reduced into a single objective model using the augmented &#x3B5;-constraint method. Considering lipid extraction and pyrolysis of defatted microalgae residues, Huang et al. [<xref ref-type="bibr" rid="B19-energies-15-09166">19</xref>] proposed a method to determine the processing pathway for the biofuel from microalgae biomass. Moreover, the environment impact assessment on the resulted biorefinery processes is generally provided in the recent literature to confirm the sustainability for the proposed approach. Using life cycle assessment (LCA), Li et al. [<xref ref-type="bibr" rid="B20-energies-15-09166">20</xref>] proposed a new method of wastewater adjustment for enhancing microalgal biofuel production and then the environmental impacts of the whole process were measured. From their recent research [<xref ref-type="bibr" rid="B21-energies-15-09166">21</xref>], the utilization of microalgae to produce high-quality biodiesel was investigated and the LCA analysis was provided to evaluate the proposed method from an environmentally sustainable point of view.</p>
+      <p>From the above analysis it is concluded that a characteristic shared by most of these methodologies is the processing pathways/networks for producing biofuels and various platform chemicals from microalgae with an emphasis on the development of the systematic modeling framework using superstructure optimization. However, the main limitation for the abovementioned approaches is that a result of tight processing integration, which makes the production of microalgal biofuels, is not economically viable. Although these limited works have been improved using a heuristic-based approach, compared with mathematical programming the processing design for the most promising alternatives is being completed simultaneously with the fixed mass balance constraints. Moreover, most of the hierarchical decomposition-based works were mainly developed for the thermochemical conversion pathway rather than bio-chemical or biological conversion pathways [<xref ref-type="bibr" rid="B8-energies-15-09166">8</xref>]. Therefore, it is important to decompose the complex tasks of the superstructure-based optimization into the hierarchical sub-problems, and in the meantime the active correlation between these sub-problems is ensured to relax the variables in the middle stages and then an appropriate level of redundancy for designing the processing is provided.</p>
+      <p>To address the above-mentioned problem, we propose a two-tier superstructure optimization framework for the production of biodiesel from the lipid contents of microalgal biomass and the processing of microalgae residue into useful products. The key idea is to investigate the active correlation between two hierarchical sub-problems by relaxing the flow in the middle stages with a set of inequality constraints. Thus, this complex task is reduced to two small-scale optimization problems, in which the overall economics and yield of the biofuels production from microalgae are considered. In the outer-tier superstructure optimization problem, the cultivation of microalgae, the harvesting of microalgal biomass, and the conversion of the residue are involved, except feed and product steps, whose products are regarded as the intermediates. In the inner-tier, according to a set of inequality constraints with respect to the flow of intermediates, a large number of potential technological alternatives exist for producing a variety of end-products from intermediates and their residues. Finally, the optimization results obtained show the ability of this framework to provide the promising configurations and cost-effectiveness of microalgae-based biorefinery.</p>
+    </sec>
+    <sec id="sec2-energies-15-09166">
+      <title>2. Problem Statement</title>
+      <p>The problem addressed in this work is relevant for the optimal design of microalgae-based biorefinery. The problem can be summarized as follows.</p>
+      <p>&#x201C;Given a superstructure encompassing potential technological alternatives/options available at various processing stages, including the fraction of chemicals/solvents added with respect to incoming component, the stoichiometric coefficient of product in reaction, the fractional conversion of reactant for reaction, the yield coefficient of product with respect to the incoming flow of component, the sale price of product, the cost factors for raw material (feed) and chemicals/solvents, determine an optimal processing route for the simultaneous production of biodiesel from the lipid contents of microalgae and processing of microalgae residue into useful products, which maximizes the yield of the desired products and maximizes the gross operating margin&#x201D;.</p>
+      <p>The biochemical composition represents the fate of its application in bioenergy [<xref ref-type="bibr" rid="B18-energies-15-09166">18</xref>]. As a raw material, lipids of microalgal biomass are employed, while residual biomass rich in carbohydrates can be also used as a raw material for bioenergy or biofuels production [<xref ref-type="bibr" rid="B18-energies-15-09166">18</xref>]. Moreover, considering all the possible biomass, crude bio-oil can be directly obtained via different methods of thermochemical conversion [<xref ref-type="bibr" rid="B18-energies-15-09166">18</xref>]. <xref ref-type="fig" rid="energies-15-09166-f001">Figure 1</xref> denotes the general processing route for producing bioenergy from microalgal biomass. The proposed superstructure is developed on the following eight major processing steps/stages [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>], as shown in <xref ref-type="fig" rid="energies-15-09166-f002">Figure 2</xref>. More details, such as the physical descriptions of all the technological alternatives considered in this work, can be found in the work of Rizwan et al. [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>].</p>
+      <p>In the previous superstructure, a set of technological alternatives in each processing stage were set to perform the respective tasks [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>]. A total of 1440 possible combinations of processing pathways were involved, when one technology was determined in every processing stage. Much more possibility would be provided under the evolved technologies for biofuels production from microalgae. Therefore, it is necessary to decompose the previous superstructure into inner- and outer-tier superstructures, and in the meantime the active correlation between these two sub-problems is ensured.</p>
+    </sec>
+    <sec id="sec3-energies-15-09166" sec-type="methods">
+      <title>3. Methodology Framework</title>
+      <p>The proposed two-tier superstructure is built to divide the whole processing pathways into two small-scale configurations, with the simultaneous consideration of the biodiesel and microalgae residue made into a set of available products, as shown in <xref ref-type="fig" rid="energies-15-09166-f003">Figure 3</xref>. A processing stage consists of the boxes in a row and a box represents a technological alternative. The indexes <italic>j</italic> and <italic>dj</italic> denote stages in outer- and inner-tier superstructures, respectively. For example, four technological alternatives are involved in the pre-treatment stage of inner-tier superstructure, which consists of the whole set of drying, grinding, microwave, and ultra-sonication [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>]. The other option is represented by an empty box as the pre-treatment stage can be bypassed totally [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>].</p>
+      <p>This work begins with the growth of microalgae and then the microalgal biomass is concentrated at the second stage in the outer-tier superstructure. The inlet of this stage depends on the specific alternative selected at the last stage. The superstructure optimizations that appeared in these two stages are found to be the same as the work of Rizwan et al. [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>]. However, in this work, all the optimizations in pre-treatment stage, lipid extraction stage, transesterification stage, post-transesterification purification stage, and pre-treatment of microalgae residue stage are provided in the inner-tier superstructure. The outputs of harvesting stage are regarded as the intermediates which are constrained by the inlets of conversion of residue stage, when the yield of the desired products is fixed. Thus, the output flows in these middle stages are relaxed rather than that under the fixed mass balance, so that much more chemicals/solvents are added to ensure an increase in the product yield. This develops the active relationship between outer- and inner-tier superstructures and such a relationship-based investigation can generate useful insights regarding decomposing the complex tasks of the biorefinery superstructure optimization.</p>
+      <p>On the other hand, the location of the inner-tier strongly depends on the user defined constraints. These provide different possibilities to integrate the microalgal biodiesel production so as to assess the industrial implementation under the specific market potential. The superstructure decomposition or the location of the inner-tier is thus best suited as a useful tool for the future demand uncertainty assessment within the specific processing pathway of the microalgae-based biorefinery.</p>
+    </sec>
+    <sec id="sec4-energies-15-09166">
+      <title>4. Model Formulation</title>
+      <p>A two-tier superstructure is proposed to develop the optimization model for the production of biodiesel from microalgal biomass, including the processing of microalgae residue. Taking the outer-tier superstructure as an example, the common flow configuration in a stage and that for each technological alternative/option within this stage are presented in <xref ref-type="fig" rid="energies-15-09166-f004">Figure 4</xref>. The incoming streams to stage <italic>j</italic> for each component <italic>m</italic> consist of process stream and the added stream. It is noted that the case for the recycling of water from the harvesting stage to the cultivation stage is not discussed in this work. In the first stage, the raw materials are converted via <italic>k</italic> = 1, 2,&#x2026;, <italic>k<sub>1k</sub></italic> technological alternatives into at least one major bio-based product. For the second stage, the outputs of the first stage are provided as the inlets. The data necessary in order to evaluate the technological alternatives are presented as follows, and the detailed explanation regarding how indices are arranged can be found in Rizwan et al. [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>]. It is also assumed that the microalgal biomass consists of 31.5% lipids, 54.5% proteins, and 14% carbohydrates [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>].</p>
+      <p>
+        <list list-type="bullet">
+          <list-item>
+            <p><inline-formula><mml:math id="mm500"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the fraction of component <italic>m</italic> corresponding to the added flow of component <italic>l</italic> in technological alternative <italic>k</italic> of stage <italic>j</italic>;</p>
+          </list-item>
+          <list-item>
+            <p><inline-formula><mml:math id="mm1"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>r</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the stoichiometric ratio coefficient of product component <italic>m</italic> during reaction <italic>r</italic> in technological alternative <italic>k</italic> of stage <italic>j</italic>;</p>
+          </list-item>
+          <list-item>
+            <p><inline-formula><mml:math id="mm2"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mo>,</mml:mo><mml:mi>r</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the fractional conversion of reactant <italic>p</italic> during reaction <italic>r</italic> in technological alternative <italic>k</italic> of stage <italic>j</italic>;</p>
+          </list-item>
+          <list-item>
+            <p><inline-formula><mml:math id="mm3"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the yield coefficient of component <italic>m</italic> corresponding to the incoming flow of component <italic>l</italic> in technological alternative <italic>k</italic> of stage <italic>j</italic>;</p>
+          </list-item>
+          <list-item>
+            <p><inline-formula><mml:math id="mm4"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3B8;</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the waste fraction of component <italic>m</italic> in technological alternative <italic>k</italic> of stage <italic>j</italic>.</p>
+          </list-item>
+          <list-item>
+            <p><inline-formula><mml:math id="mm5"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>P</mml:mi><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> is the sale price of products <italic>m</italic>;</p>
+          </list-item>
+          <list-item>
+            <p><inline-formula><mml:math id="mm6"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>P</mml:mi><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> is the cost of raw material;</p>
+          </list-item>
+          <list-item>
+            <p><inline-formula><mml:math id="mm7"><mml:semantics><mml:mrow><mml:msubsup><mml:mi>P</mml:mi><mml:mi>m</mml:mi><mml:mn>3</mml:mn></mml:msubsup></mml:mrow></mml:semantics></mml:math></inline-formula> is the cost of chemicals/solvents.</p>
+          </list-item>
+        </list>
+      </p>
+      <p>Yield is the key performance metric of microalgae-based biorefinery configuration when the available industrial implementation is assessed [<xref ref-type="bibr" rid="B23-energies-15-09166">23</xref>]. The industrial potential of a bioenergy product is strongly dependent on the market potential which is simulated by the fixed yield in this study. The fixed yield of the final desired products is set in Scenario 1 to provide the active constraints for measuring the flow of the raw material with the objective of maximizing the gross operating margin. On the contrary, a MINLP model is developed in Scenario 2 to consider the yield of the desired products.</p>
+      <sec id="sec4dot1-energies-15-09166">
+        <title>4.1. Objective Function</title>
+        <p>Two different objective functions are developed in two scenarios for further optimization and discussion, which are the maximization of yield of potential products and the maximization of the gross operating margin. For the first objective function, the yield of biofuels is provided according to the output of the final stage, which is represented by:<disp-formula id="FD1-energies-15-09166"><label>(1)</label><mml:math display="block" id="mm8"><mml:semantics><mml:mrow><mml:msup><mml:mi>J</mml:mi><mml:mn>1</mml:mn></mml:msup><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mi>m</mml:mi></mml:munder><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>u</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm9"><mml:semantics><mml:mrow><mml:msub><mml:mi>&#x3C1;</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the density of component <italic>m</italic>.</p>
+        <p>For the second objective function, as presented in Equation (2), the gross operating margin is composed of two parts: the total sales and the operating costs. The sales for each product are obtained by the outputs of the final stage. It is noted that the products in this paper include biodiesel, glycerol, bio-oil, bio-ethanol, and biogas, whose index <italic>m</italic> covers over these five components. The operating cost consists of the costs of the raw material and the chemicals. Considering the given cost factors, the total sales and the costs of the raw material are regarded as constants in Scenario 1 and Scenario 2, respectively. 
+        <disp-formula id="FD2-energies-15-09166"><label>(2)</label><mml:math display="block" id="mm10"><mml:semantics><mml:mrow><mml:msup><mml:mi>J</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mi>m</mml:mi></mml:munder><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>P</mml:mi><mml:mi>m</mml:mi><mml:mn>1</mml:mn></mml:msubsup><mml:mo>&#x22C5;</mml:mo><mml:msub><mml:mi>u</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mstyle><mml:mo>&#x2212;</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mi>m</mml:mi></mml:munder><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>P</mml:mi><mml:mi>m</mml:mi><mml:mn>2</mml:mn></mml:msubsup><mml:mo>&#x22C5;</mml:mo><mml:msub><mml:mi>u</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mstyle><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msubsup><mml:mi>P</mml:mi><mml:mi>m</mml:mi><mml:mn>3</mml:mn></mml:msubsup><mml:mo>&#x22C5;</mml:mo><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mstyle></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Besides the above objective functions for the outer-tier superstructure, the similar objective functions are provided for inner-tier superstructure by stage <italic>dj</italic>.</p>
+      </sec>
+      <sec id="sec4dot2-energies-15-09166">
+        <title>4.2. Constraints</title>
+        <p>For every processing stage, the constraints concerning mass balances should be satisfied. Thus, this kind of constraints within technological alternative <italic>k</italic> of stage <italic>j</italic> is modeled first. More details can be found in Rizwan et al. [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>].
+        <disp-formula id="FD3-energies-15-09166"><label>(3)</label><mml:math display="block" id="mm11"><mml:semantics><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mi>k</mml:mi></mml:munder><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x22C5;</mml:mo><mml:msub><mml:mi>u</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm12"><mml:semantics><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the output flow of process stream in stage <italic>j</italic>. <inline-formula><mml:math id="mm13"><mml:semantics><mml:mrow><mml:msub><mml:mi>u</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the output flow of component <italic>m</italic> in process stream of technological option <italic>k</italic> in stage <italic>j</italic>. <inline-formula><mml:math id="mm14"><mml:semantics><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the binary variable to select the technological option <italic>k</italic> in stage <italic>j</italic> so as to decide the optimal processing pathways. Therefore, the logical constraints are provided to impose specific restrictions on the number of the selected technological alternative in different stages, according to auxiliary parament <inline-formula><mml:math id="mm15"><mml:semantics><mml:mi>&#x3B4;</mml:mi></mml:semantics></mml:math></inline-formula> for different scenarios, which are modeled by: <disp-formula id="FD4-energies-15-09166"><label>(4)</label><mml:math display="block" id="mm16"><mml:semantics><mml:mrow><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mi>k</mml:mi></mml:munder><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mstyle><mml:mo>&#x2264;</mml:mo><mml:mi>&#x3B4;</mml:mi></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>Similarly, the component flow of added stream <inline-formula><mml:math id="mm17"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and waste stream <inline-formula><mml:math id="mm18"><mml:semantics><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> are defined by:<disp-formula id="FD5-energies-15-09166"><label>(5)</label><mml:math display="block" id="mm19"><mml:semantics><mml:mrow><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mi>k</mml:mi></mml:munder><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x22C5;</mml:mo><mml:mi>q</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD6-energies-15-09166"><label>(6)</label><mml:math display="block" id="mm20"><mml:semantics><mml:mrow><mml:msub><mml:mi>w</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mi>k</mml:mi></mml:munder><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mrow><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x22C5;</mml:mo><mml:mi>w</mml:mi><mml:msub><mml:mi>w</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula></p>
+        <p>As shown in <xref ref-type="fig" rid="energies-15-09166-f004">Figure 4</xref>, there exists a sequence of tasks within every technological alternative. This consists of mixing, reaction, and separation [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>]:</p>
+        <p><list list-type="bullet"><list-item><p>Mixing happens in the inlets of each technological alternative, so that the flow of component <italic>m</italic> provided to technological alternative <italic>k</italic> of stage <italic>j</italic> is provided by mixing streams <inline-formula><mml:math id="mm21"><mml:semantics><mml:mrow><mml:mi>F</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mo>,</mml:mo><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> and <inline-formula><mml:math id="mm22"><mml:semantics><mml:mrow><mml:mi>q</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>, which is expressed in Equation (7);</p></list-item><list-item><p>The consumption and generation terms are determined by the reactions of the data, that is, fractional conversions of key reactants and the stoichiometric coefficients [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>]. The outlet flow of the technological alternative after the reaction is represented in Equation (8). Then the conversion of residue is provided by yield coefficient and yield parameter regarding the incoming flows [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>], as shown in Equation (9);</p></list-item><list-item><p>Separation happens in the outlets of each technological alternative, so that waste streams separate the process stream, as shown in Equation (10).</p></list-item></list><disp-formula id="FD7-energies-15-09166"><label>(7)</label><mml:math display="block" id="mm23"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>F</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mo>,</mml:mo><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi>q</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm24"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the component flow of process stream from stage <italic>j</italic>-1 to stage <italic>j</italic> for technological alternative <italic>k</italic>. <inline-formula><mml:math id="mm25"><mml:semantics><mml:mrow><mml:mi>q</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the component flow of the added stream given to technological alternative <italic>k</italic> in stage <italic>j</italic>, which can be represented by: <inline-formula><mml:math id="mm26"><mml:semantics><mml:mrow><mml:mi>q</mml:mi><mml:msub><mml:mi>q</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mi>l</mml:mi></mml:munder><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>&#x3B1;</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x22C5;</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>&#x2212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mstyle></mml:mrow></mml:semantics></mml:math></inline-formula>. 
+        <disp-formula id="FD8-energies-15-09166"><label>(8)</label><mml:math display="block" id="mm27"><mml:semantics><mml:mrow><mml:mi>f</mml:mi><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mrow><mml:mi>r</mml:mi><mml:mo>,</mml:mo><mml:mi>m</mml:mi></mml:mrow></mml:munder><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>&#x3B2;</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>r</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x22C5;</mml:mo><mml:msub><mml:mi>&#x3B3;</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mo>,</mml:mo><mml:mi>r</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x22C5;</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>M</mml:mi><mml:msub><mml:mi>W</mml:mi><mml:mi>p</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mstyle></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo>&#x22C5;</mml:mo><mml:mi>M</mml:mi><mml:msub><mml:mi>W</mml:mi><mml:mi>m</mml:mi></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm28"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>p</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> denotes the flow of reactant <italic>p</italic> in the input of technological alternative <italic>k</italic> at stage <italic>j</italic>.
+        <disp-formula id="FD9-energies-15-09166"><label>(9)</label><mml:math display="block" id="mm29"><mml:semantics><mml:mrow><mml:mi>f</mml:mi><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mstyle displaystyle="true"><mml:munder><mml:mo>&#x2211;</mml:mo><mml:mi>l</mml:mi></mml:munder><mml:mrow><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:msub><mml:mi>&#x3B7;</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x22C5;</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:mstyle></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm30"><mml:semantics><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>l</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the flow of component <italic>l</italic> in the input of technological alternative <italic>k</italic> at stage <italic>j</italic>.
+        <disp-formula id="FD10-energies-15-09166"><label>(10)</label><mml:math display="block" id="mm31"><mml:semantics><mml:mrow><mml:msub><mml:mi>u</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>f</mml:mi><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x2212;</mml:mo><mml:mi>w</mml:mi><mml:msub><mml:mi>w</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <inline-formula><mml:math id="mm32"><mml:semantics><mml:mrow><mml:mi>w</mml:mi><mml:msub><mml:mi>w</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula> is the output flow of waste stream in technological alternative <italic>k</italic> of stage <italic>j</italic>, which can be represented by: <inline-formula><mml:math id="mm33"><mml:semantics><mml:mrow><mml:mi>w</mml:mi><mml:msub><mml:mi>w</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>&#x3B8;</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x22C5;</mml:mo><mml:mi>f</mml:mi><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></inline-formula>.</p>
+        <p>Besides the above constraints for the outer-tier superstructure, similar constraints are provided for inner-tier superstructure by stage <italic>dj</italic>.</p>
+        <p>On the other hand, a set of constraints is provided to impose restrictions on the active relationship between outer- and inner-tier superstructures in terms of profitability and sustainability, which is provided by:<disp-formula id="FD11-energies-15-09166"><label>(11)</label><mml:math display="block" id="mm34"><mml:semantics><mml:mrow><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>&#x2265;</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>d</mml:mi><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula>
+        <disp-formula id="FD12-energies-15-09166"><label>(12)</label><mml:math display="block" id="mm35"><mml:semantics><mml:mrow><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>4</mml:mn></mml:mrow></mml:msub><mml:mo>&#x2264;</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mrow><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>d</mml:mi><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:semantics></mml:math></disp-formula>
+        where <italic>p<sub>m,j</sub></italic> denotes the input flow of the last stage in outer-tier superstructure, which is related to <italic>F<sub>l,m,j</sub></italic><sub>-1</sub> in each stage of the same tier, similar to in different tiers, so that internal relationship between the outer- and inner-tier superstructures is adequately processed. Moreover, in the corresponding inner-tier superstructure, the flows of intermediate products are relaxed to also alleviate the restrictions of the step-wise nature imposed on optimization ability.</p>
+      </sec>
+      <sec id="sec4dot3-energies-15-09166">
+        <title>4.3. Model Solution Issues</title>
+        <p>The solution of the two scenarios using the proposed framework is completed using the BARON solver available in GAMS [<xref ref-type="bibr" rid="B24-energies-15-09166">24</xref>], with the controllable scale of such superstructure-based optimization. Rizwan et al. [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>] investigated the effect of the linearization of the MINLP model on the optimization results. No effect was found, and the ease of solution remained the same. Thus, the model linearization is out of scope of this work, so that the MINLP model is developed for the optimization results. Moreover, the problem input data information consists of the input values of all model paraments, which are referred to Rizwan et al. [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>] and are provided in <xref ref-type="app" rid="app1-energies-15-09166">Appendix A</xref>.</p>
+      </sec>
+    </sec>
+    <sec id="sec5-energies-15-09166" sec-type="results">
+      <title>5. Results and Discussion</title>
+      <p>The proposed superstructure-based framework was performed to select the optimal biorefinery processing pathway for the production of biofuels from microalgae. Referring to Rizwan et al. [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>], one feedstock and five products were considered, which have been found to be available in several countries. Eight major processing stages were considered in the proposed superstructure. The problem data mainly includes the necessary in order to evaluate the technological alternatives, which was taken from the published literature [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>], as shown in <xref ref-type="app" rid="app1-energies-15-09166">Appendix A</xref> in <xref ref-type="table" rid="energies-15-09166-t0A1">Table A1</xref>. Components <italic>m</italic> and <italic>l</italic>, reactant <italic>p</italic>, reaction <italic>r</italic>, technological alternative <italic>k</italic>, and stage <italic>j</italic> or stage <italic>dj</italic> were employed to locate the relevant data. The prices of all the components and the cost of the products are listed in a certain sequence, as shown in <xref ref-type="app" rid="app1-energies-15-09166">Appendix A</xref> in <xref ref-type="table" rid="energies-15-09166-t0A2">Table A2</xref> and <xref ref-type="table" rid="energies-15-09166-t0A3">Table A3</xref>, respectively.</p>
+      <p>Two different scenarios are provided to demonstrate the application of the methodology for designing the optimal biorefinery configuration. In Scenario 1, the yield of the final desired products is set as the fixed values to provide the constraints for measuring the flows of the raw material and the added chemicals/solvents with the objective of maximizing the gross operating margin. In Scenario 2, the lower bounds for the flows of the raw material are provided to develop the model with the objective of maximizing the yield of the desired products. This comparison makes the opportunity to gain more insight into microalgae-based biorefinery so as to further investigate the trade-off between the gross operating margin and the yield of the desired products.</p>
+      <p>In Scenario 1, the yield of the desired products is provided from the market demand, that is, the fixed value for the yield, as shown in <xref ref-type="table" rid="energies-15-09166-t001">Table 1</xref>. For designing an optimal biorefinery configuration, the numbers of the equations and binary variables, and the computing times are shown in <xref ref-type="table" rid="energies-15-09166-t002">Table 2</xref>. As depicted in <xref ref-type="fig" rid="energies-15-09166-f005">Figure 5</xref>, the most promising pathway in outer-tier structure with the objective of the maximizing the gross operating margin begins with Photobioreactor, followed by Flocculation with poly electrolyte, Fast pyrolysis, Fermentation, and Anaerobic digestion. Moreover, the one in inner-tier structure is shown in the middle of <xref ref-type="fig" rid="energies-15-09166-f005">Figure 5</xref>.</p>
+      <p>In Scenario 1, based on the two-tier superstructure optimization, the resulted biorefinery pathway is Photobioreactor &#x2212; Flocculation with poly electrolyte &#x2212; Empty &#x2212; Grinding-assisted lipid extraction &#x2212; Enzymatic in situ transesterification &#x2212; Methanol recovery + gravity separation + washing of biodiesel layer + purification of biodiesel layer + washing of glycerol layer + flash separation &#x2212; Enzymatic hydrolysis. At the cultivation stage, since the lower chemical addition and lower carbon emission load are provided, the Photobioreactor is chosen rather than the open-pond system, satisfying the specific carbon requirement [<xref ref-type="bibr" rid="B25-energies-15-09166">25</xref>]. The Photobioreactor may also be better for periodic operations, although it is investigated in terms of economic scalability [<xref ref-type="bibr" rid="B26-energies-15-09166">26</xref>]. Flocculation with poly electrolyte is provided to implement the harvesting [<xref ref-type="bibr" rid="B27-energies-15-09166">27</xref>]. After the harvesting stage, the pre-treatment stage is bypassed which can naturally accommodate grinding-assisted lipid extraction. At the transesterification stage, the Enzymatic in situ transesterification technology is selected to split the output of this stage as two streams: (1) microalgae residue which is stored in empty box which is provided for pre-treatment and conversion to achieve various products; (2) biodiesel stream including biodiesel and glycerol, which is sent to the next stage for purification [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>]. In the pre-treatment of residue stage, Enzymatic hydrolysis is considered the most promising technology as it presents several advantages including high efficiency and low energy consumption [<xref ref-type="bibr" rid="B28-energies-15-09166">28</xref>], and then the other empty boxes are employed to store the unreacted components. All the technology candidates in conversion of residue are selected to ensure the certainty in various productions from the specific market potential.</p>
+      <p>Similar to the above-mentioned analysis, from the maximum yield of the desired products point of view, the optimal pathway in Scenario 2 consists of Photobioreactor, Flocculation with poly electrolyte, Acid-catalyzed transesterification, Methanol recovery + gravity separation + washing of biodiesel layer + purification of biodiesel layer + washing of glycerol layer + flash separation, Enzymatic hydrolysis, Fast pyrolysis, Fermentation, and Anaerobic digestion, as shown in <xref ref-type="fig" rid="energies-15-09166-f006">Figure 6</xref>. Furthermore, the optimal yield for the desired products is indicated in <xref ref-type="table" rid="energies-15-09166-t003">Table 3</xref>. For designing an optimal biorefinery configuration in Scenario 2, the computing times and the numbers of the binary variables and equations, are shown in <xref ref-type="table" rid="energies-15-09166-t004">Table 4</xref>.</p>
+      <p>For Scenario 1, the resulted gross operating margin is USD 339,181 with USD 1064 of total costs in feed and USD 14,212 of chemicals/solvents costs. The final yield of biodiesel is found to be 12,000 kg on the basis of the lower bound of biomass (100 kg). Glycerol is assumed as a desired product whose yield is found to be much higher than the market demand, as the same as biogas and bio-ethanol. The final yield of bio-oil is found to be 12,305 kg. For Scenario 2, the resulted gross operating margin is USD 465,195 with USD 798 of total costs in feed and USD 58,142 of chemicals/solvents costs. Details follow distributions of stage-wise gross operating margin for two scenarios, as depicted in <xref ref-type="fig" rid="energies-15-09166-f007">Figure 7</xref>.</p>
+      <p>Rizwan et al. [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>] declared that pre-treatment of biomass was commonly necessary prior to the lipid extraction stage to obtain lipids but this needs an inlet of crucial chemicals/solvents. Thus, the interesting share in this paper is the high cost of pre-treatment in Scenario 1. However, the distributions of stage-wise gross operating margin are shown in <xref ref-type="fig" rid="energies-15-09166-f007">Figure 7</xref> to relate to the total sales and the operating cost. The proportion in pre-treatment denotes that the total sale is much greater than the operating cost in this stage. It is also noted that the gross operating margin in this stage is calculated by the stored chemicals/solvents which are provided for the previous stages to achieve various products [<xref ref-type="bibr" rid="B22-energies-15-09166">22</xref>]. Therefore, the costs of the stored chemicals/solvents are calculated as that of the technological alternative in this empty box. The higher gross operating margin is provided in post-transesterification purification of Scenario 2. Higher methanol/lipids ratio is required in the post-transesterification purification, so that this operating cost is generally made higher, while the stored chemicals/solvents in this stage provide more highly economic-oriented pathway alternatives.</p>
+      <p>The distributions of stage-wise sum of stream flows for two scenarios is shown in <xref ref-type="fig" rid="energies-15-09166-f008">Figure 8</xref>. The main bound for restricting the overall pathway is composed of the feed and the sale. The flows in the sale of Scenario 2 are highlighted as the fixed values in the yield of the final products no longer affect the optimization in the processing pathway. Thus, these technological alternatives in Scenario 2 are selected due to their higher flow for productions. To compare with Scenario 1, the optimized solutions in Scenario 2 feature a product yield increase up to 25% and a gross operating margin increase up to 27.09%. However, in contrast to Scenario 2, the industrial implementation in Scenario 1 is assessed directly since the yield of the final desired products is simulated as the specific market demand, while the specified products are also to avoid the unclear processing of microalgae residue from a biological perspective. Thus, the flows of the raw material, the cost distribution in each stage, and the overall operating cost are optimized under the specific constraints in Scenario 1.</p>
+      <p>Moreover, the detail flows over the whole pathway in Scenario 1 are provided in <xref ref-type="fig" rid="energies-15-09166-f009">Figure 9</xref>. The added chemicals/solvents are found in the stage when the input stream flow of this stage is smaller than the outlet stream flow of the previous stage, as indicated in the injected arrows. Taking as pre-treatment of residue in Scenario 1 example, the input in this option is found to be 2313.92 kg and the corresponding output is 23,139.53 kg, so that the flow of the added stream in this option should be much higher to satisfy the mass balance constraints. On the contrary, higher outlet stream flow of the stage may be provided the waste stream for the next stage. Such flow of component can be regarded as a recycle stream to be reused for the other stages. It is also noted that the negative effect of the step-wise nature of the two-tier superstructure optimizations on the constraints for the operating costs of the chemicals/solvents and for the product yield needs to be further investigated in our future work. Future work should address a more integrated processing pathway method for sustainable development and usage, including the utility flow added to each stage.</p>
+    </sec>
+    <sec id="sec6-energies-15-09166" sec-type="conclusions">
+      <title>6. Conclusions</title>
+      <p>In this work, a two-tier superstructure-based optimal design framework is established to design the most promising processing pathway for microalgae-based biorefinery. This superstructure-extended approach provides two systematic steps to screen the processing pathway and technological alternatives in the early design. The application to two scenarios shows that the developed method can find solutions featuring high gross operating margin and great product yield. Compared with Scenario 1, the optimized solutions in Scenario 2 feature a gross operating margin increase up to 27.09% and an increase in product yield up to 25.00%. Major solution improvements were provided in the two scenarios because of relaxing the outlet flows of the middle stages when the inner-tier superstructure is combined with the outer-tier one. Then such a decomposition strategy is employed to provide an appropriate level of redundancy for designing the microalgae processing. It develops the active relationship between inner- and outer-tier superstructures and such relationship-based investigation can generate useful insights regarding decomposing the complex tasks of the biorefinery superstructure optimization.</p>
+      <p>Future development of the presented method focuses on the improvement of the model to alleviate the negative effect of the step-wise nature on the constraints for the operating costs of the chemicals/solvents and for the product yield.</p>
+    </sec>
+  </body>
+  <back>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Conceptualization, S.G.; methodology, S.G.; validation, J.W. and S.G.; formal analysis, S.G.; writing&#x2014;original draft preparation, S.G.; writing&#x2014;review and editing, J.W. and S.G.; supervision, Y.Z.; project administration, S.G. and Y.Z.; funding acquisition, S.G. and Y.Z. All authors have read and agreed to the published version of the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Institutional Review Board Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Informed Consent Statement</title>
+      <p>Not applicable.</p>
+    </notes>
+    <notes>
+      <title>Data Availability Statement</title>
+      <p>Data and materials are available from the authors upon request.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <app-group>
+      <app id="app1-energies-15-09166">
+        <title>Appendix A</title>
+        <table-wrap id="energies-15-09166-t0A1" position="float">
+          <object-id pub-id-type="pii">energies-15-09166-t0A1_Table A1</object-id>
+          <label>Table A1</label>
+          <caption>
+            <p>Literature-cited data for the 46 technological alternatives considered in the case study.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Technological Alternative</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                  <inline-formula>
+                    <mml:math id="mm36">
+                      <mml:semantics>
+                        <mml:mstyle mathvariant="bold">
+                          <mml:mrow>
+                            <mml:msub>
+                              <mml:mi mathvariant="bold-italic">&#x3B1;</mml:mi>
+                              <mml:mrow>
+                                <mml:mi mathvariant="bold-italic">m</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">l</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">k</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">j</mml:mi>
+                              </mml:mrow>
+                            </mml:msub>
+                          </mml:mrow>
+                        </mml:mstyle>
+                      </mml:semantics>
+                    </mml:math>
+                  </inline-formula>
+                </th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                  <inline-formula>
+                    <mml:math id="mm37">
+                      <mml:semantics>
+                        <mml:mstyle mathvariant="bold">
+                          <mml:mrow>
+                            <mml:msub>
+                              <mml:mi mathvariant="bold-italic">&#x3B2;</mml:mi>
+                              <mml:mrow>
+                                <mml:mi mathvariant="bold-italic">m</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">r</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">k</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">j</mml:mi>
+                              </mml:mrow>
+                            </mml:msub>
+                          </mml:mrow>
+                        </mml:mstyle>
+                      </mml:semantics>
+                    </mml:math>
+                  </inline-formula>
+                </th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                  <inline-formula>
+                    <mml:math id="mm38">
+                      <mml:semantics>
+                        <mml:mstyle mathvariant="bold">
+                          <mml:mrow>
+                            <mml:msub>
+                              <mml:mi mathvariant="bold-italic">&#x3B3;</mml:mi>
+                              <mml:mrow>
+                                <mml:mi mathvariant="bold-italic">p</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">r</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">k</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">j</mml:mi>
+                              </mml:mrow>
+                            </mml:msub>
+                          </mml:mrow>
+                        </mml:mstyle>
+                      </mml:semantics>
+                    </mml:math>
+                  </inline-formula>
+                </th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                  <inline-formula>
+                    <mml:math id="mm39">
+                      <mml:semantics>
+                        <mml:mstyle mathvariant="bold">
+                          <mml:mrow>
+                            <mml:msub>
+                              <mml:mi mathvariant="bold-italic">&#x3B7;</mml:mi>
+                              <mml:mrow>
+                                <mml:mi mathvariant="bold-italic">m</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">l</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">k</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">j</mml:mi>
+                              </mml:mrow>
+                            </mml:msub>
+                          </mml:mrow>
+                        </mml:mstyle>
+                      </mml:semantics>
+                    </mml:math>
+                  </inline-formula>
+                </th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                  <inline-formula>
+                    <mml:math id="mm40">
+                      <mml:semantics>
+                        <mml:mstyle mathvariant="bold">
+                          <mml:mrow>
+                            <mml:msub>
+                              <mml:mi mathvariant="bold-italic">&#x3B8;</mml:mi>
+                              <mml:mrow>
+                                <mml:mi mathvariant="bold-italic">m</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">k</mml:mi>
+                                <mml:mo>,</mml:mo>
+                                <mml:mi mathvariant="bold-italic">j</mml:mi>
+                              </mml:mrow>
+                            </mml:msub>
+                          </mml:mrow>
+                        </mml:mstyle>
+                      </mml:semantics>
+                    </mml:math>
+                  </inline-formula>
+                </th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                  <inline-formula>
+                    <mml:math id="mm41">
+                      <mml:semantics>
+                        <mml:mstyle mathvariant="bold">
+                          <mml:mrow>
+                            <mml:msubsup>
+                              <mml:mi mathvariant="bold-italic">P</mml:mi>
+                              <mml:mi mathvariant="bold-italic">m</mml:mi>
+                              <mml:mn>1</mml:mn>
+                            </mml:msubsup>
+                          </mml:mrow>
+                        </mml:mstyle>
+                      </mml:semantics>
+                    </mml:math>
+                  </inline-formula>
+                </th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">
+                  <inline-formula>
+                    <mml:math id="mm42">
+                      <mml:semantics>
+                        <mml:mstyle mathvariant="bold">
+                          <mml:mrow>
+                            <mml:msubsup>
+                              <mml:mi mathvariant="bold-italic">P</mml:mi>
+                              <mml:mi mathvariant="bold-italic">m</mml:mi>
+                              <mml:mn>2</mml:mn>
+                            </mml:msubsup>
+                          </mml:mrow>
+                        </mml:mstyle>
+                      </mml:semantics>
+                    </mml:math>
+                  </inline-formula>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">Feed</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.04, 0.545, 2.075, 0.00008</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Open pond system</td>
+                <td align="center" valign="middle">59.17</td>
+                <td align="center" valign="middle">&#x2212;1, &#x2212;3.95, &#x2212;0.0482, &#x2212;0.0067, 0.5264, 0.4185</td>
+                <td align="center" valign="middle">0.8</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.1, 1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Photobioreactor</td>
+                <td align="center" valign="middle">10.484, </td>
+                <td align="center" valign="middle">&#x2212;1, &#x2212;3.95, &#x2212;0.0482, &#x2212;0.0067, 0.5264, 0.4185</td>
+                <td align="center" valign="middle">0.8</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Flocculation with poly electrolyte</td>
+                <td align="center" valign="middle">3 &#xD7; 10<sup>&#x2212;6</sup>, 3 &#xD7; 10<sup>&#x2212;6</sup></td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.06, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Flocculation with NaOH</td>
+                <td align="center" valign="middle">0.04899, 0.04899</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Flocculation with PGA</td>
+                <td align="center" valign="middle">2 &#xD7; 10<sup>&#x2212;5</sup>, 2 &#xD7; 10<sup>&#x2212;5</sup></td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.09, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Flocculation with chitosan acid solution</td>
+                <td align="center" valign="middle">0.12, 0.12</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.08, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Bioflocculation + centrifugation</td>
+                <td align="center" valign="middle">0.25, 0.25</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.6, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Centrifugation</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.05</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Auto Flocculation (induced by high pH)</td>
+                <td align="center" valign="middle">0.018, 0.018</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.25, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Microfiltration + centrifugation</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.02</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Grinding in liquid nitrogen</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Drying + ultrasound</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Drying + grinding + microwave + ultrasound</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Drying</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Grinding-assisted lipid extraction</td>
+                <td align="center" valign="middle">0.37, 0.198</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.0794, 1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Ultrasound assisted extraction by [Bmim][MeSO<sub>4</sub>]</td>
+                <td align="center" valign="middle">12.129, 39.288, 10</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.765, 1, 1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Ultrasound and microwave assisted lipid extraction</td>
+                <td align="center" valign="middle">1.483, 0.7918</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.682, 1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Wet lipid extraction</td>
+                <td align="center" valign="middle">1.576, 0.2289, 0.487</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.081, 1, 1, 1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Solvent extraction (Bligh and Dyer&#x2019;s Method)</td>
+                <td align="center" valign="middle">26.694, 14.25</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.7865, 1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Solvent extraction (Modified Bligh and Dyer&#x2019;s Method)</td>
+                <td align="center" valign="middle">26.694, 14.25</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.7321, 1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Supercritical fluid extraction</td>
+                <td align="center" valign="middle">50.176</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.5873</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Extraction by ionic liquids mixture</td>
+                <td align="center" valign="middle">9.5, 9.5, 9.5</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.1882, 1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Extraction by [Bmim][MeSO<sub>4</sub>]</td>
+                <td align="center" valign="middle">12.129, 39.288, 10</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.85, 1, 1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Base catalyzed transesterification</td>
+                <td align="center" valign="middle">0.0042, 0.14824</td>
+                <td align="center" valign="middle">&#x2212;1, &#x2212;3, 3, 1</td>
+                <td align="center" valign="middle">0.97</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Acid-catalyzed transesterification</td>
+                <td align="center" valign="middle">0.74815, 0.35</td>
+                <td align="center" valign="middle">&#x2212;1, &#x2212;3, 3, 1</td>
+                <td align="center" valign="middle">0.94</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Enzymatic transesterification</td>
+                <td align="center" valign="middle">0.14228, 0.6746, 0.6</td>
+                <td align="center" valign="middle">&#x2212;1, &#x2212;3, 3, 1</td>
+                <td align="center" valign="middle">0.7179</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Alkaline in situ transesterification</td>
+                <td align="center" valign="middle">0.00676, 2.26565</td>
+                <td align="center" valign="middle">&#x2212;1, &#x2212;3, 3, 1</td>
+                <td align="center" valign="middle">0.7724</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Acidic in situ transesterification</td>
+                <td align="center" valign="middle">2.26565, 0.03781</td>
+                <td align="center" valign="middle">&#x2212;1, &#x2212;3, 3, 1</td>
+                <td align="center" valign="middle">0.9636</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Enzymatic in situ transesterification</td>
+                <td align="center" valign="middle">0.34314, 0.8057, 0.6</td>
+                <td align="center" valign="middle">&#x2212;1, &#x2212;3, 3, 1</td>
+                <td align="center" valign="middle">0.83</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Methanol recovery + gravity separation + washing ofbiodiesel layer + purification of biodiesellayer + washing of glycerol layer + flash separation</td>
+                <td align="center" valign="middle">0.0374, 0.0374, 0.0383, 0.226</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.80</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">1, 0.1, 1, 1, 1, 1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Fast pyrolysis</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.53, 0.53, 0.53</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Fermentation</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.26, 0.26, 0.26</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Anaerobic digestion</td>
+                <td align="center" valign="middle">0.036, 0.036, 0.036, 98.75, 98.75, 98.75</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle">0.462, 0.462, 0.462</td>
+                <td align="center" valign="middle">1</td>
+                <td align="center" valign="middle"> </td>
+                <td align="center" valign="middle"> </td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Final products</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+                <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+                <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+                <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+                <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">4.68, 14.54, 1.5, 5.46, 3.32</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin"> </td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="energies-15-09166-t0A2" position="float">
+          <object-id pub-id-type="pii">energies-15-09166-t0A2_Table A2</object-id>
+          <label>Table A2</label>
+          <caption>
+            <p>Cost of chemicals.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Chemicals</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cost (USD/kg)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">Water</td>
+                <td align="center" valign="middle">0.00008</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Polyelectrolyte </td>
+                <td align="center" valign="middle">3.75</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Sodium-hydroxide</td>
+                <td align="center" valign="middle">0.3276</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">PGA</td>
+                <td align="center" valign="middle">5</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Chitosan</td>
+                <td align="center" valign="middle">2</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">e-texensis</td>
+                <td align="center" valign="middle">1.71</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Slaked-lime</td>
+                <td align="center" valign="middle">0.475</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Chloroform</td>
+                <td align="center" valign="middle">0.803</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Methanol</td>
+                <td align="center" valign="middle">0.49</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">[Bmim][MeSO<sub>4</sub>]</td>
+                <td align="center" valign="middle">1388</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Dist-water</td>
+                <td align="center" valign="middle">0.000013</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Hexane </td>
+                <td align="center" valign="middle">0.47</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">SC-CO<sub>2</sub></td>
+                <td align="center" valign="middle">8.8</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">[Emim](CF<sub>3</sub>SO<sub>2</sub>)<sub>2</sub>N </td>
+                <td align="center" valign="middle">246,878</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Ethanol</td>
+                <td align="center" valign="middle">1.13</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">[Emim]OAc </td>
+                <td align="center" valign="middle">26,680</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Sulfuric-acid</td>
+                <td align="center" valign="middle">0.087</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Lipase (USD/KU)</td>
+                <td align="center" valign="middle">1.07</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Phosphoric-acid</td>
+                <td align="center" valign="middle">0.8294</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Glycerol</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">1.045</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+        <table-wrap id="energies-15-09166-t0A3" position="float">
+          <object-id pub-id-type="pii">energies-15-09166-t0A3_Table A3</object-id>
+          <label>Table A3</label>
+          <caption>
+            <p>Cost of products.</p>
+          </caption>
+          <table>
+            <thead>
+              <tr>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Chemicals</th>
+                <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Cost (USD/kg)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="center" valign="middle">Biodiesel</td>
+                <td align="center" valign="middle">18.72</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Glycerol</td>
+                <td align="center" valign="middle">58.16</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Bio-oil</td>
+                <td align="center" valign="middle">6</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle">Bio-ethanol</td>
+                <td align="center" valign="middle">21.84</td>
+              </tr>
+              <tr>
+                <td align="center" valign="middle" style="border-bottom:solid thin">Biogas</td>
+                <td align="center" valign="middle" style="border-bottom:solid thin">13.28</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </app>
+    </app-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-energies-15-09166">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Petre</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Seli&#x15F;teanu</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Roman</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Control schemes for a complex biorefinery plant for bioenergy and biobased products</article-title>
+          <source>Bioresour. Technol.</source>
+          <year>2020</year>
+          <volume>295</volume>
+          <fpage>122245</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.biortech.2019.122245</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2-energies-15-09166">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Chong</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Low-carbon roadmap of chemical production: A case study of ethylene in China</article-title>
+          <source>Renew. Sustain. Energy Rev.</source>
+          <year>2018</year>
+          <volume>97</volume>
+          <fpage>580</fpage>
+          <lpage>591</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.rser.2018.08.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3-energies-15-09166">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yoo</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>C.W.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Methods of downstream processing for the production of biodiesel from microalgae</article-title>
+          <source>Biotechnol. Adv.</source>
+          <year>2013</year>
+          <volume>31</volume>
+          <fpage>862</fpage>
+          <lpage>876</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biotechadv.2013.04.006</pub-id>
+          <pub-id pub-id-type="pmid">23632376</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4-energies-15-09166">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>D&#x2019;Angelo</surname>
+              <given-names>S.C.</given-names>
+            </name>
+            <name>
+              <surname>Dall&#x2019;Ara</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mondelli</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>P&#xE9;rez-Ram&#xED;rez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Papadokonstantakis</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Techno-Economic Analysis of a Glycerol Biorefinery</article-title>
+          <source>ACS Sustain. Chem. Eng.</source>
+          <year>2018</year>
+          <volume>6</volume>
+          <fpage>16563</fpage>
+          <lpage>16572</lpage>
+          <pub-id pub-id-type="doi">10.1021/acssuschemeng.8b03770</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5-energies-15-09166">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haghpanah</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sobati</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Pishvaee</surname>
+              <given-names>M.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multi-objective superstructure optimization of a microalgae biorefinery considering economic and environmental aspects</article-title>
+          <source>Comput. Chem. Eng.</source>
+          <year>2022</year>
+          <volume>164</volume>
+          <fpage>107894</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.compchemeng.2022.107894</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6-energies-15-09166">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferrero</surname>
+              <given-names>L.M.M.</given-names>
+            </name>
+            <name>
+              <surname>Mele</surname>
+              <given-names>F.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimal Design of Sugar-Cane-Based Biorefinery Networks in Argentina</article-title>
+          <source>ACS Sustain. Chem. Eng.</source>
+          <year>2022</year>
+          <volume>10</volume>
+          <fpage>7916</fpage>
+          <lpage>7928</lpage>
+          <pub-id pub-id-type="doi">10.1021/acssuschemeng.2c00921</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7-energies-15-09166">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Theozzo</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Santos</surname>
+              <given-names>M.T.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>A MILP framework for optimal biorefinery design that accounts for forest biomass dynamics</article-title>
+          <source>Comput. Chem. Eng.</source>
+          <year>2021</year>
+          <volume>146</volume>
+          <fpage>107201</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.compchemeng.2020.107201</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8-energies-15-09166">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kasivisvanathan</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>D.K.S.</given-names>
+            </name>
+            <name>
+              <surname>Aziz</surname>
+              <given-names>M.K.A.</given-names>
+            </name>
+            <name>
+              <surname>Foo</surname>
+              <given-names>D.C.Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Heuristic framework for the debottlenecking of a palm oil-based integrated biorefinery</article-title>
+          <source>Chem. Eng. Res. Des.</source>
+          <year>2014</year>
+          <volume>92</volume>
+          <fpage>2071</fpage>
+          <lpage>2082</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cherd.2014.02.024</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9-energies-15-09166">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tey</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Ong</surname>
+              <given-names>N.Q.X.</given-names>
+            </name>
+            <name>
+              <surname>Foo</surname>
+              <given-names>D.C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>D.K.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Extended hierarchical decomposition approach forthe synthesis of biorefinery processes</article-title>
+          <source>Chem. Eng. Res. Des.</source>
+          <year>2021</year>
+          <volume>166</volume>
+          <fpage>40</fpage>
+          <lpage>54</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cherd.2020.11.015</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10-energies-15-09166">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lim</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Teng</surname>
+              <given-names>S.Y.</given-names>
+            </name>
+            <name>
+              <surname>How</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Nam</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Heo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>M&#xE1;&#x161;a</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Stehl&#xED;k</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Yoo</surname>
+              <given-names>C.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>From microalgae to bioenergy: Identifying optimally integrated biorefinery pathways and harvest scheduling under uncertainties in predicted climate</article-title>
+          <source>Renew. Sustain. Energy Rev.</source>
+          <year>2022</year>
+          <volume>168</volume>
+          <fpage>112865</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.rser.2022.112865</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11-energies-15-09166">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dickson</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>J.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A strategy for advanced biofuel production and emission utilization from macroalgal biorefinery using superstructure optimization</article-title>
+          <source>Energy</source>
+          <year>2021</year>
+          <volume>221</volume>
+          <fpage>119883</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.energy.2021.119883</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12-energies-15-09166">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pedrozo</surname>
+              <given-names>H.A.</given-names>
+            </name>
+            <name>
+              <surname>Casoni</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Ramos</surname>
+              <given-names>F.D.</given-names>
+            </name>
+            <name>
+              <surname>Estrada</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Diaz</surname>
+              <given-names>M.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simultaneous design of macroalgae-based integrated biorefineries and their heat exchanger network</article-title>
+          <source>Comput. Chem. Eng.</source>
+          <year>2022</year>
+          <volume>164</volume>
+          <fpage>107885</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.compchemeng.2022.107885</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13-energies-15-09166">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Grossmann</surname>
+              <given-names>I.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Simultaneous optimization of heat integration for biodiesel production from cooking oil and algae</article-title>
+          <source>Ind. Eng. Chem. Res.</source>
+          <year>2012</year>
+          <volume>51</volume>
+          <fpage>7998</fpage>
+          <lpage>8014</lpage>
+          <pub-id pub-id-type="doi">10.1021/ie2024596</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14-energies-15-09166">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gebreslassie</surname>
+              <given-names>B.H.</given-names>
+            </name>
+            <name>
+              <surname>Waymire</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>You</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sustainable design and synthesis of algaebased biorefinery for simultaneous hydrocarbon biofuels production and carbon sequestration</article-title>
+          <source>AIChE J.</source>
+          <year>2013</year>
+          <volume>59</volume>
+          <fpage>1599</fpage>
+          <lpage>1621</lpage>
+          <pub-id pub-id-type="doi">10.1002/aic.14075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15-energies-15-09166">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gong</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>You</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimal design and synthesis of algal biorefinery processes for biological carbon sequestration and utilization with zero direct greenhouse gas emissions: MINLP model and global optimization algorithm</article-title>
+          <source>Ind. Eng. Chem. Res.</source>
+          <year>2014</year>
+          <volume>53</volume>
+          <fpage>1563</fpage>
+          <lpage>1579</lpage>
+          <pub-id pub-id-type="doi">10.1021/ie403459m</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16-energies-15-09166">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Galanopoulos</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Kenkel</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zondervan</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Superstructure optimization of an integrated algae biorefinery</article-title>
+          <source>Comput. Chem. Eng.</source>
+          <year>2019</year>
+          <volume>130</volume>
+          <fpage>106530</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.compchemeng.2019.106530</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17-energies-15-09166">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rizwan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Almansoori</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Elkamel</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>An overview on synthesis and design of microalgal biorefinery configurations by employing superstructure-based optimization approach</article-title>
+          <source>Energy Syst.</source>
+          <year>2019</year>
+          <volume>10</volume>
+          <fpage>941</fpage>
+          <lpage>966</lpage>
+          <pub-id pub-id-type="doi">10.1007/s12667-018-0296-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18-energies-15-09166">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mukhambet</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Esakkimuthu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Abomohra</surname>
+              <given-names>A.E.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Integrated microalgal biorefinery-Routes, energy, economic and environmental perspectives</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2022</year>
+          <volume>348</volume>
+          <fpage>131245</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2022.131245</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19-energies-15-09166">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Lyu</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Valorisation of microalgae residues after lipid extraction: Pyrolysis characteristics for biofuel production</article-title>
+          <source>Biochem. Eng. J.</source>
+          <year>2022</year>
+          <volume>179</volume>
+          <fpage>108330</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.bej.2021.108330</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20-energies-15-09166">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lyu</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cultivation of microalgae in adjusted wastewater to enhance biofuel production and reduce environmental impact: Pyrolysis performances and life cycle assessment</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2022</year>
+          <volume>355</volume>
+          <fpage>131768</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2022.131768</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21-energies-15-09166">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Huo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Lyu</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhancing Bioenergy Production from the Raw and Defatted Microalgal Biomass Using Wastewater as the Cultivation Medium</article-title>
+          <source>Bioengineering</source>
+          <year>2022</year>
+          <volume>9</volume>
+          <elocation-id>637</elocation-id>
+          <pub-id pub-id-type="doi">10.3390/bioengineering9110637</pub-id>
+          <pub-id pub-id-type="pmid">36354546</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22-energies-15-09166">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rizwan</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Gani</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimal design of microalgae-based biorefinery: Economics, opportunities and challenges</article-title>
+          <source>Appl. Energy</source>
+          <year>2015</year>
+          <volume>150</volume>
+          <fpage>69</fpage>
+          <lpage>79</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.apenergy.2015.04.018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23-energies-15-09166">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Piedra-Jimenez</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tassin</surname>
+              <given-names>N.G.</given-names>
+            </name>
+            <name>
+              <surname>Novas</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>GDP-based approach for optimal design of forest biorefinery supply chain considering circularity and conversion facilities co-location</article-title>
+          <source>Comput. Chem. Eng.</source>
+          <year>2022</year>
+          <volume>163</volume>
+          <fpage>107834</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.compchemeng.2022.107834</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24-energies-15-09166">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bhosekar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Athaley</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ierapetritou</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiobjective Modular Biorefinery Configuration under Uncertainty</article-title>
+          <source>Ind. Eng. Chem. Res.</source>
+          <year>2021</year>
+          <volume>60</volume>
+          <fpage>12956</fpage>
+          <lpage>12969</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.iecr.1c02110</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25-energies-15-09166">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rhee</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>J.Y.</given-names>
+            </name>
+            <name>
+              <surname>Hwangbo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yoo</surname>
+              <given-names>C.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluation of an integrated microalgae-based biorefinery process and energy-recovery system from livestock manure using a superstructure model</article-title>
+          <source>J. Clean. Prod.</source>
+          <year>2021</year>
+          <volume>293</volume>
+          <fpage>125325</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.jclepro.2020.125325</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26-energies-15-09166">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Deng</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Bose</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improving gaseous biofuel production from seaweed Saccharina latissima: The effect of hydrothermal pretreatment on energy efficiency</article-title>
+          <source>Energy Convers. Manag.</source>
+          <year>2019</year>
+          <volume>196</volume>
+          <fpage>1385</fpage>
+          <lpage>1394</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.enconman.2019.06.044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27-energies-15-09166">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gifuni</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Pollio</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Safi</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Marzocchella</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Olivieri</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Current Bottlenecks and Challenges of the Microalgal Biorefinery</article-title>
+          <source>Trends Biotechnol.</source>
+          <year>2019</year>
+          <volume>37</volume>
+          <fpage>242</fpage>
+          <lpage>252</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tibtech.2018.09.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28-energies-15-09166">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pino</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Rodriguez-Jasso</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Michelin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Flores-Gallegos</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Morales-Rodriguez</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Teixeira</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Ruiz</surname>
+              <given-names>H.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Bioreactor design for enzymatic hydrolysis of biomass under the biorefinery concept</article-title>
+          <source>Chem. Eng. J.</source>
+          <year>2018</year>
+          <volume>347</volume>
+          <fpage>119</fpage>
+          <lpage>136</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cej.2018.04.057</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="energies-15-09166-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>The general processing pathway of bioenergy production from microalgal biomass considering microalgal cultivation.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="energies-15-09166-g001.tif"/>
+      </fig>
+      <fig id="energies-15-09166-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Major processing steps/stages.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="energies-15-09166-g002.tif"/>
+      </fig>
+      <fig id="energies-15-09166-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Two-tier superstructure of chemical species and technologies for productions from microalgae biomass.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="energies-15-09166-g003.tif"/>
+      </fig>
+      <fig id="energies-15-09166-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Representation of stage <italic>j</italic> and technological alternative <italic>k</italic>.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="energies-15-09166-g004.tif"/>
+      </fig>
+      <fig id="energies-15-09166-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Optimal processing pathway in Scenario 1.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="energies-15-09166-g005.tif"/>
+      </fig>
+      <fig id="energies-15-09166-f006" position="float">
+        <label>Figure 6</label>
+        <caption>
+          <p>Optimal processing pathway in Scenario 2.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="energies-15-09166-g006.tif"/>
+      </fig>
+      <fig id="energies-15-09166-f007" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <p>Distributions of stage-wise gross operating margin for two scenarios.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="energies-15-09166-g007.tif"/>
+      </fig>
+      <fig id="energies-15-09166-f008" position="float">
+        <label>Figure 8</label>
+        <caption>
+          <p>Distributions of stage-wise sum of stream flows for two scenarios.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="energies-15-09166-g008.tif"/>
+      </fig>
+      <fig id="energies-15-09166-f009" position="float">
+        <label>Figure 9</label>
+        <caption>
+          <p>Sankey diagram representing the flows by the proposed method for Scenario 1.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="energies-15-09166-g009.tif"/>
+      </fig>
+      <table-wrap id="energies-15-09166-t001" position="float">
+        <object-id pub-id-type="pii">energies-15-09166-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>The given yield of the desired products from the market demand in Scenario 1.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Biodiesel</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Glycerol</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Bio-Oil</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Bio-Ethanol</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Biogas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Yield (kg)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">48.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">89</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">48.8</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">5512.1</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="energies-15-09166-t002" position="float">
+        <object-id pub-id-type="pii">energies-15-09166-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Calculation time of the optimal biorefinery configuration of Scenario 1.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Scenario 1</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Outer-Tier Superstructure</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Inner-Tier Superstructure</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Description</td>
+              <td colspan="2" align="center" valign="middle">Maximization of gross operating margin</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Number of equations</td>
+              <td align="center" valign="middle">7720</td>
+              <td align="center" valign="middle">10,004</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Number of binary variables</td>
+              <td align="center" valign="middle">24</td>
+              <td align="center" valign="middle">50</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Number of continuous variables</td>
+              <td align="center" valign="middle">6202</td>
+              <td align="center" valign="middle">9507</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Number of iterations</td>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">9</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CPU time (s)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.27</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">25.42</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="energies-15-09166-t003" position="float">
+        <object-id pub-id-type="pii">energies-15-09166-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Optimization results in Scenario 2.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Biodiesel</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Glycerol</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Bio-Oil</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Bio-Ethanol</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Biogas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Yield (kg)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">20,140</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16,000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16,000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">22,000</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">16,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="energies-15-09166-t004" position="float">
+        <object-id pub-id-type="pii">energies-15-09166-t004_Table 4</object-id>
+        <label>Table 4</label>
+        <caption>
+          <p>Calculation time of the optimal biorefinery configuration of Scenario 2.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin">Scenario 2</th>
+            </tr>
+            <tr>
+              <th align="center" valign="middle" style="border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Outer-Tier Superstructure</th>
+              <th align="center" valign="middle" style="border-bottom:solid thin">Inner-Tier Superstructure</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle">Description</td>
+              <td colspan="2" align="center" valign="middle">Maximization of products yield</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Number of equations</td>
+              <td align="center" valign="middle">7720</td>
+              <td align="center" valign="middle">10,004</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Number of binary variables</td>
+              <td align="center" valign="middle">24</td>
+              <td align="center" valign="middle">50</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Number of continuous variables</td>
+              <td align="center" valign="middle">6202</td>
+              <td align="center" valign="middle">9507</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle">Number of iterations</td>
+              <td align="center" valign="middle">2</td>
+              <td align="center" valign="middle">7</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">CPU time (s)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">0.26</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">109.5</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher&#x2019;s Note:</bold> MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+  </back>
+</article>

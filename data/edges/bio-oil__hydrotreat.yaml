@@ -1,0 +1,7 @@
+id: bio-oil__hydrotreat
+source_node: bio-oil
+target_node: hydrotreat
+co_products: []
+references: []
+external_links: []
+notes: null

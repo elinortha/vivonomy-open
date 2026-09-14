@@ -1,0 +1,7 @@
+id: ferm-upg__ethanol
+source_node: ferm-upg
+target_node: ethanol
+co_products: []
+references: []
+external_links: []
+notes: null

@@ -1,0 +1,20 @@
+id: switchgrass
+name: Switchgrass
+type: feedstock
+category: cat-ligno
+origin_class: dedicated-crop
+composition_class: lignocellulosic
+moisture_class: dry
+description: Switchgrass (Panicum virgatum) is a warm-season perennial grass native to North America, cultivated as a dedicated energy crop for its high lignocellulosic yield and low input requirements. It grows on marginal land unsuitable for food crops and sequesters carbon deeply in its extensive root system. Annual dry matter yields of 5–15 tonnes per hectare make it one of the best-studied energy crops, though commercial-scale biorefinery deployment remains limited.
+aliases:
+  - Panicum virgatum
+  - tall prairie grass
+typical_sources:
+  - dedicated energy crop farms
+  - marginal and degraded agricultural land
+current_disposal:
+  - not yet at commercial scale — still predominantly a research crop
+sustainability_considerations: Lower lifecycle emissions than annual crops; can improve soil health on degraded land; no displacement of food production on marginal sites.
+external_refs:
+  - https://en.wikipedia.org/wiki/Switchgrass
+  - https://bioenergykdf.net/

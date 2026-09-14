@@ -1,0 +1,19 @@
+id: veg-oil
+name: Vegetable / algal oil
+type: platform
+category: cat-liquid
+description: Vegetable and algal oils are triglyceride-rich lipid fractions extracted from oilseed crops, used cooking oil, microalgae, or lipid-rich food waste. As a platform intermediate, these oils serve as feedstock for both transesterification (producing FAME biodiesel) and hydrotreating (producing renewable diesel or SAF). Fatty acid composition — types and chain lengths — varies by source and determines the quality and cold-flow properties of the resulting fuel.
+aliases:
+  - plant oil
+  - triglyceride oil
+  - lipid feedstock
+  - algal oil
+phase: liquid
+chemical_class: triglyceride
+key_components:
+  - triglycerides (C12–C22 fatty acids)
+  - free fatty acids
+  - phospholipids
+  - minor waxes
+external_refs:
+  - https://en.wikipedia.org/wiki/Vegetable_oil

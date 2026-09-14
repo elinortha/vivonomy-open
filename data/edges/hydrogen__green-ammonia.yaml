@@ -1,0 +1,7 @@
+id: hydrogen__green-ammonia
+source_node: hydrogen
+target_node: green-ammonia
+co_products: []
+references: []
+external_links: []
+notes: null

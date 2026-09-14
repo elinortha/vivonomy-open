@@ -1,0 +1,45 @@
+id: saccharification
+name: Direct saccharification
+type: primary_conversion
+category: cat-biochem
+process_family: biochemical
+description: Direct saccharification converts starch-rich materials to fermentable glucose sugars using amylase enzymes (α-amylase for liquefaction, glucoamylase for saccharification). Unlike cellulosic conversion, starch hydrolysis does not require intensive physical or chemical pretreatment — the α-glycosidic bonds in starch are far more accessible to enzymes than the β-glycosidic bonds in cellulose. This is the basis of conventional corn-to-ethanol fermentation and is a well-established industrial process globally.
+aliases:
+  - starch saccharification
+  - amylolysis
+  - enzymatic starch hydrolysis
+mechanism_brief: α-Amylase (liquefaction at 90–105°C) and glucoamylase (saccharification at 60°C) sequentially hydrolyze starch α-1,4 and α-1,6 glycosidic bonds to produce a glucose syrup ready for fermentation.
+typical_outputs:
+  - sugars
+TRL:
+  - value: 9
+    unit: trl
+    value_original: "9"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_f457cdd0
+expertise_required:
+  - value: basic
+    unit: null
+    value_original: basic
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_fd6e2978
+external_refs:
+  - https://en.wikipedia.org/wiki/Saccharification

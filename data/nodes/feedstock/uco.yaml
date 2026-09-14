@@ -1,0 +1,24 @@
+id: uco
+name: Used cooking oil
+type: feedstock
+category: cat-lipid
+origin_class: food-processing
+composition_class: lipid
+moisture_class: dry
+description: Used cooking oil (UCO) is the triglyceride-rich oil recovered from restaurants, food processors, and households after cooking. It is one of the most economically attractive biofuel feedstocks — already collected in many municipalities, low in production cost, and well-suited to transesterification (FAME biodiesel) or hydrotreating (renewable diesel and SAF). The EU's Renewable Energy Directive grants UCO-derived fuels double-counting credits, creating strong policy incentives for collection.
+aliases:
+  - waste cooking oil
+  - used frying oil
+  - UCO
+typical_sources:
+  - restaurants
+  - food manufacturers
+  - institutional kitchens
+  - household collection schemes
+current_disposal:
+  - sewer disposal
+  - landfill
+  - biodiesel production
+sustainability_considerations: Strong sustainability profile as a true waste stream with no land-use impact; supply is geographically dispersed and collection infrastructure varies widely.
+external_refs:
+  - https://en.wikipedia.org/wiki/Used_cooking_oil

@@ -1,0 +1,19 @@
+id: syngas
+name: Syngas
+type: platform
+category: cat-gas
+description: Syngas (synthesis gas) is a mixture of carbon monoxide (CO) and hydrogen (H₂), with varying amounts of CO₂ and methane, produced by gasification or reforming. The H₂:CO ratio is a critical quality parameter determining downstream upgrading options — Fischer-Tropsch synthesis prefers 2:1 H₂:CO, while methanol synthesis requires ~3:1. Syngas requires cleanup to remove tar, particulates, and sulfur compounds before use in sensitive catalytic processes.
+aliases:
+  - synthesis gas
+  - producer gas
+  - wood gas
+phase: gas
+chemical_class: synthesis_gas_mixture
+key_components:
+  - CO (15–30%)
+  - H₂ (15–40%)
+  - CO₂ (5–20%)
+  - CH₄ (1–5%)
+  - N₂ (balance in air-blown)
+external_refs:
+  - https://en.wikipedia.org/wiki/Syngas

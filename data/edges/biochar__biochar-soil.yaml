@@ -1,0 +1,7 @@
+id: biochar__biochar-soil
+source_node: biochar
+target_node: biochar-soil
+co_products: []
+references: []
+external_links: []
+notes: null

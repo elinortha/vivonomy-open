@@ -1,0 +1,47 @@
+id: hydrotreat
+name: Hydrotreating
+type: upgrading
+category: cat-hydropro
+process_family: chemical
+description: Hydrotreating removes oxygen, sulfur, and nitrogen from bio-oil or vegetable oil feedstocks by reacting them with high-pressure hydrogen over a NiMo or CoMo catalyst. For vegetable oils, this hydrodeoxygenation produces hydroprocessed esters and fatty acids (HEFA) — one of the most commercially advanced SAF pathways. Hydrotreating is co-processable at existing petroleum refineries, which lowers entry costs compared to greenfield biofuel plants.
+aliases:
+  - hydroprocessing
+  - HEFA
+  - hydrodeoxygenation
+  - hydrotreatment
+mechanism_brief: High-pressure hydrogen (50–200 bar) at 300–450°C reacts with oxygenated bio-oil or triglycerides over a NiMo or CoMo catalyst; deoxygenation reactions remove oxygen as water or CO₂ while dehydrogenation and isomerization improve fuel properties.
+typical_outputs:
+  - saf
+  - renewable-diesel
+TRL:
+  - value: 8
+    unit: trl
+    value_original: "8"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_1ef80b6c
+expertise_required:
+  - value: specialist
+    unit: null
+    value_original: specialist
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_b078376a
+external_refs:
+  - https://en.wikipedia.org/wiki/Hydroprocessed_esters_and_fatty_acids

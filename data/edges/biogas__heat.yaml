@@ -1,0 +1,7 @@
+id: biogas__heat
+source_node: biogas
+target_node: heat
+co_products: []
+references: []
+external_links: []
+notes: null

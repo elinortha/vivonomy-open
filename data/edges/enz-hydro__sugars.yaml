@@ -1,0 +1,7 @@
+id: enz-hydro__sugars
+source_node: enz-hydro
+target_node: sugars
+co_products: []
+references: []
+external_links: []
+notes: null

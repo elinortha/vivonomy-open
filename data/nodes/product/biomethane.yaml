@@ -1,0 +1,20 @@
+id: biomethane
+name: Grid biomethane
+type: product
+category: cat-energy-p
+product_function: gas-fuel
+carbon_fate: short-cycle
+description: Grid biomethane is upgraded biogas meeting natural gas grid injection specifications — typically >96% CH₄ and <50 ppm H₂S. Once injected into the natural gas grid, it is indistinguishable from fossil gas and can be used by any gas appliance or in gas vehicles. It represents a fully fungible renewable gas that leverages existing gas infrastructure without requiring modifications at the point of use.
+aliases:
+  - renewable natural gas
+  - RNG
+  - bio-CNG
+  - green gas
+fossil_analog: Natural gas (methane from fossil sources)
+end_use_sector:
+  - gas grid injection
+  - compressed natural gas (CNG) vehicles
+  - industrial feedstock
+  - power generation
+external_refs:
+  - https://en.wikipedia.org/wiki/Biomethane

@@ -1,0 +1,7 @@
+id: pt-chipping__gasification
+source_node: pt-chipping
+target_node: gasification
+co_products: []
+references: []
+external_links: []
+notes: null

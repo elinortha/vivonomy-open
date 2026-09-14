@@ -1,0 +1,23 @@
+id: corn-stover
+name: Corn stover
+type: feedstock
+category: cat-ligno
+origin_class: ag-residue
+composition_class: lignocellulosic
+moisture_class: dry
+description: Corn stover is the non-grain portion of the corn plant — stalks, leaves, husks, and cobs — left on the field after harvest. It is one of the most abundant agricultural residues in North America, with the US generating roughly 250–350 million dry tonnes per year. As a dry lignocellulosic feedstock it suits both thermochemical conversion (pyrolysis, gasification) and biochemical routes (enzymatic hydrolysis after pretreatment). Collection rates are typically capped at 30–60% of available material to preserve soil organic matter.
+aliases:
+  - corn stalks
+  - corn residue
+  - maize stover
+typical_sources:
+  - corn grain farms
+  - corn processing facilities
+current_disposal:
+  - left on field
+  - incorporated into soil
+  - burned
+sustainability_considerations: Removing stover depletes soil organic carbon and increases erosion risk; sustainable harvest rates depend on soil type and management practice.
+external_refs:
+  - https://en.wikipedia.org/wiki/Corn_stover
+  - https://bioenergykdf.net/

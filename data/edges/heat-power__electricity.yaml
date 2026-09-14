@@ -1,0 +1,7 @@
+id: heat-power__electricity
+source_node: heat-power
+target_node: electricity
+co_products: []
+references: []
+external_links: []
+notes: null

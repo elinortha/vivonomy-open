@@ -1,0 +1,26 @@
+id: food-waste
+name: Post-consumer food waste
+type: feedstock
+category: cat-mixed
+origin_class: post-consumer
+composition_class: mixed-wet
+moisture_class: wet
+description: Post-consumer food waste is the mixed organic residue discarded by households, restaurants, cafeterias, and retailers. It is highly heterogeneous — a mixture of proteins, lipids, carbohydrates, and water — making targeted pretreatment difficult. Anaerobic digestion is the most established pathway, converting the mixed organics to biogas regardless of composition. The wet fraction also carries lipid content suitable for mechanical separation when source-separated.
+aliases:
+  - household food waste
+  - kitchen waste
+  - food scraps
+typical_sources:
+  - households
+  - restaurants
+  - supermarkets
+  - institutional kitchens
+current_disposal:
+  - landfill
+  - incineration
+  - composting
+  - sewage
+sustainability_considerations: Diverting food waste from landfill avoids methane emissions; collection and sorting infrastructure is a key barrier.
+external_refs:
+  - https://en.wikipedia.org/wiki/Food_waste
+  - https://www.tech4biowaste.eu/

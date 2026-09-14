@@ -1,0 +1,7 @@
+id: protein-waste__enz-protein
+source_node: protein-waste
+target_node: enz-protein
+co_products: []
+references: []
+external_links: []
+notes: null

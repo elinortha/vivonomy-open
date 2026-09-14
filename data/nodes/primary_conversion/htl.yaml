@@ -1,0 +1,45 @@
+id: htl
+name: Hydrothermal liquefaction
+type: primary_conversion
+category: cat-thermo
+process_family: thermochemical
+description: Hydrothermal liquefaction (HTL) converts wet biomass into a crude bio-oil (biocrude) by processing it in pressurized liquid water at elevated temperatures (250–374°C). Because water acts as both solvent and reactant, HTL can process high-moisture feedstocks — algae, sludge, food waste — without the energy-intensive pre-drying required by most thermochemical routes. The bio-oil product requires upgrading via hydrotreating to meet fuel specifications.
+aliases:
+  - HTL
+  - hydrothermal conversion
+  - direct liquefaction
+mechanism_brief: Wet biomass is processed at 250–374°C and 10–25 MPa in subcritical liquid water; at these conditions water's ionic product and dielectric constant shift dramatically, enabling depolymerization and repolymerization reactions that convert biomass macromolecules to bio-oil.
+typical_outputs:
+  - bio-oil
+TRL:
+  - value: 5
+    unit: trl
+    value_original: "5"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_f0b1038a
+expertise_required:
+  - value: specialist
+    unit: null
+    value_original: specialist
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_2c4170f4
+external_refs:
+  - https://en.wikipedia.org/wiki/Hydrothermal_liquefaction

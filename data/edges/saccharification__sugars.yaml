@@ -1,0 +1,7 @@
+id: saccharification__sugars
+source_node: saccharification
+target_node: sugars
+co_products: []
+references: []
+external_links: []
+notes: null

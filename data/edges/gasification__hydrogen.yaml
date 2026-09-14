@@ -1,0 +1,7 @@
+id: gasification__hydrogen
+source_node: gasification
+target_node: hydrogen
+co_products: []
+references: []
+external_links: []
+notes: null

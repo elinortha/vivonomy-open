@@ -1,0 +1,19 @@
+id: heat
+name: Heat
+type: product
+category: cat-energy-p
+product_function: energy
+carbon_fate: short-cycle
+description: Heat is the simplest and most direct energy product from bioenergy — thermal energy delivered as steam, hot water, or flue gas for space heating, process heat, or district heating networks. Unlike electricity, heat cannot be economically transported over long distances, so bioenergy heat plants are typically sited near demand. Combined heat and power (CHP) configurations capture both heat and electricity from a single conversion process, substantially improving overall energy efficiency.
+aliases:
+  - bioheat
+  - process heat
+  - district heat
+fossil_analog: Natural gas / district heating from fossil fuels
+end_use_sector:
+  - residential heating
+  - commercial buildings
+  - industrial process heat
+  - district heating networks
+external_refs:
+  - https://en.wikipedia.org/wiki/Bioenergy

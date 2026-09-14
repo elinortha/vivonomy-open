@@ -1,0 +1,253 @@
+{
+  "generated_at": "2026-09-14T01:05:34.345Z",
+  "sources": [
+    {
+      "source_id": "doi:10.1002/aic.15305",
+      "state": "read",
+      "citation_label": "Ulonska, Skiborowski, Mitsos & Viell (2016): Early-stage evaluation of biorefinery processing pathways using process network flux analysis",
+      "year": 2016,
+      "at": "2026-07-03"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109502",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Hydrodeoxygenation of cashew nut shell liquid into heavy-diesel-range hydrocarbo",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109509",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): An integrated early-stage decision framework for sustainable scale-up of biorefi",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109550",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Sequential pressurized fluid extraction for selective fractionation of biomass: ",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109556",
+      "state": "read",
+      "citation_label": "Unknown (2025): Fraction-resolved pyrolysis behavior, conversion-dependent kinetics, and predict",
+      "year": 2025,
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109563",
+      "state": "read",
+      "citation_label": "Unknown (2023): Enhancing biogas production from poultry waste: kinetics of co-digestion with co",
+      "year": 2023,
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109573",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Next-gen pre-treatment strategies for lignocellulose in biohydrogen production v",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109636",
+      "state": "read",
+      "citation_label": "Unknown (2025): Effect of process-based strategies on anaerobic digestion of 3D-printing-derived",
+      "year": 2025,
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109644",
+      "state": "read",
+      "citation_label": "Unknown (1978): Enhanced anaerobic digestion of thickened waste-activated sludge: Synergistic ef",
+      "year": 1978,
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109663",
+      "state": "read",
+      "citation_label": "Unknown (2019): Particulate and gaseous emissions during combustion of wood pellets under high h",
+      "year": 2019,
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109675",
+      "state": "read",
+      "citation_label": "Unknown (2021): Inert-gas-free thermochemical conversion of banana pseudostem under oxygen-limit",
+      "year": 2021,
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109694",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Biogas production from defatted seed cakes of second-generation oil crops: Chemi",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109707",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Hydrothermal carbonization and photocatalytic reforming as a two-step combined s",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109709",
+      "state": "read",
+      "citation_label": "Unknown (2016): Co-hydrotreatment of pyrolysis oil with coconut oil towards jet fuel-range hydro",
+      "year": 2016,
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109711",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Performance differences in Swedish farm-scale biogas plants: the role of operati",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109712",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Integrating high solids enzymatic hydrolysis and co-culture fermentation to impr",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109721",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): The pyrolysis and co-pyrolysis processes used to obtain biochar from waste as po",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109728",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): A rapid method to estimate the chemical composition of lignocellulosic materials",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109755",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): A proof-of-concept study on continuous side-stream low-intensity magnetization d",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109780",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Multi-scale characterization of pine wood biochar from TGA and fixed-bed reactor",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109824",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): An in-depth analysis of coconut shells: from the chemical-physical characterizat",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109863",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Enhancing lignocellulosic biomass conversion for bioethanol production via arabi",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109883",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Conversion of sugarcane bagasse to bioethanol via a one-pot conversion using a t",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109908",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Catalytic upgrading of Scenedesmus sp. microalgal oil to high-value hydrocarbon ",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109918",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Assessment of heat, electricity, and biochar polygeneration potential in an exis",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109922",
+      "state": "read",
+      "citation_label": "Unknown (2021): Unlocking manure's biogas potential from local to national scale: A case study o",
+      "year": 2021,
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109930",
+      "state": "read",
+      "citation_label": "Unknown (n.d.): Mechanical-press torrefaction of Napier grass for bio-coke production: effects o",
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.biombioe.2026.109968",
+      "state": "read",
+      "citation_label": "Unknown (2018): Second-generation bioethanol from lignocellulosic biomass: An integration-orient",
+      "year": 2018,
+      "at": "2026-09-11"
+    },
+    {
+      "source_id": "doi:10.1016/j.compchemeng.2011.04.013",
+      "state": "read",
+      "citation_label": "Bao, Ng, Tay, Jiménez-Gutiérrez & El-Halwagi (2011): A shortcut method for the preliminary synthesis of process-technology pathways",
+      "year": 2011,
+      "at": "2026-07-03"
+    },
+    {
+      "source_id": "doi:10.1021/ie4018572",
+      "state": "read",
+      "citation_label": "Kelloway & Daoutidis (2014): Process Synthesis of Biorefineries: Optimization of Biomass Conversion to Fuels and Chemicals",
+      "year": 2014,
+      "at": "2026-07-03"
+    },
+    {
+      "source_id": "doi:10.3390/biomass5030054",
+      "state": "read",
+      "citation_label": "Parvari et al. (2025): A Review of Biomass Pyrolysis for Production of Fuels: Chemistry, Processing, an",
+      "year": 2025,
+      "at": "2026-09-10"
+    },
+    {
+      "source_id": "doi:10.3390/en13061493",
+      "state": "read",
+      "citation_label": "Chaturvedi et al. (2020): Developing Process Designs for Biorefineries—Definitions, Categories, and Unit O",
+      "year": 2020,
+      "at": "2026-06-30"
+    },
+    {
+      "source_id": "doi:10.3390/en15239166",
+      "state": "read",
+      "citation_label": "Gu et al. (2022): A Two-Tier Superstructure Model for Optimization of Microalgae-Based Biorefinery",
+      "year": 2022,
+      "at": "2026-06-30"
+    },
+    {
+      "source_id": "doi:10.3390/en16093786",
+      "state": "read",
+      "citation_label": "Solarte-Toro et al. (2023): Sustainability of Biorefineries: Challenges and Perspectives",
+      "year": 2023,
+      "at": "2026-09-10"
+    },
+    {
+      "source_id": "doi:10.3390/pr14020188",
+      "state": "read",
+      "citation_label": "Infante Cuan et al. (2026): Superstructure-Based Process and Supply Chain Optimization in Sugarcane–Microalg",
+      "year": 2026,
+      "at": "2026-09-10"
+    },
+    {
+      "source_id": "doi:10.5281/zenodo.7632246",
+      "state": "read",
+      "citation_label": "BET.db — Bio-Energy Technology Database (2023)",
+      "year": 2023,
+      "at": "2026-06-28"
+    },
+    {
+      "source_id": "doi:10.52825/solarpaces.v3i.2438",
+      "state": "read",
+      "citation_label": "Amjed et al. (2025): Solar-Driven Biomass Pyrolysis Plant for Negative-Emission Biofuels Production",
+      "year": 2025,
+      "at": "2026-09-10"
+    },
+    {
+      "source_id": "internal:vivonomy-v1",
+      "state": "read",
+      "citation_label": "Vivonomy V1 ontology (internal, uncited)",
+      "year": 2026,
+      "at": "2026-06-28"
+    }
+  ]
+}

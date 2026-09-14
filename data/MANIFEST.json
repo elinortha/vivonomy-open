@@ -1,0 +1,1312 @@
+{
+  "generated_at": "2026-09-14T01:05:31.548Z",
+  "source_commit": "b62ac0e",
+  "source_dirty": true,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2476,
+      "sha256": "249a917c7a949388a1be7db3deffbf11e2cbbf515a4e15d267d36427133f5433"
+    },
+    {
+      "path": "data/aggregates.json",
+      "bytes": 520300,
+      "sha256": "aff429c30f3fe781b0318748fd040e028d21a82e2dbc445a62f70f2c2a948936"
+    },
+    {
+      "path": "data/edges/ad__biogas.yaml",
+      "bytes": 113,
+      "sha256": "9b74489e818109c52f43003715dd7c92370c1bb40e18c5d5f241f523207033e2"
+    },
+    {
+      "path": "data/edges/ad__digestate.yaml",
+      "bytes": 119,
+      "sha256": "1d410bf310a548373a7ab2ddd17afde9aa2312f19422dfbc2b364dfa2b9e3a87"
+    },
+    {
+      "path": "data/edges/ad__hydrogen.yaml",
+      "bytes": 117,
+      "sha256": "ab9d4e61759ca05562a5f9acdb9842ee40e63d4d19e5a9f85c2c01bc450d9bab"
+    },
+    {
+      "path": "data/edges/ad__vfa.yaml",
+      "bytes": 107,
+      "sha256": "f342585c21a83190338db64b4f0118498de85d32baa016eb48b2e6f0f658d876"
+    },
+    {
+      "path": "data/edges/algae__extraction.yaml",
+      "bytes": 127,
+      "sha256": "4191e7ecd701ad45b5582d62f32859133269c109ef3bb3459bb7416bd47b65f8"
+    },
+    {
+      "path": "data/edges/algae__htl.yaml",
+      "bytes": 113,
+      "sha256": "458f4436aff3ddaf40713eeeda2c3515457afdf3dd7dc9bab0ebeaec43a9f3d4"
+    },
+    {
+      "path": "data/edges/amino-acids__specialty-chem.yaml",
+      "bytes": 147,
+      "sha256": "7e6359b1d228d1efc2c1431e8598a82aeb3b4a066d4ae0b39874a0c0cbf4d84e"
+    },
+    {
+      "path": "data/edges/bagasse__combustion.yaml",
+      "bytes": 131,
+      "sha256": "484ab415a357e234dda178dd715bb9331373c64c6911710616b492fa418e2e2b"
+    },
+    {
+      "path": "data/edges/bagasse__fast-pyr.yaml",
+      "bytes": 127,
+      "sha256": "ca9e276a0e258a5f757df6dc6e2a278f07eaf9251e41d452f228daa136f93a84"
+    },
+    {
+      "path": "data/edges/bagasse__gasification.yaml",
+      "bytes": 135,
+      "sha256": "885b3dd8b132b2a490e3329b8bf252d8864ed24b1afa197532644b495492e8ed"
+    },
+    {
+      "path": "data/edges/bagasse__htl.yaml",
+      "bytes": 117,
+      "sha256": "35a5789785e627064a4ccdfe07e4c705cfbba355c5b609b8d2ba029b414d37b6"
+    },
+    {
+      "path": "data/edges/bagasse__pt-alkali.yaml",
+      "bytes": 129,
+      "sha256": "1feb26cf41cc2210abf7b423a730f1d862b41fa47ed96401a9022731f6f31d09"
+    },
+    {
+      "path": "data/edges/bagasse__pt-dilute-acid.yaml",
+      "bytes": 139,
+      "sha256": "375c78fe76b02c993062b03899460f038f3c700bf2b50162a7971edde1f4eade"
+    },
+    {
+      "path": "data/edges/bagasse__pt-drying.yaml",
+      "bytes": 129,
+      "sha256": "15b06ee8e11c584057d76e6fe201ea46d2607bb77c56371982febe095d0f5f1b"
+    },
+    {
+      "path": "data/edges/bagasse__pt-milling.yaml",
+      "bytes": 131,
+      "sha256": "50768215343e1cb0f0fa4cbc49a2ce11bb7c8ffd136433ccb940c45ac78424b1"
+    },
+    {
+      "path": "data/edges/bagasse__pt-organosolv.yaml",
+      "bytes": 137,
+      "sha256": "d2a803fed83a86713c60b915640ec6275a11137ea16a81412e0f8a6fce93d19d"
+    },
+    {
+      "path": "data/edges/bagasse__pt-steam-exp.yaml",
+      "bytes": 135,
+      "sha256": "5af55ae81d6c13c622a67b1baa32c7039bf8fc744dc95225c0c484c4249af53c"
+    },
+    {
+      "path": "data/edges/bagasse__pt-steam-heat.yaml",
+      "bytes": 137,
+      "sha256": "f03c1976ff79ea2efe31b50655a7510701f68a4d5a53f2fabddbde26ea0623fe"
+    },
+    {
+      "path": "data/edges/bagasse__slow-pyr.yaml",
+      "bytes": 127,
+      "sha256": "15352b30d4ccee976df61ba8c1a4571faafe084e96a65b5aea5ff19d0dc1f568"
+    },
+    {
+      "path": "data/edges/bagasse__torrefaction.yaml",
+      "bytes": 135,
+      "sha256": "f717006f5ea62f7b61a77d428239dbea465676bf06d520520674ad1e9b8a7370"
+    },
+    {
+      "path": "data/edges/bio-oil__cat-upg.yaml",
+      "bytes": 125,
+      "sha256": "941751976262dcc21e0549b0a3133e0e2d4b20b18722a48183c1868bf24ae618"
+    },
+    {
+      "path": "data/edges/bio-oil__hydrotreat.yaml",
+      "bytes": 131,
+      "sha256": "bbdf2e8cfce3f28b386f529d143d94287c624f3b0da32941a6c09b5483df8946"
+    },
+    {
+      "path": "data/edges/biochar__biochar-soil.yaml",
+      "bytes": 135,
+      "sha256": "31c4cde8fff2fe6606b2a1390181043048bbc61c32e4ecfe810a968012e2a806"
+    },
+    {
+      "path": "data/edges/biogas-upg__biomethane.yaml",
+      "bytes": 137,
+      "sha256": "b9e001df63e8e9c744af638bd0aeb3cb8ed7ee23a2c3fecb91661dbac2449beb"
+    },
+    {
+      "path": "data/edges/biogas__biogas-upg.yaml",
+      "bytes": 129,
+      "sha256": "2eea30139dd0c3b549114fc1e7aec62f21a8a6e10f483fec377338e72b466e75"
+    },
+    {
+      "path": "data/edges/biogas__electricity.yaml",
+      "bytes": 131,
+      "sha256": "a20d4e24d839b4aa385a539c0c281c7d1d843109fed520e181a3e4d4c7284c09"
+    },
+    {
+      "path": "data/edges/biogas__heat.yaml",
+      "bytes": 117,
+      "sha256": "f56eded14963808088f5810b49b916c61f050e6074d006901a9d79b690ff5557"
+    },
+    {
+      "path": "data/edges/cat-upg__bio-adhesive.yaml",
+      "bytes": 135,
+      "sha256": "c2de7363f8cf9de7120a9c034e5221ac2d2d58d6ee6196b2306545871576777f"
+    },
+    {
+      "path": "data/edges/cat-upg__bioplastic.yaml",
+      "bytes": 131,
+      "sha256": "8a0796200768802f8e5f9746908bf9abb3c2361a48a7fc5acb1706710366c551"
+    },
+    {
+      "path": "data/edges/cat-upg__carbon-fiber.yaml",
+      "bytes": 135,
+      "sha256": "6f4021236886692dcfe72fe96f648e9f8fc41dd2b21f794a597a271404008b57"
+    },
+    {
+      "path": "data/edges/cat-upg__specialty-chem.yaml",
+      "bytes": 139,
+      "sha256": "94cf6aeb1235865d6e7c1a127446b70ce04c828405c358b2677e11e6ab237eab"
+    },
+    {
+      "path": "data/edges/combustion__heat-power.yaml",
+      "bytes": 137,
+      "sha256": "6bad88521340e0e2274686068d0079ba44a33edae64a53a93957f4da5c0cd7fc"
+    },
+    {
+      "path": "data/edges/composting__stabilized-om.yaml",
+      "bytes": 143,
+      "sha256": "7e15d5af843ea0b1a470428924cb0e3610245b568cfe354c3998e1d12ec42049"
+    },
+    {
+      "path": "data/edges/corn-stover__combustion.yaml",
+      "bytes": 139,
+      "sha256": "e028a85b8f45353243d00ccbc05572ab50c0347839a1b3007aa986e99c9d5e88"
+    },
+    {
+      "path": "data/edges/corn-stover__fast-pyr.yaml",
+      "bytes": 135,
+      "sha256": "32966814b13d685c643871d5b38598334f7e81fabdcadda6821401f96de57b1b"
+    },
+    {
+      "path": "data/edges/corn-stover__gasification.yaml",
+      "bytes": 143,
+      "sha256": "1ebedffa0f502ff5c39744d3424f20a1256553a8110541e8d9f1fa86f357354e"
+    },
+    {
+      "path": "data/edges/corn-stover__htl.yaml",
+      "bytes": 125,
+      "sha256": "2acc97caab569417071eb6d0d8be625758665017f839b5a7b96c546d2434b5af"
+    },
+    {
+      "path": "data/edges/corn-stover__pt-afex.yaml",
+      "bytes": 133,
+      "sha256": "4856c0f53bc2820c8682583cb3c1d874299645040ad673a08c518a2db192e96d"
+    },
+    {
+      "path": "data/edges/corn-stover__pt-alkali.yaml",
+      "bytes": 137,
+      "sha256": "bb1f63e3c91e7ebe77493745d7e5614618a37e1ae0fc4411f537cf1db068dc6b"
+    },
+    {
+      "path": "data/edges/corn-stover__pt-dilute-acid.yaml",
+      "bytes": 147,
+      "sha256": "2d2b6a83931a3748d9b770d49f369a43a3e32c9fea9cd41ff7913960d84c9715"
+    },
+    {
+      "path": "data/edges/corn-stover__pt-milling.yaml",
+      "bytes": 139,
+      "sha256": "7d9b10c393bbb7556a2064754d898ea661563b431600b6cfbce33b5470d4211e"
+    },
+    {
+      "path": "data/edges/corn-stover__pt-organosolv.yaml",
+      "bytes": 145,
+      "sha256": "83eda99fa12576074f6f680684d89353f7f9623b92c283faeed68fb6a2aa9313"
+    },
+    {
+      "path": "data/edges/corn-stover__pt-steam-exp.yaml",
+      "bytes": 143,
+      "sha256": "35d7a3e6f915838bcd40b70ab346c3512e5bb5603426f88ef184316fc555ec8f"
+    },
+    {
+      "path": "data/edges/corn-stover__pt-steam-heat.yaml",
+      "bytes": 145,
+      "sha256": "6ae7515787cfb206fe71002e5f982ad3bc3510a9e6a06bd2cc3f5a68d9c934a5"
+    },
+    {
+      "path": "data/edges/corn-stover__slow-pyr.yaml",
+      "bytes": 135,
+      "sha256": "48877339bc2309788443123e3fe074e48bc7af77de56ace7a51d12f42777f73e"
+    },
+    {
+      "path": "data/edges/corn-stover__torrefaction.yaml",
+      "bytes": 143,
+      "sha256": "958e926c0c2b95559eaeba288a850932e50df25f207b55e61aa08adcb45f03df"
+    },
+    {
+      "path": "data/edges/digestate__digestate-fert.yaml",
+      "bytes": 143,
+      "sha256": "aa27f0ecdf7d5e91ec23712af44e9b4e268f4878f81b1307b973fc9ec9543841"
+    },
+    {
+      "path": "data/edges/enz-hydro__lignin.yaml",
+      "bytes": 127,
+      "sha256": "ad88f54fc224b0e24e16b25d4a2306c6c187f1f347905c89e5797803cd2bcbc4"
+    },
+    {
+      "path": "data/edges/enz-hydro__sugars.yaml",
+      "bytes": 127,
+      "sha256": "af9b443ff2d517842dfdeef984af09f1c263358f8dc46a52436b5dc7d53e71b0"
+    },
+    {
+      "path": "data/edges/enz-protein__amino-acids.yaml",
+      "bytes": 141,
+      "sha256": "f914b87fba5ebaaf215aa22d21a725f2b76922128af936a1f5b4a41a0d0a4e83"
+    },
+    {
+      "path": "data/edges/extraction__veg-oil.yaml",
+      "bytes": 131,
+      "sha256": "6f1ff12f6e9fcaf9df972e4cf76fdafef96440b2a68b6fca4682b84b067ee27c"
+    },
+    {
+      "path": "data/edges/fast-pyr__bio-oil.yaml",
+      "bytes": 127,
+      "sha256": "0f0b4304973d3d24153531bd6b7d207b78aa93ade5104cbaa666c1484a024989"
+    },
+    {
+      "path": "data/edges/fast-pyr__biochar.yaml",
+      "bytes": 127,
+      "sha256": "ade707469f14bfae2fc024aacd73c9e93422c011f596b279ed5b65c1f50cd382"
+    },
+    {
+      "path": "data/edges/ferm-upg__bioplastic.yaml",
+      "bytes": 133,
+      "sha256": "e95f4109228aeeb899c92973bb6deac6380c6b042cd2d9b3e05ab9e02767190a"
+    },
+    {
+      "path": "data/edges/ferm-upg__ethanol.yaml",
+      "bytes": 127,
+      "sha256": "86e522f2e8889fb2ff399561d184db945b19068a1ef8398d78a8077e486bacda"
+    },
+    {
+      "path": "data/edges/ferm-upg__specialty-chem.yaml",
+      "bytes": 141,
+      "sha256": "2d269879b4a33e235c9b3873d74ea68d96bd36776ce97678f6d2c8c176869a0d"
+    },
+    {
+      "path": "data/edges/food-waste__ad.yaml",
+      "bytes": 121,
+      "sha256": "69f1dcdc8ea6e839c71e3359a2137963f060eefecfa06ddafa98f9695a5c6436"
+    },
+    {
+      "path": "data/edges/food-waste__composting.yaml",
+      "bytes": 137,
+      "sha256": "2d4706cc79b7a8d07f2e83ecc183b000966b379eb2aef719619d4ada4100639e"
+    },
+    {
+      "path": "data/edges/food-waste__extraction.yaml",
+      "bytes": 137,
+      "sha256": "61818673cad4de029ddbc35b317140603afe6f3dc76a3c6cf83194c94aaa77b5"
+    },
+    {
+      "path": "data/edges/food-waste__htc.yaml",
+      "bytes": 123,
+      "sha256": "5dc30de7ecce78a6e6efccf576ad6d52be5643eedbba778ee73c0c6702685e2c"
+    },
+    {
+      "path": "data/edges/food-waste__htl.yaml",
+      "bytes": 123,
+      "sha256": "89d55f5247b0889e6b1f317d8efff3e3427e8d9c13ff392c520c9fa112c199ce"
+    },
+    {
+      "path": "data/edges/ft__renewable-diesel.yaml",
+      "bytes": 133,
+      "sha256": "dfa87cc73177fb39e587596ac09001f6c4ed6830c7fb66f9924907419be3a82b"
+    },
+    {
+      "path": "data/edges/ft__saf.yaml",
+      "bytes": 107,
+      "sha256": "3dd7b5ac6ba78a45731adcdf094c60e4b11bcf7f57c526f40e9a841bf8dde920"
+    },
+    {
+      "path": "data/edges/gasification__heat-power.yaml",
+      "bytes": 141,
+      "sha256": "d0c60bef48b79d99f76a5b697094926fff44008319d1babb740898171b6f430e"
+    },
+    {
+      "path": "data/edges/gasification__hydrogen.yaml",
+      "bytes": 137,
+      "sha256": "b8596d8dfd8ad0a0c192e26825a54287c12106405a539b3dbb201332cf80ee1b"
+    },
+    {
+      "path": "data/edges/gasification__syngas.yaml",
+      "bytes": 133,
+      "sha256": "aa1f9b5f74e8e889af2d89685188a139be0ea59bb99186169882f8c48280c5fb"
+    },
+    {
+      "path": "data/edges/heat-power__electricity.yaml",
+      "bytes": 139,
+      "sha256": "7f805eb5e225617f3670fc04572250378874301232d0bc72b68b8b338c475fc2"
+    },
+    {
+      "path": "data/edges/heat-power__heat.yaml",
+      "bytes": 125,
+      "sha256": "edc347c8dbe54be79f7a7dccec4ef98cfebcc6c5067ddde1faa52ab5d99ea556"
+    },
+    {
+      "path": "data/edges/htc__biochar.yaml",
+      "bytes": 117,
+      "sha256": "bea6cc040d9eb2dc326075c123fe509a205efbd63bd5f5c6422d710ff9553e18"
+    },
+    {
+      "path": "data/edges/htl__bio-oil.yaml",
+      "bytes": 117,
+      "sha256": "2d0b6924e7e87bfdc023c0f253582a6c29d9e1b458c7e847f95a3c6247f252e2"
+    },
+    {
+      "path": "data/edges/hydrogen__fuel-cell-elec.yaml",
+      "bytes": 141,
+      "sha256": "f51ba6217e21299bd287abc8a66b2d12b442559a91bbb6adcd5e29a15f0410b2"
+    },
+    {
+      "path": "data/edges/hydrogen__green-ammonia.yaml",
+      "bytes": 139,
+      "sha256": "9479964aa3762ec71942409034637bff031440c21823047078378ad931201f14"
+    },
+    {
+      "path": "data/edges/hydrotreat__renewable-diesel.yaml",
+      "bytes": 149,
+      "sha256": "de565b283989111c9abeb860b49b89a14a27e5e8750620555585d33883554ead"
+    },
+    {
+      "path": "data/edges/hydrotreat__saf.yaml",
+      "bytes": 123,
+      "sha256": "d07c4025830908c5791147b7ddf87662ed98cb537021c726a6b23e8930c85e4d"
+    },
+    {
+      "path": "data/edges/lignin__cat-upg.yaml",
+      "bytes": 123,
+      "sha256": "356a3ab07fedc73cb74950a250d6088eecd754b0d3939aa72ea35c6944a12cfb"
+    },
+    {
+      "path": "data/edges/lignin__electricity.yaml",
+      "bytes": 131,
+      "sha256": "fb95f05d890a75870c2b9bbb0685ef24bc7460aee929962bc08bdff2b4184174"
+    },
+    {
+      "path": "data/edges/lignin__heat.yaml",
+      "bytes": 117,
+      "sha256": "0f7cb91f92455e8c3ba9bca1b20ae575ba4ab10a2065e762b8a6666a68c8691f"
+    },
+    {
+      "path": "data/edges/manure__ad.yaml",
+      "bytes": 113,
+      "sha256": "8768f49ad4c590f6ecff7edc36ea1dd3c8073d82238b8f0d4568ca1de4db92df"
+    },
+    {
+      "path": "data/edges/manure__composting.yaml",
+      "bytes": 129,
+      "sha256": "d919a046220821a01d1c878c4b936575771f7526f10f1347a91c5397df975490"
+    },
+    {
+      "path": "data/edges/manure__htc.yaml",
+      "bytes": 115,
+      "sha256": "590b3448501df46f4b7649ad96088163c65e974da58c97a91eb5a11a09091f34"
+    },
+    {
+      "path": "data/edges/manure__htl.yaml",
+      "bytes": 115,
+      "sha256": "cad3313aa28a936eb7ff81d90551940389e106a3fa98fe735eb67d4547d0b33e"
+    },
+    {
+      "path": "data/edges/msw-organic__ad.yaml",
+      "bytes": 123,
+      "sha256": "1c770650740e989640c995e0f88a98307bd4864038e1d1795413674e095606bb"
+    },
+    {
+      "path": "data/edges/msw-organic__composting.yaml",
+      "bytes": 139,
+      "sha256": "bea118ff0486bc3f35895ec72aa769015c558eff78f8207cb2c86c8dd005ea16"
+    },
+    {
+      "path": "data/edges/msw-organic__htc.yaml",
+      "bytes": 125,
+      "sha256": "fd1872699748388a6253508152196f5eb2cb551cb4abb65db29c0ae58dcd165e"
+    },
+    {
+      "path": "data/edges/msw-organic__htl.yaml",
+      "bytes": 125,
+      "sha256": "64eedc03f3e38ee281ae56ff284389e8bf2e4b0eb57311af16b9ce9ab728c386"
+    },
+    {
+      "path": "data/edges/oilseed-crop__extraction.yaml",
+      "bytes": 141,
+      "sha256": "c24809f8e84ba41f0a3d70318b088303ed2a0df804d194318d9385f8f83cf1c4"
+    },
+    {
+      "path": "data/edges/protein-waste__ad.yaml",
+      "bytes": 127,
+      "sha256": "436256999921fb8c39e0c8c5c665e47fa7df2c9d7f16322fdda0f5d22cf14021"
+    },
+    {
+      "path": "data/edges/protein-waste__enz-protein.yaml",
+      "bytes": 145,
+      "sha256": "c70bfff0e6d92e2e9ac52290a601c3e7c95b8a9a75fda8a8c0e37b3bc6e5aac8"
+    },
+    {
+      "path": "data/edges/pt-afex__enz-hydro.yaml",
+      "bytes": 129,
+      "sha256": "307775428b2624d087f10d45291db62d906300f035b44430570ce1ae4d9975f2"
+    },
+    {
+      "path": "data/edges/pt-alkali__enz-hydro.yaml",
+      "bytes": 133,
+      "sha256": "d458eccb6dedcfa3f9f8bee378e51308c53f56a550e151564ab43b4a357d76cb"
+    },
+    {
+      "path": "data/edges/pt-chipping__combustion.yaml",
+      "bytes": 139,
+      "sha256": "0c9f2e4e01b3a8315958710062085e464286d2247bc9ab819ba878be1a838a9a"
+    },
+    {
+      "path": "data/edges/pt-chipping__enz-hydro.yaml",
+      "bytes": 137,
+      "sha256": "38aba41951353770d9d44d7d0c4746e2ed4e00a97875567245109638a19ca36d"
+    },
+    {
+      "path": "data/edges/pt-chipping__gasification.yaml",
+      "bytes": 143,
+      "sha256": "4bd79e49d92b1b32939a00b95a41128e2e585fdd3d77f25210669752ff68da86"
+    },
+    {
+      "path": "data/edges/pt-dilute-acid__enz-hydro.yaml",
+      "bytes": 143,
+      "sha256": "d03f8ce1d327bd69f47c39a119429caae3ae1b5bb8c3a453a902656c17fa537b"
+    },
+    {
+      "path": "data/edges/pt-drying__combustion.yaml",
+      "bytes": 135,
+      "sha256": "227fa17ec815d515182a4277463a653285178a9712abdff65815ae15948de04f"
+    },
+    {
+      "path": "data/edges/pt-drying__fast-pyr.yaml",
+      "bytes": 131,
+      "sha256": "a7213bb8a3cdc1cfbca4706e7271f7bd0c91ecaa81a26817e05976701f1d4f8a"
+    },
+    {
+      "path": "data/edges/pt-drying__gasification.yaml",
+      "bytes": 139,
+      "sha256": "0b902d5f5c8f00202de303a818dd0039951b6c167884586c6ba7dbf05f592be6"
+    },
+    {
+      "path": "data/edges/pt-drying__torrefaction.yaml",
+      "bytes": 139,
+      "sha256": "a408cebcee62f77d905c29189439da574efa1e6d932b228a4e6638131251a8e6"
+    },
+    {
+      "path": "data/edges/pt-fungal__enz-hydro.yaml",
+      "bytes": 133,
+      "sha256": "86b9cfe03d1dc29cc22e109d177fe83f3def4145e730800d85678081607fe94c"
+    },
+    {
+      "path": "data/edges/pt-milling__enz-hydro.yaml",
+      "bytes": 135,
+      "sha256": "f3b38da393c0d15b73b3815559c26eb735785c63261b213cafff9a205df940d5"
+    },
+    {
+      "path": "data/edges/pt-milling__fast-pyr.yaml",
+      "bytes": 133,
+      "sha256": "31e29d2e3f9029ea68a9bf593beb5917303d27e03f23f2d32be630acee187456"
+    },
+    {
+      "path": "data/edges/pt-milling__gasification.yaml",
+      "bytes": 141,
+      "sha256": "60b446ff6dde5b3264b29a806363efde5079b239d05f714ed0fa7802b4544688"
+    },
+    {
+      "path": "data/edges/pt-organosolv__enz-hydro.yaml",
+      "bytes": 141,
+      "sha256": "36a362f5204ee1158fcf63eb220e0bde2e6b5712855ef526fdb976693994ab56"
+    },
+    {
+      "path": "data/edges/pt-steam-exp__enz-hydro.yaml",
+      "bytes": 139,
+      "sha256": "7cab775ee8e140879a3183dd03e9cc5bdba7b8c3a31c8cf280929c7d93ea5884"
+    },
+    {
+      "path": "data/edges/pt-steam-heat__enz-hydro.yaml",
+      "bytes": 141,
+      "sha256": "895ca1c547f0d66d5a0018285f6f628a85b39baa37297dab8480252f7f7c9a3a"
+    },
+    {
+      "path": "data/edges/saccharification__sugars.yaml",
+      "bytes": 141,
+      "sha256": "159792ece46709d92a87f782f3f249a2256cbbf877c0e04663cbedee4eee47e5"
+    },
+    {
+      "path": "data/edges/slow-pyr__bio-oil.yaml",
+      "bytes": 127,
+      "sha256": "109b003f62af046834ad79c091d4e87ea094b8bb3d8f6debf6d84dddb823f0b0"
+    },
+    {
+      "path": "data/edges/slow-pyr__biochar.yaml",
+      "bytes": 127,
+      "sha256": "5cfde6ee627f0f454376c41187181ccfd865edbc54c46c2984bf5c15337cf570"
+    },
+    {
+      "path": "data/edges/slow-pyr__syngas.yaml",
+      "bytes": 125,
+      "sha256": "ca14d13aa2a6f08014b53bd3f5a1ec54f14dc048061e53be207d3f29d11be57d"
+    },
+    {
+      "path": "data/edges/sludge__ad.yaml",
+      "bytes": 113,
+      "sha256": "3a1a29dbb19119336590b283b5b655ea316afbff4228a1dc522eade7aae6a8ae"
+    },
+    {
+      "path": "data/edges/sludge__composting.yaml",
+      "bytes": 129,
+      "sha256": "bdcbfa0faa0fbe8736f16e5a3e4f108762e7fb80aba0ec474aadfa966ca5fd12"
+    },
+    {
+      "path": "data/edges/sludge__htc.yaml",
+      "bytes": 115,
+      "sha256": "702ff6fba1c0d7204ae45d15714431e339b571fb94ea89c5beac999493994319"
+    },
+    {
+      "path": "data/edges/sludge__htl.yaml",
+      "bytes": 115,
+      "sha256": "b866ff419e2840b4c2abaf70e2793fee7f6729b2888a665146c45470f6547641"
+    },
+    {
+      "path": "data/edges/spent-grain__ad.yaml",
+      "bytes": 123,
+      "sha256": "7da0df622c712be8f97e02e379c6bba29289925cba235890805c74741f70859b"
+    },
+    {
+      "path": "data/edges/spent-grain__composting.yaml",
+      "bytes": 139,
+      "sha256": "b84b6981393ecf3b80755fb18a1879e24d711541bdffcd31ce56e3393852544c"
+    },
+    {
+      "path": "data/edges/spent-grain__enz-hydro.yaml",
+      "bytes": 137,
+      "sha256": "360e151032eac646a548c6741110078c928bcb9893e29d8b4cc16081db9d8ed2"
+    },
+    {
+      "path": "data/edges/spent-grain__htc.yaml",
+      "bytes": 125,
+      "sha256": "da2b9205366297bec957c423eb0a3b431c0955c825c83c9867fdd3e65f10c132"
+    },
+    {
+      "path": "data/edges/spent-grain__htl.yaml",
+      "bytes": 125,
+      "sha256": "151b8039af378db5e8ab3a2dc4f5bef59bdca2441f607b3a8e3970b302b2e32c"
+    },
+    {
+      "path": "data/edges/stabilized-om__compost-prod.yaml",
+      "bytes": 147,
+      "sha256": "3f68dec56820f833df042bb833e09d884901991b000cd04d8cd6af0e4824c366"
+    },
+    {
+      "path": "data/edges/starch-waste__saccharification.yaml",
+      "bytes": 153,
+      "sha256": "82c5a5a0580169bfad041104d3d97d2774cab21fbeecd267bfa29ec1fdd6c402"
+    },
+    {
+      "path": "data/edges/sugars__ferm-upg.yaml",
+      "bytes": 125,
+      "sha256": "71397f98016dc103716fd8fb623767bfe84afb76dec0eb21d44c92c0136e40ac"
+    },
+    {
+      "path": "data/edges/switchgrass__combustion.yaml",
+      "bytes": 139,
+      "sha256": "59f095efcf138ceb64cc22b5fd918322bb966b7fb762cae47dfb936efec29496"
+    },
+    {
+      "path": "data/edges/switchgrass__fast-pyr.yaml",
+      "bytes": 135,
+      "sha256": "47d149670fccdcc647ce89ca517c6c1876b3ad5902fb3ef11fd08cfec5213ef0"
+    },
+    {
+      "path": "data/edges/switchgrass__gasification.yaml",
+      "bytes": 143,
+      "sha256": "c8149cfa061286b5ff29d4b5e12902523eea195f3c4fc4a60cbd4c12802abfda"
+    },
+    {
+      "path": "data/edges/switchgrass__htl.yaml",
+      "bytes": 125,
+      "sha256": "326433902cce6fc64e7d7294393e5a38d718baa4d00029410adf3b6f7f4bb4f3"
+    },
+    {
+      "path": "data/edges/switchgrass__pt-afex.yaml",
+      "bytes": 133,
+      "sha256": "377e54a4e1e672d7931964624295fc3eb5dfab51f4c5a27c748da206338d49d3"
+    },
+    {
+      "path": "data/edges/switchgrass__pt-alkali.yaml",
+      "bytes": 137,
+      "sha256": "af118ecdb2df880af1df0fe4ecc6b67160bd9eab1fe00421d58228522609998b"
+    },
+    {
+      "path": "data/edges/switchgrass__pt-dilute-acid.yaml",
+      "bytes": 147,
+      "sha256": "5d132dcef9155e5df020640f5b1b4eab6f457138c6a4395f3f20e287e0f5f6f6"
+    },
+    {
+      "path": "data/edges/switchgrass__pt-milling.yaml",
+      "bytes": 139,
+      "sha256": "08d23c0961770a9fc1469a4f72a9093d36315dff52771a4c2f19ba418da250a8"
+    },
+    {
+      "path": "data/edges/switchgrass__pt-steam-exp.yaml",
+      "bytes": 143,
+      "sha256": "ff982d41c2bfdd6489db64b8b8ebad60162f29b699b4a79400bc0be0f85d68ff"
+    },
+    {
+      "path": "data/edges/switchgrass__pt-steam-heat.yaml",
+      "bytes": 145,
+      "sha256": "ad4dc67e3fd479e9b31dfaac1d5e17a41dd1648e18519b027742d1a7c9717ba8"
+    },
+    {
+      "path": "data/edges/switchgrass__slow-pyr.yaml",
+      "bytes": 135,
+      "sha256": "0b4892e2d272eaec478318da03dfbf6816a8a1c78eff9fba421257388c0a4a6d"
+    },
+    {
+      "path": "data/edges/switchgrass__torrefaction.yaml",
+      "bytes": 143,
+      "sha256": "2997ccecfa4b9b9e0a57e23636aa7cd4ad8456daac2d5d7cafbcea8d12fa6022"
+    },
+    {
+      "path": "data/edges/syngas__cat-upg.yaml",
+      "bytes": 123,
+      "sha256": "a21ecd8d13fb76ce2cdd049f59c5c0881376ad6208ea7b97b6f4ddc1946143f1"
+    },
+    {
+      "path": "data/edges/syngas__ft.yaml",
+      "bytes": 113,
+      "sha256": "bd0229265a505455122e0b50a2116ebe6a1b1753bfd0d02c9ae23f0ed259989d"
+    },
+    {
+      "path": "data/edges/torrefaction__biochar.yaml",
+      "bytes": 135,
+      "sha256": "fa8f550ae86cd0feccf1acf6d99c04b295839cd4b8e6a36ae3957ee9a5e33e8d"
+    },
+    {
+      "path": "data/edges/transester__biodiesel.yaml",
+      "bytes": 135,
+      "sha256": "2f2bdc921e3996da46e00125af00a2cc061d3ea871ffe3a17ae1c091278fb80b"
+    },
+    {
+      "path": "data/edges/uco__extraction.yaml",
+      "bytes": 123,
+      "sha256": "6ea5998baa9548b27082be28a4462ff0d5cccd2c4e09ddd93dad6169698e0061"
+    },
+    {
+      "path": "data/edges/veg-oil__hydrotreat.yaml",
+      "bytes": 131,
+      "sha256": "d05b7043d58bc36d44d8411abea58398e9ef3babb873958be38fbbeb56786d28"
+    },
+    {
+      "path": "data/edges/veg-oil__transester.yaml",
+      "bytes": 131,
+      "sha256": "f9d0093fb7f4d579e3d6a5caea499a046a0b81d9112be2603ebca1a582ff66cd"
+    },
+    {
+      "path": "data/edges/vfa__ferm-upg.yaml",
+      "bytes": 119,
+      "sha256": "f623954d8156da5aa52ff7ec1bfddc0c3cc9b628dd22059fd3722e7189a9e68c"
+    },
+    {
+      "path": "data/edges/vfa__mcfa.yaml",
+      "bytes": 111,
+      "sha256": "f2aac5aa33ed0eb0823db71699f7a8c7f47edaab007093db172ced8121a357b2"
+    },
+    {
+      "path": "data/edges/wheat-straw__combustion.yaml",
+      "bytes": 139,
+      "sha256": "ce95d34926c39affc0073b6a1281c86b368f6aa43fa85bef4a9add9791c8254e"
+    },
+    {
+      "path": "data/edges/wheat-straw__fast-pyr.yaml",
+      "bytes": 135,
+      "sha256": "f2a299e68c5a6c361c6980851dfb53607e2e0d453afb9459f3f31a0db2827ed7"
+    },
+    {
+      "path": "data/edges/wheat-straw__gasification.yaml",
+      "bytes": 143,
+      "sha256": "dba37fb3f7a0edfdf2f926560103e3b42aa293d8c0f71ab8cd36fddec8e104cb"
+    },
+    {
+      "path": "data/edges/wheat-straw__htl.yaml",
+      "bytes": 125,
+      "sha256": "0eb96689d5a5821ac1eaf1c07235675cb023d1b418a96a4ca16ff3005123431d"
+    },
+    {
+      "path": "data/edges/wheat-straw__pt-afex.yaml",
+      "bytes": 133,
+      "sha256": "a7c041ea4d0a2e060fcf81a2730e66cb1277482b419fb8b98d5562a51bf59c63"
+    },
+    {
+      "path": "data/edges/wheat-straw__pt-alkali.yaml",
+      "bytes": 137,
+      "sha256": "0cedd090c6ac742e3cf2aa900fdba73d2e7ce87144aa17775e29bb2f3ad3f62e"
+    },
+    {
+      "path": "data/edges/wheat-straw__pt-dilute-acid.yaml",
+      "bytes": 147,
+      "sha256": "bf1490a264ecf2af443ff3eda3de54709f69483465a5b26ed3bcb834eee6ebf1"
+    },
+    {
+      "path": "data/edges/wheat-straw__pt-fungal.yaml",
+      "bytes": 137,
+      "sha256": "ebb487fce58e2224abb87fd154a9cbde3b63d7ab4e0de222a4fba266f10d789e"
+    },
+    {
+      "path": "data/edges/wheat-straw__pt-milling.yaml",
+      "bytes": 139,
+      "sha256": "db3125ec0bd040b3c4e8e751b14a5a95d09dd32e0793f46ec5b2f3204768626b"
+    },
+    {
+      "path": "data/edges/wheat-straw__pt-steam-exp.yaml",
+      "bytes": 143,
+      "sha256": "a408c9e64df28dd240f570f51e5a5220811bdd4e69299548b1c8b300f8cc6525"
+    },
+    {
+      "path": "data/edges/wheat-straw__pt-steam-heat.yaml",
+      "bytes": 145,
+      "sha256": "fdc98a8028665e32e775f90eec5756883e7cab7d5440a75ea1e69545107167cf"
+    },
+    {
+      "path": "data/edges/wheat-straw__slow-pyr.yaml",
+      "bytes": 135,
+      "sha256": "6e3603246087097edb1ab8b65cf6017c23b695c09d8c996637e59d03374784ce"
+    },
+    {
+      "path": "data/edges/wheat-straw__torrefaction.yaml",
+      "bytes": 143,
+      "sha256": "5fb7224d96dc48b640528690678383bc93ec88aa6bdde17d5d39028903f26340"
+    },
+    {
+      "path": "data/edges/wood-chips__combustion.yaml",
+      "bytes": 137,
+      "sha256": "c1b425e51df588dd506837954efc458b52694a51cabf2dd4ece80c605ff73e52"
+    },
+    {
+      "path": "data/edges/wood-chips__fast-pyr.yaml",
+      "bytes": 133,
+      "sha256": "c212a983bde9ba699e9dbcc1998dfbc5ddaf72849facf6b0e257a5478c539ab5"
+    },
+    {
+      "path": "data/edges/wood-chips__gasification.yaml",
+      "bytes": 141,
+      "sha256": "e7c9e636778e58f3d827a3d0183ddc46fad46ea4e2b0981919e72cc7cf447323"
+    },
+    {
+      "path": "data/edges/wood-chips__htl.yaml",
+      "bytes": 123,
+      "sha256": "8b6ddb5df6e4cb05c1b2cbab2ae19145ea450ca18ab3e72904c51d46aab6d4f8"
+    },
+    {
+      "path": "data/edges/wood-chips__pt-alkali.yaml",
+      "bytes": 135,
+      "sha256": "d12776cc7aab16bd2ff1398b7942e4433602b4c9e74c8d6ecc862723cd4a9d1d"
+    },
+    {
+      "path": "data/edges/wood-chips__pt-chipping.yaml",
+      "bytes": 139,
+      "sha256": "3e13ff3cd0046dbeb940d2485074d88742b6093f18c1a5f9448b0adb026b57d4"
+    },
+    {
+      "path": "data/edges/wood-chips__pt-dilute-acid.yaml",
+      "bytes": 145,
+      "sha256": "a0fee554bce1c6e46d9b1569df1a7fbca1178201c24b4b0f7947cb121131e474"
+    },
+    {
+      "path": "data/edges/wood-chips__pt-drying.yaml",
+      "bytes": 135,
+      "sha256": "ccffedfe4d83898bbc48293a9bbab013895eb1b3fa80b6ee7d07b01de7aefe40"
+    },
+    {
+      "path": "data/edges/wood-chips__pt-fungal.yaml",
+      "bytes": 135,
+      "sha256": "3eb35a217c6492a4cf8a6e17d2cb48f4ac47c1669fb6df7c712e75b4e323103b"
+    },
+    {
+      "path": "data/edges/wood-chips__pt-milling.yaml",
+      "bytes": 137,
+      "sha256": "1d180a6105f7e6e2a2db7e0f9f1d5455b3ac0ddd6646924fe673d652f4bb6587"
+    },
+    {
+      "path": "data/edges/wood-chips__pt-organosolv.yaml",
+      "bytes": 143,
+      "sha256": "a777ae7b79f153871b5bb26950bed192c4cc35fcc978bfd0ccb97336ac84b8dd"
+    },
+    {
+      "path": "data/edges/wood-chips__pt-steam-exp.yaml",
+      "bytes": 141,
+      "sha256": "ca47610dec74bb65a0927b5a367432a2e6d83e6b15baff92ef65a9551bc80a09"
+    },
+    {
+      "path": "data/edges/wood-chips__pt-steam-heat.yaml",
+      "bytes": 143,
+      "sha256": "dc348065cbcadc4e1e2a925a675d31aa7829a5bfa3c0044831d4a7331bf6bfeb"
+    },
+    {
+      "path": "data/edges/wood-chips__slow-pyr.yaml",
+      "bytes": 133,
+      "sha256": "b0b78013a552a1a4b769a9f897d5e4c16b1b50c4256c1c81d4abb1e87a888b04"
+    },
+    {
+      "path": "data/edges/wood-chips__torrefaction.yaml",
+      "bytes": 141,
+      "sha256": "73a41357a803b2abe4c91aac59c0887044ec0b0cdc05a7981acdc5114b36d58d"
+    },
+    {
+      "path": "data/graph.json",
+      "bytes": 361606,
+      "sha256": "608af1eed24a5584cd20578c0b00eb353a1581b5561616e78acb56159e2991a7"
+    },
+    {
+      "path": "data/nodes/feedstock/algae.yaml",
+      "bytes": 1127,
+      "sha256": "1d56b8eb7b341795674c161e229ee9c7fa3c18680f673fdd297f81e03cda3a61"
+    },
+    {
+      "path": "data/nodes/feedstock/bagasse.yaml",
+      "bytes": 1059,
+      "sha256": "c7012bc2d6b2bb69a870247e22a46c35edcd2dfa5c456f7a8da48109de32d78a"
+    },
+    {
+      "path": "data/nodes/feedstock/corn-stover.yaml",
+      "bytes": 1172,
+      "sha256": "38a2cfcb6bb95afca614d5460b253656eeb9d08fe7a46ca27cc502571029e5da"
+    },
+    {
+      "path": "data/nodes/feedstock/food-waste.yaml",
+      "bytes": 1120,
+      "sha256": "bc137ecb00ca80e34ab7880bdbc6772536b7ca42930369f28a0fe1b6cbea6e78"
+    },
+    {
+      "path": "data/nodes/feedstock/manure.yaml",
+      "bytes": 1136,
+      "sha256": "c2712faa9327b4874e61c1dfd088aee18c379b502cbc676508be2e6cc2aff073"
+    },
+    {
+      "path": "data/nodes/feedstock/msw-organic.yaml",
+      "bytes": 1148,
+      "sha256": "9634b6d84b30e65fdccc34ab709eacfa7feedca4f0c6397141913fc7d654a59a"
+    },
+    {
+      "path": "data/nodes/feedstock/oilseed-crop.yaml",
+      "bytes": 1125,
+      "sha256": "8a6ceefb06d1431f569e7dd5fe79dc3cb63489f0ec1e3e13eb232e1940c19e39"
+    },
+    {
+      "path": "data/nodes/feedstock/protein-waste.yaml",
+      "bytes": 1150,
+      "sha256": "0351d165c52a101fdd9a1bb924b79716983f4249dce9d3c7afb900745794544b"
+    },
+    {
+      "path": "data/nodes/feedstock/sludge.yaml",
+      "bytes": 1146,
+      "sha256": "01351a1f0b0c5b26a8bc96c617a3374b04ed4a5919bee1b149b3f3161dcfbbe1"
+    },
+    {
+      "path": "data/nodes/feedstock/spent-grain.yaml",
+      "bytes": 1000,
+      "sha256": "812490b4bece0ea32e90db84980e4f6f8bfaa14722585aa4cecabb3d194d6fe6"
+    },
+    {
+      "path": "data/nodes/feedstock/starch-waste.yaml",
+      "bytes": 1125,
+      "sha256": "9d25886f63f27b73bcaa28821c2910e8f259ac6d747560fe3fff88b6f232d1bf"
+    },
+    {
+      "path": "data/nodes/feedstock/switchgrass.yaml",
+      "bytes": 1131,
+      "sha256": "085be24fb78cf4822c38d341f43bcd8a93c924dbd550a9909065129a07ee47bf"
+    },
+    {
+      "path": "data/nodes/feedstock/uco.yaml",
+      "bytes": 1159,
+      "sha256": "25aa6ea2e6fb22b16d3615be7d5c1fe1bebcec5bdfc6546627e86ab1cde64439"
+    },
+    {
+      "path": "data/nodes/feedstock/wheat-straw.yaml",
+      "bytes": 1019,
+      "sha256": "3908a9e5cde85e4525ca27d8f9e741b86c6849347560d4eb0f49fc5268faca6a"
+    },
+    {
+      "path": "data/nodes/feedstock/wood-chips.yaml",
+      "bytes": 1200,
+      "sha256": "84ae1e692474fe0ceb061b79dcc75cf36249844a0eadb39dfb8991319ffaf70e"
+    },
+    {
+      "path": "data/nodes/platform/amino-acids.yaml",
+      "bytes": 854,
+      "sha256": "5e7b498a7b8203fac22e3c526181228c9e9ed49535d133bc5ff37210f1c7daa1"
+    },
+    {
+      "path": "data/nodes/platform/bio-oil.yaml",
+      "bytes": 960,
+      "sha256": "4e3e4f61adad857dbc5b8e15e2ce42dbbf53a1627c29a2541ce24bc6677ddafb"
+    },
+    {
+      "path": "data/nodes/platform/biochar.yaml",
+      "bytes": 868,
+      "sha256": "256f46dbcb361c81a4daf4f2b6e3ade14150fcf796916eed5dd9f3c345fdb3b5"
+    },
+    {
+      "path": "data/nodes/platform/biogas.yaml",
+      "bytes": 849,
+      "sha256": "8a5ccf2fa12e42ddf5e076c33f1b531b022daa8558926f5d1ca3e7a6d60967ec"
+    },
+    {
+      "path": "data/nodes/platform/digestate.yaml",
+      "bytes": 858,
+      "sha256": "b04a72dba5b930e2ffaf93167a94142f0b5e3f071bbe5d85a3dc16efbb5e8b80"
+    },
+    {
+      "path": "data/nodes/platform/heat-power.yaml",
+      "bytes": 789,
+      "sha256": "1405249fb8e8d4fdcae42a6c42a1451713207a21c719d0ffd0bfe7d1099c39e5"
+    },
+    {
+      "path": "data/nodes/platform/hydrogen.yaml",
+      "bytes": 774,
+      "sha256": "57929670824425e10bec54c7894f066844f42e5013202fa29c954446981bf264"
+    },
+    {
+      "path": "data/nodes/platform/lignin.yaml",
+      "bytes": 896,
+      "sha256": "22c45ace106337ff99bbf58c2f2043bdd6ea2ab3f8cf1a05ed437c2508521349"
+    },
+    {
+      "path": "data/nodes/platform/stabilized-om.yaml",
+      "bytes": 812,
+      "sha256": "ae74221cbf515379fbf5f2baa70788b6f29da9bc983d06a086d1fddac44a28af"
+    },
+    {
+      "path": "data/nodes/platform/sugars.yaml",
+      "bytes": 866,
+      "sha256": "d4ce988b3f54a36f42060730a1fa76f4c4ecf16a6aff79df93710f53f5a30e25"
+    },
+    {
+      "path": "data/nodes/platform/syngas.yaml",
+      "bytes": 821,
+      "sha256": "03a18310ab668dee76f991b37ebed4f6abff3ab7c7a7214634d9cfa87e74a1e3"
+    },
+    {
+      "path": "data/nodes/platform/veg-oil.yaml",
+      "bytes": 851,
+      "sha256": "648d02c23ef992c0a7a91e9dc0eaba58f50af02101da3f36646edf87eeebe54c"
+    },
+    {
+      "path": "data/nodes/platform/vfa.yaml",
+      "bytes": 902,
+      "sha256": "d77782bf5451e95d1df909fc77d486f34cca1637f4132d644824c8ebaa5a8286"
+    },
+    {
+      "path": "data/nodes/pretreatment/pt-afex.yaml",
+      "bytes": 2000,
+      "sha256": "f2429c47a7db4df94a7a180488424caa9db7f0e4669065df0529a5f54edf724b"
+    },
+    {
+      "path": "data/nodes/pretreatment/pt-alkali.yaml",
+      "bytes": 1966,
+      "sha256": "e6fef63c3bd57a437af10a28e5d1f21ac990896829b90bf19b6e310be60079b5"
+    },
+    {
+      "path": "data/nodes/pretreatment/pt-chipping.yaml",
+      "bytes": 1687,
+      "sha256": "7c10eaa1f64cbbbcf1844ee6107eda18b0cc4b65418f9c3e555c437ce81afd38"
+    },
+    {
+      "path": "data/nodes/pretreatment/pt-dilute-acid.yaml",
+      "bytes": 2031,
+      "sha256": "ff7f687be3e70b0851e99cb38df28ff2fa8c935c952b692278a71f12751179f2"
+    },
+    {
+      "path": "data/nodes/pretreatment/pt-drying.yaml",
+      "bytes": 1801,
+      "sha256": "75f2a83b9d36d73e58da20cabfffdfc0bf753e71c845d57457bb6c38bd2d04d3"
+    },
+    {
+      "path": "data/nodes/pretreatment/pt-fungal.yaml",
+      "bytes": 1997,
+      "sha256": "39e11b749ad83686ce08032c961cbb3526e7ec935c6f9255ee97b353053a38d1"
+    },
+    {
+      "path": "data/nodes/pretreatment/pt-milling.yaml",
+      "bytes": 1719,
+      "sha256": "df4ac137c896128509a139cd5e3cb6a015c78ceb2c3e18603d35c7056794e7fb"
+    },
+    {
+      "path": "data/nodes/pretreatment/pt-organosolv.yaml",
+      "bytes": 2009,
+      "sha256": "27b6471c8b797caa8ede0126d9783a689538e15ec0a681410f2726291a89beab"
+    },
+    {
+      "path": "data/nodes/pretreatment/pt-steam-exp.yaml",
+      "bytes": 1870,
+      "sha256": "77bba06bc524cc07fabb5aba66a866faeb69776e383006d62403c8d72fe98199"
+    },
+    {
+      "path": "data/nodes/pretreatment/pt-steam-heat.yaml",
+      "bytes": 1842,
+      "sha256": "33b41540016fbf49e9a4966e44a5415cd66fac805c0922e887d5cfeb1d9bb096"
+    },
+    {
+      "path": "data/nodes/primary_conversion/ad.yaml",
+      "bytes": 1888,
+      "sha256": "6075d2743cabbc24dcfec08130d672eab44e8901673e5ec60be91a99090ceb49"
+    },
+    {
+      "path": "data/nodes/primary_conversion/combustion.yaml",
+      "bytes": 1784,
+      "sha256": "e8111f7c02a515976d414256808a3006d141262135f548b9117cc9aedcba6441"
+    },
+    {
+      "path": "data/nodes/primary_conversion/composting.yaml",
+      "bytes": 1856,
+      "sha256": "1c9cbeb2d0527d2fc1bf14d0566c43a6932f6cd1f434164edbca452d9b669ca5"
+    },
+    {
+      "path": "data/nodes/primary_conversion/enz-hydro.yaml",
+      "bytes": 1804,
+      "sha256": "5e95ae648e01a3d76fe315e46704cbcc3fe62c68e03b2d9e7c1af6090f8112c0"
+    },
+    {
+      "path": "data/nodes/primary_conversion/enz-protein.yaml",
+      "bytes": 1816,
+      "sha256": "0050a98560f409836e96f80668d3b9cc856ce1348f85c4d67430126b9e4a2a30"
+    },
+    {
+      "path": "data/nodes/primary_conversion/extraction.yaml",
+      "bytes": 1866,
+      "sha256": "781b80c427dd461f606d38c1867f48d748ddf500df0b4e87b5f8deaebb5a3398"
+    },
+    {
+      "path": "data/nodes/primary_conversion/fast-pyr.yaml",
+      "bytes": 1814,
+      "sha256": "f75856cca02a284f16e68a862ee9caa66b3e4c11cf18bd0b911a233ac46f40c0"
+    },
+    {
+      "path": "data/nodes/primary_conversion/gasification.yaml",
+      "bytes": 1890,
+      "sha256": "a4106c2215c1c429b28972b1a6a87324ebf804a8d634527d94648112ed99f3a6"
+    },
+    {
+      "path": "data/nodes/primary_conversion/htc.yaml",
+      "bytes": 1761,
+      "sha256": "6421f558eae16ef120e05894207c2a77e0af98752ea50a3fc4d58548a696ce2d"
+    },
+    {
+      "path": "data/nodes/primary_conversion/htl.yaml",
+      "bytes": 1884,
+      "sha256": "0d8c17f6fcc530b64e25dfcdb1482747a65d8db4cbf5aacbb1810d38442b558f"
+    },
+    {
+      "path": "data/nodes/primary_conversion/saccharification.yaml",
+      "bytes": 1868,
+      "sha256": "15c8018937102c1afe3b713005c9fe2d0e02e2ae177f295b9086206d06807987"
+    },
+    {
+      "path": "data/nodes/primary_conversion/slow-pyr.yaml",
+      "bytes": 1837,
+      "sha256": "91e19715f518651cafd6cc2d90c4f5eea6ecee9722d214c235d26d80726c238c"
+    },
+    {
+      "path": "data/nodes/primary_conversion/torrefaction.yaml",
+      "bytes": 1807,
+      "sha256": "24b67d2019cd41ea24eb7f5575be79f92ed9cadf3b0f4e85e0e9b6751f85d724"
+    },
+    {
+      "path": "data/nodes/product/bio-adhesive.yaml",
+      "bytes": 946,
+      "sha256": "c76c252897194e5c2ae4d400fb3a543cde4e8797672783c4d6e9da4b096712ec"
+    },
+    {
+      "path": "data/nodes/product/biochar-soil.yaml",
+      "bytes": 910,
+      "sha256": "3d9099e36b91399b761bd19b3ebcffbba7875a8a91f85110aee698ea253e7874"
+    },
+    {
+      "path": "data/nodes/product/biodiesel.yaml",
+      "bytes": 844,
+      "sha256": "403ce0e33b77bc180dc4a4ae1b8b472365722846d7a63877c08176fc8dc39baf"
+    },
+    {
+      "path": "data/nodes/product/biomethane.yaml",
+      "bytes": 860,
+      "sha256": "8ad59bfa7dcad69e0d95063bbd7716c6f1994fa62122cef0b517930c1df564dd"
+    },
+    {
+      "path": "data/nodes/product/bioplastic.yaml",
+      "bytes": 958,
+      "sha256": "b8ed8e4eb09ddab99d0d498fae5518cdfe5054a3df49b14e2db45201081d4430"
+    },
+    {
+      "path": "data/nodes/product/carbon-fiber.yaml",
+      "bytes": 980,
+      "sha256": "1da4cf5cba0628edee0eb7b764e6b2f55ac54c0df7501fb509986887c88a8982"
+    },
+    {
+      "path": "data/nodes/product/compost-prod.yaml",
+      "bytes": 874,
+      "sha256": "c6596ba44524c7e06ec3e3394057159181f93e56ff04d2b6144c4d00141814d6"
+    },
+    {
+      "path": "data/nodes/product/digestate-fert.yaml",
+      "bytes": 977,
+      "sha256": "b6f9a8b2ff51bdb670da9fc7346f49b31d36265c5249b94018c78637fc99ee6d"
+    },
+    {
+      "path": "data/nodes/product/electricity.yaml",
+      "bytes": 864,
+      "sha256": "5881b8093e74b8aea745ad042ad543a255f0bf4e1cc24bddb8a4cd5c531ff519"
+    },
+    {
+      "path": "data/nodes/product/ethanol.yaml",
+      "bytes": 838,
+      "sha256": "86775a15055dfb770107a0a8f3b638fbbee950020f37dde08c9e8c1ab7c7e935"
+    },
+    {
+      "path": "data/nodes/product/fuel-cell-elec.yaml",
+      "bytes": 908,
+      "sha256": "bcb20314ca44e2efabe19789eece20373e9935cf18bef54d3193ee0ab8f94635"
+    },
+    {
+      "path": "data/nodes/product/green-ammonia.yaml",
+      "bytes": 938,
+      "sha256": "1407a3d1a747fe79db415cd5fb43d9187494ebc41980a3da5d963b1edf93f42f"
+    },
+    {
+      "path": "data/nodes/product/heat.yaml",
+      "bytes": 917,
+      "sha256": "a1808eb68b7576e3bc83da0ea1bf3e4206317a03d51752900852b08abb367c67"
+    },
+    {
+      "path": "data/nodes/product/mcfa.yaml",
+      "bytes": 905,
+      "sha256": "6dfc20e496e16e9026546f1135497014b34e60cbfd47a8fd7f9120e2ab969714"
+    },
+    {
+      "path": "data/nodes/product/renewable-diesel.yaml",
+      "bytes": 874,
+      "sha256": "30796c495cdf8d529e5bfdd72000b99eed511dcfce572229726397f96d0b9398"
+    },
+    {
+      "path": "data/nodes/product/saf.yaml",
+      "bytes": 878,
+      "sha256": "984de4d172b72352e12923f6e63f0c5f5655564cc2df32b7348a517f69d1cae7"
+    },
+    {
+      "path": "data/nodes/product/specialty-chem.yaml",
+      "bytes": 970,
+      "sha256": "3efd93f450d36e52afd17b682852104a66f5d5258379a875b6b2faa53c5aec09"
+    },
+    {
+      "path": "data/nodes/upgrading/biogas-upg.yaml",
+      "bytes": 1864,
+      "sha256": "6cfceb93ef7c6b7e610a802c16355b24740b208a8a0b4af8f3639c2dcff4a423"
+    },
+    {
+      "path": "data/nodes/upgrading/cat-upg.yaml",
+      "bytes": 1951,
+      "sha256": "e1ad233d844ebeca44679e2c4a5c4377f100a2285b142a236a8ae299b00eaf8b"
+    },
+    {
+      "path": "data/nodes/upgrading/ferm-upg.yaml",
+      "bytes": 1904,
+      "sha256": "c499ce1bd1f1eb535e7e1fd9c859baac01639e9f1985f247636bd454b84a4245"
+    },
+    {
+      "path": "data/nodes/upgrading/ft.yaml",
+      "bytes": 1878,
+      "sha256": "da91999ddd950b2f3321bd5236eab17e07ca1b6983608dfcf5103ba8dc6557ed"
+    },
+    {
+      "path": "data/nodes/upgrading/hydrotreat.yaml",
+      "bytes": 1872,
+      "sha256": "eea9a18a7fe8d974ed420c6367408f4532e6bb143e54caa4513a518bd70f8871"
+    },
+    {
+      "path": "data/nodes/upgrading/transester.yaml",
+      "bytes": 1901,
+      "sha256": "cdb88a1643d27557cabc86601920adde4d8355a775b3b29e476f3ae2b11afbb3"
+    },
+    {
+      "path": "data/pathways.json",
+      "bytes": 30382,
+      "sha256": "a0ba37d127c25b38846641689a2df44e880e8a2a6f59af2f7a3c4688b48627e2"
+    },
+    {
+      "path": "data/pathways/fermentation-upgrade.yaml",
+      "bytes": 1092,
+      "sha256": "a0902be6917939ccd93ff1030fbb4a72fe4575f5a5dadce1d4e0747bc0fafe89"
+    },
+    {
+      "path": "data/pathways/manure-ad-biogas.yaml",
+      "bytes": 1065,
+      "sha256": "2ceccf377f488e8627411369e7b73ee2959724d60bbcd4169857430f2a3cdade"
+    },
+    {
+      "path": "data/pathways/syngas-ft-gasoline.yaml",
+      "bytes": 1457,
+      "sha256": "eba96ff9f5ba14e60f6d476c59db9db07773414142261f317d7635a2cf1752d2"
+    },
+    {
+      "path": "data/sources.json",
+      "bytes": 9592,
+      "sha256": "dabc00ba134704b754e34b352e614e61ddc86c9f621fd727325195e849a6c218"
+    },
+    {
+      "path": "data/sources/bibliography.yaml",
+      "bytes": 7698,
+      "sha256": "e08bf6b6a4847d8ef718d35e454ca67fdfb7d1fba8b19a7dda33ae54f0ceec2a"
+    },
+    {
+      "path": "data/sources/papers.yaml",
+      "bytes": 6395,
+      "sha256": "d97bdfa817db3634f9024556c02fede6522e8a0752f1338abcf71ee21c380fc2"
+    },
+    {
+      "path": "papers/A Review of Biomass Pyrolysis for Production of Fuels Chemistry, Processing, and Techno-Economic Analysis.xml",
+      "bytes": 342420,
+      "sha256": "0ecdbb71b75c192124dbd3406d7f70c48fc47af7ccc37e87d893993b72b87b6d"
+    },
+    {
+      "path": "papers/A Two-Tier Superstructure Model for Optimization of Microalgae-Based Biorefinery.xml",
+      "bytes": 141404,
+      "sha256": "1f71cd6edbe45b666f3a5cb7dcf744aa2034e477cf76d9b8ee976c9118cc7d56"
+    },
+    {
+      "path": "papers/Developing Process Designs for Biorefineries—Definitions Categories and Unit Operations.xml",
+      "bytes": 286527,
+      "sha256": "34b47fbadb6b6b17d17569d3f8bbe1676ff7106ea688e6daed8863db48c055b7"
+    },
+    {
+      "path": "papers/Solar-Driven Biomass Pyrolysis Plant for Negative-Emission Biofuels Production _ SolarPACES Conference Proceedings.html",
+      "bytes": 25521,
+      "sha256": "92a2b90bec02cc06747d88ec245a51ed7d8ce356a6c70c0304dc04389a7ae937"
+    },
+    {
+      "path": "papers/Superstructure-Based Process and Supply Chain Optimization in Sugarcane–Microalgae Biorefineries.xml",
+      "bytes": 248169,
+      "sha256": "6a4fe7b16497fb68babe33ba37c9270484a49f72b7d88eba842dc83c40929d77"
+    },
+    {
+      "path": "papers/Sustainability of Biorefineries Challenges and Perspectives.xml",
+      "bytes": 252635,
+      "sha256": "64bf517f779868c5b61cb2a8bd496b8d75e9b68fc3118940e54e6e0f6d090808"
+    }
+  ]
+}

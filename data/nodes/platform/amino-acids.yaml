@@ -1,0 +1,19 @@
+id: amino-acids
+name: Amino acids
+type: platform
+category: cat-liquid
+description: Amino acids are the monomeric building blocks of proteins, recovered by enzymatic hydrolysis of protein-rich waste streams. As a platform, they represent a high-value chemical intermediate with applications in food, feed, pharmaceuticals, and as precursors for specialty chemicals. The composition of the amino acid mixture depends on the protein source — different proteins have characteristic amino acid profiles that determine downstream applications and market value.
+aliases:
+  - free amino acids
+  - protein hydrolysate
+  - amino acid mixture
+phase: liquid
+chemical_class: amino_acid_mixture
+key_components:
+  - glutamic acid
+  - lysine
+  - leucine
+  - aspartic acid
+  - other proteinogenic amino acids
+external_refs:
+  - https://en.wikipedia.org/wiki/Amino_acid

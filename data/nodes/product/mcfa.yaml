@@ -1,0 +1,20 @@
+id: mcfa
+name: Med-chain fatty acids
+type: product
+category: cat-material-p
+product_function: chemical
+carbon_fate: durable
+description: Medium-chain fatty acids (MCFAs, C6–C12) are produced by chain elongation of volatile fatty acids using specific anaerobic bacteria (e.g., Clostridium kluyveri). They have antimicrobial properties valuable as animal feed additives and food preservatives, and are precursors for bio-based surfactants and lubricants. MCFA production from VFAs represents a high-value upgrading pathway for mixed organic waste that improves the economics over biogas alone.
+aliases:
+  - MCFAs
+  - medium-chain fatty acids
+  - caproic acid
+  - caprylic acid
+fossil_analog: Petrochemical fatty acid derivatives
+end_use_sector:
+  - animal feed additives
+  - food preservation
+  - cosmetics
+  - bio-based lubricants
+external_refs:
+  - https://en.wikipedia.org/wiki/Medium-chain_fatty_acid

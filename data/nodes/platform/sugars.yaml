@@ -1,0 +1,20 @@
+id: sugars
+name: C5 / C6 sugars
+type: platform
+category: cat-liquid
+description: C5 and C6 sugars are the fermentable monosaccharides liberated from cellulose and hemicellulose by enzymatic hydrolysis or saccharification. Glucose (C6) is readily fermented by conventional yeast to ethanol; pentose sugars (xylose, arabinose — C5) require engineered microorganisms. The C5:C6 ratio depends on feedstock composition — softwoods yield mostly C6, agricultural residues yield significant C5 fractions that must be co-fermented for efficient yields.
+aliases:
+  - fermentable sugars
+  - monosaccharides
+  - hexoses and pentoses
+  - hydrolysate sugars
+phase: liquid
+chemical_class: monosaccharides
+key_components:
+  - glucose (C6)
+  - xylose (C5)
+  - arabinose (C5)
+  - mannose (C6)
+  - galactose (C6)
+external_refs:
+  - https://en.wikipedia.org/wiki/Cellulosic_ethanol

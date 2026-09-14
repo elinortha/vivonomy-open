@@ -1,0 +1,20 @@
+id: vfa
+name: Volatile fatty acids
+type: platform
+category: cat-liquid
+description: Volatile fatty acids (VFAs) are short-chain organic acids (C2–C6) produced as intermediates in the acidogenesis stage of anaerobic digestion, or as primary products when methanogenesis is deliberately suppressed. They can be further converted to biogas, concentrated as platform chemicals, or chain-elongated to medium-chain fatty acids through specific fermentation routes. VFA production is gaining attention as a way to extract higher-value chemicals from complex organic waste streams.
+aliases:
+  - VFAs
+  - short-chain fatty acids
+  - SCFAs
+  - organic acids
+phase: liquid
+chemical_class: short_chain_organic_acids
+key_components:
+  - acetic acid (C2)
+  - propionic acid (C3)
+  - butyric acid (C4)
+  - valeric acid (C5)
+  - caproic acid (C6)
+external_refs:
+  - https://en.wikipedia.org/wiki/Volatile_fatty_acid

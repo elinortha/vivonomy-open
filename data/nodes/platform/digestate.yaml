@@ -1,0 +1,19 @@
+id: digestate
+name: Digestate
+type: platform
+category: cat-solid
+description: Digestate is the residual material remaining after anaerobic digestion — the non-gasified portion that retains most of the feedstock's nitrogen, phosphorus, and potassium in plant-available forms. It can be applied directly to agricultural land as a biofertilizer, replacing synthetic nitrogen fertilizer. Solid-liquid separation allows the nutrient-rich liquid fraction to be applied separately, adapting the product for different farm management systems.
+aliases:
+  - AD effluent
+  - digested sludge
+  - biogas digestate
+phase: solid
+chemical_class: nutrient_rich_organic_residue
+key_components:
+  - ammonium nitrogen (plant-available N)
+  - phosphorus
+  - potassium
+  - residual organic carbon
+  - microbial biomass
+external_refs:
+  - https://en.wikipedia.org/wiki/Digestate

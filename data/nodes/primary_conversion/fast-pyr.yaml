@@ -1,0 +1,45 @@
+id: fast-pyr
+name: Fast pyrolysis
+type: primary_conversion
+category: cat-thermo
+process_family: thermochemical
+description: Fast pyrolysis uses very rapid heating rates (100–10,000°C/s) and short vapor residence times (<2 s) to maximize bio-oil yield — typically 60–75% on a dry mass basis. The liquid product is a complex mixture of oxygenated organics that can substitute for heavy fuel oil or be upgraded to transportation fuels via hydrotreating. Fast pyrolysis is particularly well-suited to dry lignocellulosic feedstocks and is among the more commercially advanced non-combustion thermochemical routes.
+aliases:
+  - flash pyrolysis
+  - rapid pyrolysis
+mechanism_brief: Very rapid heating (100–10,000°C/s) to 400–600°C with short vapor residence times (<2 s) and immediate quenching maximizes condensable bio-oil vapors at the expense of char and non-condensable gas.
+typical_outputs:
+  - bio-oil
+  - biochar
+TRL:
+  - value: 7
+    unit: trl
+    value_original: "7"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_56ecf17b
+expertise_required:
+  - value: moderate
+    unit: null
+    value_original: moderate
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_23954f2d
+external_refs:
+  - https://en.wikipedia.org/wiki/Fast_pyrolysis

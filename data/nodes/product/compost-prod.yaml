@@ -1,0 +1,20 @@
+id: compost-prod
+name: Compost
+type: product
+category: cat-soil-p
+product_function: soil
+carbon_fate: short-cycle
+description: Compost is the mature product of aerobic composting — a stable, humus-rich organic amendment that improves soil structure, water retention, and biological activity. It replaces or supplements synthetic fertilizers and peat in horticulture and agriculture. Unlike digestate, compost is dry, pathogen-free, and odor-reduced — properties that make it compatible with retail distribution and use by non-specialist growers.
+aliases:
+  - mature compost
+  - composted material
+  - green compost
+fossil_analog: Peat (as soil conditioner) / synthetic fertilizers (as nutrient source)
+end_use_sector:
+  - horticulture
+  - agriculture
+  - landscaping
+  - land reclamation
+  - retail garden market
+external_refs:
+  - https://en.wikipedia.org/wiki/Compost

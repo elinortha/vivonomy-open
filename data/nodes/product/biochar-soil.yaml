@@ -1,0 +1,19 @@
+id: biochar-soil
+name: Biochar soil amendment
+type: product
+category: cat-soil-p
+product_function: soil
+carbon_fate: sequestered
+description: Biochar applied to agricultural or degraded soils improves physical, chemical, and biological soil properties. Its porous structure improves water and nutrient retention, its alkalinity can correct acidic soils, and its recalcitrant carbon is stable in soil for centuries — making it the primary pathway to bioenergy with long-term carbon removal. Effects on crop yields are highly variable depending on soil type, application rate, and the feedstock from which the biochar was produced.
+aliases:
+  - agricultural biochar
+  - terra preta
+  - soil biochar
+fossil_analog: Peat / activated carbon products
+end_use_sector:
+  - agriculture
+  - soil remediation
+  - contaminated land treatment
+  - water filtration
+external_refs:
+  - https://en.wikipedia.org/wiki/Biochar

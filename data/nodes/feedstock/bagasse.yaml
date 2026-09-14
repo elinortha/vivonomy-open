@@ -1,0 +1,20 @@
+id: bagasse
+name: Sugarcane bagasse
+type: feedstock
+category: cat-ligno
+origin_class: ag-residue
+composition_class: lignocellulosic
+moisture_class: intermediate
+description: Sugarcane bagasse is the fibrous residue remaining after juice extraction from sugarcane stalks, comprising roughly 25–30% of the cane mass as pressed wet material. It is generated at centralized sugar mills, making it one of the most logistics-ready lignocellulosic feedstocks. Brazil and other tropical countries use it extensively for combined heat and power at the mill, and it is also processed via enzymatic hydrolysis for second-generation ethanol or via thermochemical routes.
+aliases:
+  - cane bagasse
+  - sugarcane fiber
+typical_sources:
+  - sugar mills
+  - sugarcane processing facilities
+current_disposal:
+  - burned for process energy at mill
+  - stockpiled
+sustainability_considerations: Generated as a mill co-product with no additional land-use impact; high moisture requires drying for thermochemical routes.
+external_refs:
+  - https://en.wikipedia.org/wiki/Bagasse

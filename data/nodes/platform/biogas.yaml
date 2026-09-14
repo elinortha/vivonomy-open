@@ -1,0 +1,18 @@
+id: biogas
+name: Biogas
+type: platform
+category: cat-gas
+description: Biogas is the gas mixture produced by anaerobic digestion — typically 55–70% methane and 30–45% carbon dioxide, with trace amounts of hydrogen sulfide and ammonia. Raw biogas can be combusted directly for heat and power. When upgraded to remove CO₂ and contaminants, it becomes biomethane — compositionally equivalent to natural gas and injectable into the gas grid. Biogas is one of the most versatile and widely deployed bioenergy platforms, compatible with a broad range of wet organic feedstocks.
+aliases:
+  - landfill gas
+  - digester gas
+  - biogenic methane
+phase: gas
+chemical_class: biogenic_gas_mixture
+key_components:
+  - CH₄ (55–70%)
+  - CO₂ (30–45%)
+  - H₂S (<1%)
+  - trace NH₃ and H₂O
+external_refs:
+  - https://en.wikipedia.org/wiki/Biogas

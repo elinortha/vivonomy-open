@@ -1,0 +1,46 @@
+id: enz-hydro
+name: Enzymatic hydrolysis
+type: primary_conversion
+category: cat-biochem
+process_family: biochemical
+description: Enzymatic hydrolysis uses cellulase and hemicellulase enzyme cocktails to break down the pretreated cellulose and hemicellulose in lignocellulosic biomass into C5 and C6 sugars. The process operates under mild conditions (45–55°C, pH 4.5–5.0) and produces a sugar-rich hydrolysate suitable for fermentation. Lignin remains as a solid residue and must be separated and valorized separately to improve overall process economics.
+aliases:
+  - enzymatic saccharification
+  - cellulolysis
+  - cellulose hydrolysis
+mechanism_brief: Cellulase cocktails (endoglucanases, exoglucanases, β-glucosidases) and hemicellulases cleave β-1,4-glycosidic bonds in cellulose and hemicellulose at 45–55°C and pH 4.5–5.0, releasing fermentable glucose and xylose.
+typical_outputs:
+  - sugars
+  - lignin
+TRL:
+  - value: 7
+    unit: trl
+    value_original: "7"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_f142a0c3
+expertise_required:
+  - value: moderate
+    unit: null
+    value_original: moderate
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_9ff16ed3
+external_refs:
+  - https://en.wikipedia.org/wiki/Cellulase

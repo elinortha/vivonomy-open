@@ -1,0 +1,50 @@
+id: pt-organosolv
+name: Organosolv
+type: pretreatment
+category: cat-pt-chem
+process_family: chemical
+description: Organosolv pretreatment uses an organic solvent–water mixture at elevated temperature to selectively extract lignin from biomass, leaving a cellulose-enriched pulp alongside a valuable lignin-rich liquid stream. The high-purity lignin byproduct has commercial value as a chemical feedstock, which can improve overall biorefinery economics. However, solvent recovery and handling requires specialized equipment, and the process is not yet at commercial scale for most feedstocks.
+aliases:
+  - ethanol pretreatment
+  - solvent pretreatment
+  - organosolv pulping
+mechanism_brief: An organic solvent (ethanol, acetone, or methanol) mixed with water at 180–200°C selectively dissolves and extracts lignin, producing a cellulose-enriched solid pulp and a concentrated lignin fraction for valorization.
+chemical_inputs:
+  - organic solvent (ethanol, acetone, or methanol)
+  - water
+  - optional acid catalyst
+environmental_impacts:
+  - solvent recovery energy demand
+  - flammable solvent handling and storage
+TRL:
+  - value: 5
+    unit: trl
+    value_original: "5"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_a9f9b898
+expertise_required:
+  - value: specialist
+    unit: null
+    value_original: specialist
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_557b95b1
+external_refs:
+  - https://en.wikipedia.org/wiki/Organosolv

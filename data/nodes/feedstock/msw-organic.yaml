@@ -1,0 +1,25 @@
+id: msw-organic
+name: MSW organic fraction
+type: feedstock
+category: cat-mixed
+origin_class: msw
+composition_class: mixed-wet
+moisture_class: wet
+description: "The municipal solid waste (MSW) organic fraction is the biogenic portion of household and commercial waste after separation from plastics, glass, and metals. Quality varies significantly: source-separated 'green bin' waste is far more consistent than mechanically separated MSW. Contaminants (plastics, soil, pathogens) must be managed in any conversion process, particularly when the output is a soil amendment applied to agricultural land."
+aliases:
+  - organic fraction of municipal solid waste
+  - OFMSW
+  - biowaste
+  - green bin waste
+typical_sources:
+  - municipal waste collection
+  - source-separated biowaste programs
+current_disposal:
+  - landfill
+  - incineration
+  - composting
+  - anaerobic digestion
+sustainability_considerations: Contamination from non-organic fractions can limit product quality; regulatory standards for compost and digestate vary by jurisdiction.
+external_refs:
+  - https://en.wikipedia.org/wiki/Municipal_solid_waste
+  - https://www.tech4biowaste.eu/

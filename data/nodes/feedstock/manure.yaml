@@ -1,0 +1,26 @@
+id: manure
+name: Livestock manure
+type: feedstock
+category: cat-mixed
+origin_class: manure
+composition_class: mixed-wet
+moisture_class: wet
+description: Livestock manure — from dairy cattle, swine, poultry, and other farm animals — is one of the most widely distributed organic waste streams globally. Its high moisture content (>80% for liquid slurries) and rich nutrient composition make anaerobic digestion the natural conversion pathway, producing biogas and nutrient-rich digestate. Unmanaged manure storage is a significant agricultural source of methane and nitrous oxide, so biogas capture provides both energy and emissions abatement.
+aliases:
+  - animal manure
+  - dairy slurry
+  - pig slurry
+  - poultry litter
+typical_sources:
+  - dairy farms
+  - pig farms
+  - poultry operations
+  - feedlots
+current_disposal:
+  - land spreading
+  - lagoon storage
+  - composting
+sustainability_considerations: Biogas capture from manure provides strong GHG benefits; ammonia emissions during storage and spreading are a key air quality concern.
+external_refs:
+  - https://en.wikipedia.org/wiki/Manure
+  - https://www.ieabioenergy.com/

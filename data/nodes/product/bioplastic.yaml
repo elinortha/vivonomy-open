@@ -1,0 +1,22 @@
+id: bioplastic
+name: Bioplastics (PLA / PHA)
+type: product
+category: cat-material-p
+product_function: material
+carbon_fate: durable
+description: Bio-based and/or biodegradable plastics — primarily polylactic acid (PLA) from lactic acid fermentation and polyhydroxyalkanoates (PHA) from microbial fermentation of sugars or VFAs — substitute for fossil plastics with lower lifecycle carbon footprints. PLA is produced commercially from corn or sugarcane sugars for food packaging and disposable items. PHA is produced by bacteria accumulating it as an intracellular carbon reserve and remains more expensive than conventional plastics.
+aliases:
+  - PLA
+  - PHA
+  - polylactic acid
+  - polyhydroxyalkanoate
+  - bio-based plastic
+fossil_analog: Petroleum-derived plastics (PP, PET, PS)
+end_use_sector:
+  - food packaging
+  - textiles
+  - medical devices
+  - disposable items
+  - agricultural films
+external_refs:
+  - https://en.wikipedia.org/wiki/Bioplastic

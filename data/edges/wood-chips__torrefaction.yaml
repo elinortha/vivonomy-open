@@ -1,0 +1,7 @@
+id: wood-chips__torrefaction
+source_node: wood-chips
+target_node: torrefaction
+co_products: []
+references: []
+external_links: []
+notes: null

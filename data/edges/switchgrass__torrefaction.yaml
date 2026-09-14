@@ -1,0 +1,7 @@
+id: switchgrass__torrefaction
+source_node: switchgrass
+target_node: torrefaction
+co_products: []
+references: []
+external_links: []
+notes: null

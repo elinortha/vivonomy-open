@@ -1,0 +1,7 @@
+id: slow-pyr__syngas
+source_node: slow-pyr
+target_node: syngas
+co_products: []
+references: []
+external_links: []
+notes: null

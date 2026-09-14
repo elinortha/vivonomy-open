@@ -1,0 +1,20 @@
+id: renewable-diesel
+name: Renewable diesel
+type: product
+category: cat-energy-p
+product_function: liquid-fuel
+carbon_fate: short-cycle
+description: Renewable diesel is a drop-in fuel produced by hydrotreating vegetable oils or bio-oil, yielding a paraffinic hydrocarbon product with superior properties to FAME biodiesel — higher energy density, better cold-flow characteristics, and compatibility at any blend level with petroleum diesel. Unlike biodiesel, renewable diesel is chemically identical to petroleum diesel and requires no modifications to engines or fuel infrastructure.
+aliases:
+  - HVO
+  - hydroprocessed vegetable oil
+  - HEFA diesel
+  - green diesel
+fossil_analog: Petroleum diesel
+end_use_sector:
+  - road transport
+  - marine
+  - off-road machinery
+  - heating oil
+external_refs:
+  - https://en.wikipedia.org/wiki/Hydroprocessed_esters_and_fatty_acids

@@ -1,0 +1,22 @@
+id: spent-grain
+name: Brewery spent grain
+type: feedstock
+category: cat-mixed
+origin_class: food-processing
+composition_class: mixed-wet
+moisture_class: wet
+description: Brewery spent grain (BSG) is the residual malt and barley husk remaining after wort extraction in beer production — roughly 20 kg per 100 L of beer produced. Its wet composition is approximately 75% moisture, 15–25% protein, and 15–25% lignocellulosic fiber on a dry basis. Historically used as cattle feed, BSG is increasingly seen as a higher-value feedstock for biochemical conversion given its protein and fermentable carbohydrate content.
+aliases:
+  - brewer's spent grain
+  - BSG
+  - malt spent grain
+typical_sources:
+  - breweries
+  - malt houses
+current_disposal:
+  - cattle feed
+  - landfill
+  - composting
+sustainability_considerations: Very short shelf life due to high moisture; collection logistics from dispersed small breweries can be challenging.
+external_refs:
+  - https://en.wikipedia.org/wiki/Spent_grain

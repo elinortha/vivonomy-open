@@ -1,0 +1,7 @@
+id: bagasse__gasification
+source_node: bagasse
+target_node: gasification
+co_products: []
+references: []
+external_links: []
+notes: null

@@ -1,0 +1,7 @@
+id: bagasse__combustion
+source_node: bagasse
+target_node: combustion
+co_products: []
+references: []
+external_links: []
+notes: null

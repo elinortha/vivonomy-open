@@ -1,0 +1,7 @@
+id: food-waste__extraction
+source_node: food-waste
+target_node: extraction
+co_products: []
+references: []
+external_links: []
+notes: null

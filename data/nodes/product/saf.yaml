@@ -1,0 +1,17 @@
+id: saf
+name: Sustainable aviation fuel
+type: product
+category: cat-energy-p
+product_function: liquid-fuel
+carbon_fate: short-cycle
+description: Sustainable aviation fuel (SAF) is a drop-in jet fuel from renewable feedstocks meeting ASTM D7566 specification, blendable with conventional Jet A at up to 50% without aircraft modifications. Aviation is among the hardest sectors to decarbonize — long-haul routes cannot be electrified — making SAF a high-priority advanced biofuel. HEFA (from fats and oils) and FT (from syngas) are the two most developed pathways, achieving 50–80% lifecycle GHG reductions versus fossil jet fuel.
+aliases:
+  - SAF
+  - bio-jet fuel
+  - sustainable jet fuel
+fossil_analog: Conventional jet fuel (Jet A-1)
+end_use_sector:
+  - commercial aviation
+  - military aviation
+external_refs:
+  - https://en.wikipedia.org/wiki/Sustainable_aviation_fuel

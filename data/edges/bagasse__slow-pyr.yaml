@@ -1,0 +1,7 @@
+id: bagasse__slow-pyr
+source_node: bagasse
+target_node: slow-pyr
+co_products: []
+references: []
+external_links: []
+notes: null

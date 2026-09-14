@@ -1,0 +1,45 @@
+id: pt-fungal
+name: Fungal pretreatment
+type: pretreatment
+category: cat-pt-bio
+process_family: biochemical
+description: "Fungal pretreatment uses white-rot fungi (e.g., Phanerochaete chrysosporium) to biologically degrade lignin through secreted oxidative enzymes — lignin peroxidases, laccases, and manganese peroxidases — improving cellulose accessibility without chemicals or high temperatures. It is the most environmentally benign pretreatment option, producing no inhibitory compounds. The major drawback is time: fungal colonization typically requires 1–4 weeks, making continuous industrial-scale processing impractical at current development stage."
+aliases:
+  - white-rot pretreatment
+  - biological delignification
+  - biopulping
+mechanism_brief: White-rot fungi secrete extracellular ligninolytic enzymes (lignin peroxidase, laccase, Mn-peroxidase) that selectively degrade lignin's aromatic network over 1–4 weeks, leaving cellulose and hemicellulose accessible.
+environmental_impacts:
+  - very low — no chemical inputs or high-energy requirement; long retention time requires land area
+TRL:
+  - value: 4
+    unit: trl
+    value_original: "4"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_f8c29dec
+expertise_required:
+  - value: specialist
+    unit: null
+    value_original: specialist
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_c1174c98
+external_refs:
+  - https://en.wikipedia.org/wiki/Biopulping

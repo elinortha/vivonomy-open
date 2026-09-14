@@ -1,0 +1,7 @@
+id: syngas__cat-upg
+source_node: syngas
+target_node: cat-upg
+co_products: []
+references: []
+external_links: []
+notes: null

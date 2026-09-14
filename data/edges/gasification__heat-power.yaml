@@ -1,0 +1,7 @@
+id: gasification__heat-power
+source_node: gasification
+target_node: heat-power
+co_products: []
+references: []
+external_links: []
+notes: null

@@ -1,0 +1,47 @@
+id: pt-milling
+name: Milling & size reduction
+type: pretreatment
+category: cat-pt-mech
+process_family: physical
+description: Milling mechanically reduces biomass particle size to increase surface area accessible to enzymes or heat-transfer fluids. Smaller particles (1–2 mm) improve enzymatic hydrolysis rates and homogenize feedstock variability for thermochemical processes. Energy consumption scales with target particle size; fine milling (<1 mm) can be energy-intensive enough to offset conversion efficiency gains.
+aliases:
+  - grinding
+  - hammer milling
+  - ball milling
+  - disc milling
+mechanism_brief: Hammer mills, disc mills, or ball mills reduce particle size through impact and shear, exposing more cellulose surface area to downstream enzymatic or thermal attack.
+environmental_impacts:
+  - dust generation
+  - noise
+TRL:
+  - value: 9
+    unit: trl
+    value_original: "9"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_68a47aa6
+expertise_required:
+  - value: basic
+    unit: null
+    value_original: basic
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_92e180b6
+external_refs:
+  - https://en.wikipedia.org/wiki/Milling_(grinding)

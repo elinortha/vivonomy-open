@@ -1,0 +1,26 @@
+id: protein-waste
+name: Protein-rich waste
+type: feedstock
+category: cat-protein
+origin_class: food-processing
+composition_class: protein-rich
+moisture_class: wet
+description: Protein-rich organic wastes include slaughterhouse offal, fish processing residues, dairy whey, insect frass, and fermentation residues with high protein content. These materials contain amino acids recoverable via enzymatic hydrolysis for specialty chemicals, animal feed supplements, or nitrogen sources for fermentation. Anaerobic digestion is also viable, though the high nitrogen content can cause ammonia inhibition at elevated loading rates.
+aliases:
+  - protein waste
+  - slaughterhouse waste
+  - fish processing waste
+  - dairy whey
+typical_sources:
+  - slaughterhouses
+  - fish processing plants
+  - dairy processors
+  - insect farms
+current_disposal:
+  - rendering
+  - anaerobic digestion
+  - landfill
+  - animal feed
+sustainability_considerations: Animal-derived waste streams carry pathogen risks requiring heat treatment; regulations on use as animal feed are strict in many jurisdictions.
+external_refs:
+  - https://en.wikipedia.org/wiki/Slaughterhouse_waste

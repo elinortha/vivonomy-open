@@ -1,0 +1,45 @@
+id: htc
+name: Hydrothermal carbonization
+type: primary_conversion
+category: cat-thermo
+process_family: thermochemical
+description: Hydrothermal carbonization (HTC) processes wet biomass at moderate temperatures (180–250°C) in pressurized water for 1–12 hours, producing hydrochar — a carbon-rich solid with coal-like properties. Like HTL, it handles high-moisture feedstocks without pre-drying. The hydrochar product is energy-dense, hydrophobic, and can be used as a solid fuel, soil amendment, or activated carbon precursor.
+aliases:
+  - HTC
+  - wet torrefaction
+  - hydrothermal treatment
+mechanism_brief: Wet biomass heated at 180–250°C in pressurized water undergoes dehydration and decarboxylation reactions, concentrating carbon into a coal-like hydrochar solid while releasing process water with dissolved organics.
+typical_outputs:
+  - biochar
+TRL:
+  - value: 6
+    unit: trl
+    value_original: "6"
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_84ec1bd0
+expertise_required:
+  - value: moderate
+    unit: null
+    value_original: moderate
+    source_id: internal:vivonomy-v1
+    source_year: 2026
+    source_type: internal
+    primary_source: null
+    quote: Value carried from the hand-built Vivonomy V1 ontology (uncited).
+    section: null
+    confidence: 0.5
+    status: unverified
+    extracted_at: "2026-06-28"
+    extractor: migrate-ontology.mjs
+    claim_id: clm_2491cca3
+external_refs:
+  - https://en.wikipedia.org/wiki/Hydrothermal_carbonization
