@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-14T04:07:42.920Z",
-  "source_commit": "030d2bc",
+  "generated_at": "2026-09-14T04:14:14.403Z",
+  "source_commit": "962c434",
   "source_dirty": false,
   "files": [
     {
       "path": "LICENSE",
-      "bytes": 18657,
-      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+      "bytes": 19053,
+      "sha256": "d07988f4be47912f75a73b44da8a9c0b602bf6c8ced69de858b848f379ecd973"
     },
     {
       "path": "README.md",
-      "bytes": 2476,
-      "sha256": "249a917c7a949388a1be7db3deffbf11e2cbbf515a4e15d267d36427133f5433"
+      "bytes": 2553,
+      "sha256": "3bdc6d4ed5876166b19de1ad9b70ab303e22ffa4d95e2b16696fc1c85102b0ae"
     },
     {
       "path": "data/aggregates.json",
@@ -1266,7 +1266,7 @@
     {
       "path": "data/sources.json",
       "bytes": 9592,
-      "sha256": "8a27f382f794a003b5bea7dee37beade59e6ef8272635727c432d2e0057bd006"
+      "sha256": "f6303077e7566424197076bcc39003a188bf1725cd0b55474465b21f2f43a46d"
     },
     {
       "path": "data/sources/bibliography.yaml",
