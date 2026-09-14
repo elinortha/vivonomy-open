@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-14T01:05:31.548Z",
-  "source_commit": "b62ac0e",
-  "source_dirty": true,
+  "generated_at": "2026-09-14T04:07:42.920Z",
+  "source_commit": "030d2bc",
+  "source_dirty": false,
   "files": [
     {
       "path": "LICENSE",
@@ -15,8 +15,8 @@
     },
     {
       "path": "data/aggregates.json",
-      "bytes": 520300,
-      "sha256": "aff429c30f3fe781b0318748fd040e028d21a82e2dbc445a62f70f2c2a948936"
+      "bytes": 74493,
+      "sha256": "b643d354337908a28e7667f0f74590908baf252c6e63e588c2ae6090878bf9a5"
     },
     {
       "path": "data/edges/ad__biogas.yaml",
@@ -870,8 +870,8 @@
     },
     {
       "path": "data/graph.json",
-      "bytes": 361606,
-      "sha256": "608af1eed24a5584cd20578c0b00eb353a1581b5561616e78acb56159e2991a7"
+      "bytes": 321676,
+      "sha256": "9b4f6413a772726280dd92b4aa4c2500fdbb0e656b56c0185c942f80074ba657"
     },
     {
       "path": "data/nodes/feedstock/algae.yaml",
@@ -1245,8 +1245,8 @@
     },
     {
       "path": "data/pathways.json",
-      "bytes": 30382,
-      "sha256": "a0ba37d127c25b38846641689a2df44e880e8a2a6f59af2f7a3c4688b48627e2"
+      "bytes": 1879,
+      "sha256": "831fb4c42c7918383a0608a6a21cfa16faf687ad87a26abe74bc098136d49dad"
     },
     {
       "path": "data/pathways/fermentation-upgrade.yaml",
@@ -1266,7 +1266,7 @@
     {
       "path": "data/sources.json",
       "bytes": 9592,
-      "sha256": "dabc00ba134704b754e34b352e614e61ddc86c9f621fd727325195e849a6c218"
+      "sha256": "8a27f382f794a003b5bea7dee37beade59e6ef8272635727c432d2e0057bd006"
     },
     {
       "path": "data/sources/bibliography.yaml",
